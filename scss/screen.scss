@@ -393,6 +393,7 @@ img.size-full {
 }
 
 .wp-caption, .entry-attachment {
+	margin-bottom: 1.5em;
 	border: 1px solid #ccc;
 	max-width: 100%;
 	background: #eee;
@@ -401,17 +402,11 @@ img.size-full {
 	font-size: 0.875em;
 }
 
-.wp-caption.aligncenter,
-.wp-caption.alignleft,
-.wp-caption.alignright,
-.entry-attachment {
-	margin-bottom: 1.5em;
-}
-
 .wp-caption img, .entry-attachment img {
 	display: block;
 	margin: 1.2% auto;
 	max-width: 98%;
+	border: 1px solid #ccc;
 }
 
 .wp-caption-text, .entry-attachment .entry-caption {

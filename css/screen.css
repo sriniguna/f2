@@ -798,6 +798,7 @@ img.size-full {
 }
 
 .wp-caption, .entry-attachment {
+  margin-bottom: 1.5em;
   border: 1px solid #ccc;
   max-width: 100%;
   background: #eee;
@@ -808,17 +809,11 @@ img.size-full {
   font-size: 0.875em;
 }
 
-.wp-caption.aligncenter,
-.wp-caption.alignleft,
-.wp-caption.alignright,
-.entry-attachment {
-  margin-bottom: 1.5em;
-}
-
 .wp-caption img, .entry-attachment img {
   display: block;
   margin: 1.2% auto;
   max-width: 98%;
+  border: 1px solid #ccc;
 }
 
 .wp-caption-text, .entry-attachment .entry-caption {
@@ -1471,8 +1466,10 @@ body {
 .color-scheme-brown table,
 .color-scheme-brown th,
 .color-scheme-brown td,
-.color-scheme-brown .wp-caption, .entry-attachment
-.color-scheme-brown.blog .format-aside, .color-scheme-brown.archive .format-aside,
+.color-scheme-brown .wp-caption,
+.color-scheme-brown .entry-attachment,
+.color-scheme-brown .wp-caption img,
+.color-scheme-brown .entry-attachment img, .color-scheme-brown.blog .format-aside, .color-scheme-brown.archive .format-aside,
 .color-scheme-brown .hentry,
 .color-scheme-brown .paging-navigation,
 .color-scheme-brown .post-navigation,
@@ -1548,8 +1545,12 @@ body {
 }
 .color-scheme-green blockquote,
 .color-scheme-green table,
-.color-scheme-green th, td
-.color-scheme-green.blog .format-aside, .color-scheme-green.archive .format-aside,
+.color-scheme-green th,
+.color-scheme-green td
+.wp-caption,
+.color-scheme-green .entry-attachment,
+.color-scheme-green .wp-caption img,
+.color-scheme-green .entry-attachment img, .color-scheme-green.blog .format-aside, .color-scheme-green.archive .format-aside,
 .color-scheme-green .hentry,
 .color-scheme-green .paging-navigation,
 .color-scheme-green .post-navigation,
@@ -1635,7 +1636,9 @@ body {
 .color-scheme-dark button,
 .color-scheme-dark textarea,
 .color-scheme-dark .wp-caption,
-.color-scheme-dark .entry-attachment, .color-scheme-dark.blog .format-aside, .color-scheme-dark.archive .format-aside,
+.color-scheme-dark .entry-attachment,
+.color-scheme-dark .wp-caption img,
+.color-scheme-dark .entry-attachment img, .color-scheme-dark.blog .format-aside, .color-scheme-dark.archive .format-aside,
 .color-scheme-dark .hentry,
 .color-scheme-dark .paging-navigation,
 .color-scheme-dark .post-navigation,

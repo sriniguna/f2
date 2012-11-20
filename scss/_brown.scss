@@ -42,7 +42,9 @@ $link_color: #8e5f2d;
 	th,
 	td,
 	.wp-caption,
-	.entry-attachment
+	.entry-attachment,
+	.wp-caption img,
+	.entry-attachment img,
 	&.blog .format-aside,
 	&.archive .format-aside,
 	.hentry,
