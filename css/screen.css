@@ -927,7 +927,7 @@ cite.fn, .comment-meta {
   top: 3.4rem;
 }
 
-.comment-meta, .reply, .comment-notes, .form-allowed-tags {
+.comment-meta, .reply, .comment-notes, .form-allowed-tags, .comment-subscription-form {
   font-size: 12px;
   font-size: 1.2rem;
 }
