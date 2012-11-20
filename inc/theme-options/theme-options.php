@@ -488,7 +488,7 @@ function f2_theme_options_render_page() {
 			?>
 		</form>
 		<div class="theme-options-footer">
-			<p><?php printf( __('You are using F2 WordPress theme, version %s.', 'f2'), $theme_name->Version; ); ?>
+			<p><?php printf( __('You are using F2 WordPress theme, version %s.', 'f2'), $theme_name->Version ); ?>
 				<?php printf(__('Visit <a href="%s">theme page</a>', 'f2'), 'http://srinig.com/wordpress/themes/f2/'); ?>. <?php printf(__('View <a href="%s">readme</a>', 'f2'), get_template_directory_uri().'/README.md'); ?>.</p>
 			<?php _e('If you enjoy the theme, you can make a donation and support development. Thank you!', 'f2'); ?></p>
 <div><form action="https://www.paypal.com/cgi-bin/webscr" method="post">

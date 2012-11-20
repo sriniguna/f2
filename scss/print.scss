@@ -1,10 +1,11 @@
 
 @import "reset";
+@import "includes";
 
 body {
 	background: #fff;
 	color: #000;
-	font-family: sans-serif;
+	font-family: $sans-font;
 	font-size: 16px;
 	font-size: 1.6rem;
 	line-height: 1.5;
@@ -12,7 +13,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: serif;
+	font-family: $serif-font;
 	font-weight: bold;
 }
 
@@ -20,8 +21,6 @@ h1, h2, h3, h4, h5, h6 {
 #header-image,
 .page-header,
 .featured-image, 
-// .entry-title,
-// .entry-meta,
 .site-footer {
 	text-align: center;
 }
@@ -181,7 +180,7 @@ th {
 .site-description {
 	font-size: 14px;
 	font-size: 1.4rem;
-	font-family: sans-serif;
+	font-family: $sans-font;
 	font-weight: normal;
 }
 
