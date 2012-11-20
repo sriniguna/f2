@@ -1,0 +1,539 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: F2 1.0\n"
+"Report-Msgid-Bugs-To: srinig.com@gmail.com\n"
+"POT-Creation-Date: 2009-08-26 09:36+0530\n"
+"PO-Revision-Date: 2009-11-25 21:18+0200\n"
+"Last-Translator: Tomas Šiurna <tomassiurna@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UK\n"
+
+#: /links.php:12
+msgid "Links"
+msgstr "Nuorodos"
+
+#: /page.php:10
+#: /single.php:21
+msgid "Pages:"
+msgstr "Puslapiai:"
+
+#: /page.php:14
+#: /index.php:33
+#: /image.php:35
+#: /archive.php:64
+#: /single.php:33
+#: /search.php:34
+msgid "Comment"
+msgstr "Komentarai"
+
+#: /page.php:14
+#: /image.php:35
+#: /single.php:33
+msgid "Comments are closed"
+msgstr "Komentarų funkcija šiame puslapyje išjungta."
+
+#: /page.php:15
+#: /image.php:36
+#: /single.php:34
+msgid "Trackback"
+msgstr "Atgalinė nuoroda"
+
+#: /page.php:17
+#: /index.php:35
+#: /image.php:38
+#: /archive.php:66
+#: /single.php:37
+#: /search.php:36
+msgid "Edit"
+msgstr "Keisti"
+
+#: /page.php:27
+#: /index.php:49
+#: /image.php:44
+#: /archive.php:80
+#: /404.php:5
+#: /single.php:52
+#: /search.php:50
+msgid "Not Found"
+msgstr "Nerasta"
+
+#: /page.php:28
+#: /index.php:50
+#: /image.php:45
+#: /archive.php:81
+#: /single.php:53
+#: /search.php:51
+msgid "Sorry, no posts matched your criteria."
+msgstr "Atsiprašau, bet pagal jūsų kriterijus įrašų nerasta. Nieko tokio, yra paieška"
+
+#: /functions.php:22
+msgid "Header"
+msgstr "Antraštė"
+
+#: /functions.php:26
+msgid "Header background image?"
+msgstr "Turite antraštinę iliustraciją?`"
+
+#: /functions.php:32
+msgid "Header background image URL"
+msgstr "Antraštinės iliustracijos nuoroda"
+
+#: /functions.php:33
+msgid "Tip: <a target=\"_blank\" href=\"media-new.php\">Upload your image here</a> and grab the url."
+msgstr "Patarimas: <a target=\"_blank\" href=\"media-new.php\">įkelkite iliustraciją čia</a> ir įkelkite jo URLl."
+
+#: /functions.php:40
+msgid "Repeat header background image?"
+msgstr "Ar paveikslėlis gali kartotis?"
+
+#: /functions.php:48
+msgid "Show blog title & tagline in header?"
+msgstr "Rodyti blog'o aprašą ir moto antraštėje?"
+
+#: /functions.php:49
+msgid "You may uncheck this option if you use a background image as logo."
+msgstr "Būk žmogus, nežymėk šito, jei tavo antraštinė iliustracija yra logotipas."
+
+#: /functions.php:56
+msgid "Header height"
+msgstr "Antraštės aukštis"
+
+#: /functions.php:64
+msgid "Header background color"
+msgstr "Antraštės fono spalva"
+
+#: /functions.php:72
+msgid "Blog title font color"
+msgstr "Blog'o antraštės fono spalva"
+
+#: /functions.php:80
+msgid "Blog tagline font color"
+msgstr "Blog'o žymų juostos fono spalva"
+
+#: /functions.php:88
+msgid "Show horizontal menu?"
+msgstr "Rodyti horizontalujį meniu?"
+
+#: /functions.php:95
+msgid "Pages to be excluded in horizontal menu"
+msgstr "Puslapiai, kurie NEBUS rodomi horizontaliajame meniu."
+
+#: /functions.php:96
+msgid "Comma separated page IDs"
+msgstr "Nurodykite šių puslapių ID"
+
+#: /functions.php:103
+msgid "Show RSS feed link in horizontal menu?"
+msgstr "Ar rodyti RSS horizantaliajame meniu?"
+
+#: /functions.php:114
+msgid "Sidebar"
+msgstr "Šoninė juosta"
+
+#: /functions.php:118
+msgid "Show left sidebar?"
+msgstr "Rodyti kairiąją juostą?"
+
+#: /functions.php:125
+msgid "Left sidebar width?"
+msgstr "Kairiosios juostos plotis"
+
+#: /functions.php:134
+msgid "Left sidebar fontsize"
+msgstr "Kairiosios juostos šrifto dydis"
+
+#: /functions.php:138
+#: /functions.php:168
+#: /functions.php:189
+msgid "small"
+msgstr "mažas"
+
+#: /functions.php:139
+#: /functions.php:169
+#: /functions.php:190
+msgid "medium"
+msgstr "vidutinis"
+
+#: /functions.php:140
+#: /functions.php:170
+#: /functions.php:191
+msgid "large"
+msgstr "didelis"
+
+#: /functions.php:148
+msgid "Show right sidebar?"
+msgstr "Rodyti dešiniąją juostą?"
+
+#: /functions.php:155
+msgid "Right sidebar width?"
+msgstr "Dešiniosios juostos plotis"
+
+#: /functions.php:164
+msgid "Right sidebar fontsize"
+msgstr "Dešiniosios juostos šrifto dydis"
+
+#: /functions.php:181
+msgid "Blog posts"
+msgstr "Blog'o įrašai"
+
+#: /functions.php:185
+msgid "Blog post text size"
+msgstr "Įrašo šrifto dydis"
+
+#: /functions.php:197
+msgid "Show post author?"
+msgstr "Rodyti įrašo autorių?"
+
+#: /functions.php:204
+msgid "Show post category?"
+msgstr "Rodyti įrašo kategoriją?"
+
+#: /functions.php:211
+msgid "Full post or excerpt in archive pages?"
+msgstr "Kaip rodyti: pilnus įrašus ar jų ištaukas?"
+
+#: /functions.php:212
+msgid "Displaying only excerpt in archive pages is a better SEO practice."
+msgstr "Jei nuspręsite archyvų puslapyje rodyti tik ištraukas, turėtų padėti SEO."
+
+#: /functions.php:215
+msgid "Full post"
+msgstr "Pilnas įrašas"
+
+#: /functions.php:216
+msgid "Only excerpt"
+msgstr "Tik ištrauka"
+
+#: /functions.php:226
+msgid "Footer"
+msgstr "Poraštė"
+
+#: /functions.php:230
+msgid "Footer text"
+msgstr "Tekstas poraštėje"
+
+#: /functions.php:240
+msgid "General options"
+msgstr "Pagrindiniai nustatymai"
+
+#: /functions.php:244
+msgid "Rounded corners?"
+msgstr "Apvalinti blog'o kampus?"
+
+#: /functions.php:245
+msgid "Rounded corners add to the fluid nature of the theme. Note that this will add non-standard CSS code."
+msgstr "Suapvalinti kampai „užsidės“ automatiškai. Prisikimkite, jog kampų CSS kodas yra šiektiek egzotiškas."
+
+#: /functions.php:258
+#: /functions.php:400
+msgid "Save changes"
+msgstr "Išsaugoti"
+
+#: /functions.php:274
+#: /functions.php:401
+msgid "Reset to defaults"
+msgstr "Atstatyti į pradines reikšmes"
+
+#: /functions.php:282
+#: /functions.php:295
+msgid "Settings"
+msgstr "Nustatymai"
+
+#: /functions.php:290
+msgid "Settings saved"
+msgstr "Išsaugojau!"
+
+#: /functions.php:291
+msgid "Settings reset"
+msgstr "Pradinės nustatymų reikšmės atstatytos!"
+
+#: /functions.php:301
+msgid "version"
+msgstr "versija"
+
+#: /functions.php:301
+#, php-format
+msgid "Visit <a href=\"%s\">theme page</a>"
+msgstr "Aplankykite <a href=\"%s\">dizaino kūrėjų puslapį</a>."
+
+#: /functions.php:301
+#, php-format
+msgid "View <a href=\"%s\">readme</a>"
+msgstr "Rodyti <a href=\"%s\">dizaino dokumentaciją</a>."
+
+#: /functions.php:303
+msgid "Header Settings"
+msgstr "Antraštės nustatymai"
+
+#: /functions.php:304
+msgid "Sidebar Settings"
+msgstr "Šoninės juostos nustatymai"
+
+#: /functions.php:305
+msgid "Posts Settings"
+msgstr "Įrašų nustatymai"
+
+#: /functions.php:306
+msgid "Footer Settings"
+msgstr "Poraštės nustatymai"
+
+#: /functions.php:307
+msgid "General Settings"
+msgstr "Pagrindiniai nustatymai"
+
+#: /functions.php:312
+msgid "If you enjoy the theme, you can make a donation and support development. Thank you!"
+msgstr "Jūsų naudojamas dizainas yra nemokamas. Jei jis jums patinka, paremkite mus. Nuoširdus ačiū!"
+
+#: /functions.php:352
+msgid "Close colorpicker"
+msgstr "Uždaryti spalvos pasirinkimą"
+
+#: /sidebar.php:6
+msgid "Pages"
+msgstr "Puslapiai"
+
+#: /sidebar.php:8
+msgid "Categories"
+msgstr "Kategorijos"
+
+#: /sidebar.php:14
+#: /archives.php:11
+msgid "Archives"
+msgstr "Archyvas"
+
+#: /sidebar.php:19
+#: /archives.php:25
+msgid "Tags"
+msgstr "Žymos"
+
+#: /sidebar.php:36
+msgid "Meta"
+msgstr "Mėta"
+
+#: /sidebar.php:40
+msgid "This page validates as XHTML 1.0 Transitional"
+msgstr "Šis puslapis atitinka XHTML 1.0 standartą."
+
+#: /sidebar.php:41
+msgid "XHTML Friends Network"
+msgstr "XHTML"
+
+#: /sidebar.php:42
+msgid "Powered by WordPress, state-of-the-art semantic personal publishing platform."
+msgstr "Varikliukas: Wordpress."
+
+#: /index.php:10
+#: /archive.php:35
+#: /single.php:36
+#: /search.php:11
+#, php-format
+msgid "Permanent Link to %s"
+msgstr "Atgalinė nuoroda į %s"
+
+#: /index.php:13
+#: /image.php:13
+#: /archive.php:38
+#: /single.php:15
+#: /search.php:14
+msgid "Posted by"
+msgstr "Autorius:"
+
+#: /index.php:13
+#: /image.php:13
+#: /archive.php:38
+#: /single.php:15
+#: /search.php:14
+msgid "on"
+msgstr " "
+
+#: /index.php:15
+#: /image.php:15
+#: /archive.php:40
+#: /single.php:17
+#: /search.php:16
+msgid "j F Y, g:i a"
+msgstr "Y F j, g:i a"
+
+#: /index.php:19
+#: /archive.php:46
+#, php-format
+msgid "Continue reading ‘%s’ »"
+msgstr "Skaityti tęsinį »"
+
+#: /index.php:25
+#: /image.php:29
+#: /archive.php:56
+#: /single.php:27
+#: /search.php:26
+msgid "Filed under"
+msgstr "Kategorijoje:"
+
+#: /index.php:28
+#: /image.php:32
+#: /archive.php:59
+#: /single.php:30
+#: /search.php:29
+msgid "Tagged"
+msgstr "Žymos:"
+
+#: /index.php:33
+#: /archive.php:64
+#: /search.php:34
+msgid "1 Comment"
+msgstr "1 komentarai"
+
+#: /index.php:33
+#: /archive.php:64
+#: /comments.php:19
+#: /search.php:34
+msgid "% Comments"
+msgstr "% komentarai"
+
+#: /index.php:43
+#: /archive.php:28
+#: /archive.php:74
+msgid "&laquo; Older Entries"
+msgstr "&laquo; Ankstesni įrašai"
+
+#: /index.php:44
+#: /archive.php:29
+#: /archive.php:75
+msgid "Newer Entries &raquo;"
+msgstr "Sekantys įrašai &raquo;"
+
+#: /header.php:32
+msgid "Home"
+msgstr "Pradinis puslapis"
+
+#: /header.php:34
+msgid "Feed"
+msgstr "RSS"
+
+#: /archive.php:8
+#, php-format
+msgid "Archive of posts filed under the %s category."
+msgstr "„%s“ kategorijos archyvas"
+
+#: /archive.php:11
+#, php-format
+msgid "Archive of posts tagged %s"
+msgstr "Įrašai, kurie turi žymę %s."
+
+#: /archive.php:14
+#: /archive.php:17
+#, php-format
+msgid "Archive of entries posted on %s"
+msgstr "%s publikuoti įrašai"
+
+#: /archive.php:14
+msgid "jS F Y"
+msgstr "jS F Y"
+
+#: /archive.php:17
+msgid "F Y"
+msgstr "F Y"
+
+#: /archive.php:20
+#, php-format
+msgid "Archive of entries posted in the year %s"
+msgstr "%s metų archyvas"
+
+#: /archive.php:23
+#, php-format
+msgid "Archive of entries posted by %s"
+msgstr "%s autoriaus įrašų archyvas"
+
+#: /404.php:5
+msgid "Error"
+msgstr "Klaida. Nieko tokio, niekas nesprogs."
+
+#: /comments.php:4
+msgid "Please do not load this page directly. Thanks!"
+msgstr "Prašau, nekraukite šio puslapio tiesiogiai pagal adresą. AČIŪ!"
+
+#: /comments.php:7
+msgid "This post is password protected. Enter the password to view comments."
+msgstr "Norėdami peržiūrėti komentarus, įveskite slaptažodį."
+
+#: /comments.php:19
+msgid "No Comments"
+msgstr "Komentarų nėra."
+
+#: /comments.php:19
+msgid "One Comment"
+msgstr "Vienas komentaras"
+
+#: /comments.php:25
+msgid "Reply to this comment"
+msgstr "Replikuoti šį komentarą"
+
+#: /comments.php:40
+msgid "Leave a Reply"
+msgstr "Replikuoti"
+
+#: /comments.php:40
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr "Replikuoti %s"
+
+#: /comments.php:47
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr "Turite būti <a href=\"%s\">prisijungę</a>, kad galėtumėte komentuoti."
+
+#: /comments.php:54
+#, php-format
+msgid "Logged in as %s. <a href=\"%s\" title=\"Log out of this account\">Log out &raquo;</a>"
+msgstr "Jūs prisijungęs kaip %s. <a href=\"%s\" title=\"Log out of this account\">Atsijungti &raquo;</a>"
+
+#: /comments.php:59
+msgid "Name"
+msgstr "Autorius"
+
+#: /comments.php:59
+#: /comments.php:62
+msgid "required"
+msgstr "būtina nurodyti"
+
+#: /comments.php:62
+msgid "Mail"
+msgstr "El. paštas"
+
+#: /comments.php:62
+msgid "will not be published"
+msgstr "šios eilutės duomenys niekam nebus perduoti"
+
+#: /comments.php:65
+msgid "Website"
+msgstr "Interneto adresas"
+
+#: /comments.php:73
+msgid "Submit Comment"
+msgstr "Komentuoti"
+
+#: /archives.php:13
+msgid "Archives by Month"
+msgstr "Archyvas pagal mėnesį"
+
+#: /archives.php:18
+msgid "Archives by Subject"
+msgstr "Arcyvas pagal subjektą"
+
+#: /search.php:6
+#, php-format
+msgid "Search results for %s"
+msgstr "Paeiškos rezultatai jūsų užklausai  „%s “"
+
+#: /search.php:44
+msgid "&laquo; Previous Entries"
+msgstr "&laquo; Ankstesni įrašai"
+
+#: /search.php:45
+msgid "Next Entries &raquo;"
+msgstr "Sekantys įrašai &raquo;"
+

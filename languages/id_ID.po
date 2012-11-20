@@ -1,0 +1,541 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Masino Sinaga <masino_sinaga@posindonesia.co.id>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# F2 theme for WordPress. Translation template file.
+# Copyright (C) 2009 Srini G
+# This file is distributed under the same license as the F2.
+# Srini G <srinig.com@gmail.com>, 2009.
+#
+#: /links.php:12
+msgid "Links"
+msgstr "Tautan"
+
+#: /page.php:10
+#: /single.php:21
+msgid "Pages:"
+msgstr "Halaman:"
+
+#: /page.php:14
+#: /index.php:33
+#: /image.php:35
+#: /archive.php:64
+#: /single.php:33
+#: /search.php:34
+msgid "Comment"
+msgstr "Komentar"
+
+#: /page.php:14
+#: /image.php:35
+#: /single.php:33
+msgid "Comments are closed"
+msgstr "Komentar telah ditutup"
+
+#: /page.php:15
+#: /image.php:36
+#: /single.php:34
+msgid "Trackback"
+msgstr "Lacak kembali"
+
+#: /page.php:17
+#: /index.php:35
+#: /image.php:38
+#: /archive.php:66
+#: /single.php:37
+#: /search.php:36
+msgid "Edit"
+msgstr "Ubah"
+
+#: /page.php:27
+#: /index.php:49
+#: /image.php:44
+#: /archive.php:80
+#: /404.php:5
+#: /single.php:52
+#: /search.php:50
+msgid "Not Found"
+msgstr "Tidak Ditemukan"
+
+#: /page.php:28
+#: /index.php:50
+#: /image.php:45
+#: /archive.php:81
+#: /single.php:53
+#: /search.php:51
+msgid "Sorry, no posts matched your criteria."
+msgstr "Maaf, tidak ada artikel yang cocok dengan kriteria Anda."
+
+#: /functions.php:22
+msgid "Header"
+msgstr "Bagian atas"
+
+#: /functions.php:26
+msgid "Header background image?"
+msgstr "Gambar latar bagian atas"
+
+#: /functions.php:32
+msgid "Header background image URL"
+msgstr "URL gambar latar bagian atas"
+
+#: /functions.php:33
+msgid "Tip: <a target=\"_blank\" href=\"media-new.php\">Upload your image here</a> and grab the url."
+msgstr "Tip: <a target=\"_blank\" href=\"media-new.php\">Unggah gambar Anda di sini</a> dan ambil URL-nya."
+
+#: /functions.php:40
+msgid "Repeat header background image?"
+msgstr "Ulangi gambar latar bagian atas?"
+
+#: /functions.php:48
+msgid "Show blog title & tagline in header?"
+msgstr "Tampilkan judul dan baris tag blog di bagian atas?"
+
+#: /functions.php:49
+msgid "You may uncheck this option if you use a background image as logo."
+msgstr "Anda dapat menghapus tanda centang di pilihan ini jika Anda menggunakan gambar latar sebagai logo."
+
+#: /functions.php:56
+msgid "Header height"
+msgstr "Tinggi bagian atas"
+
+#: /functions.php:64
+msgid "Header background color"
+msgstr "Warna latar bagian atas"
+
+#: /functions.php:72
+msgid "Blog title font color"
+msgstr "Warna huruf judul Blog"
+
+#: /functions.php:80
+msgid "Blog tagline font color"
+msgstr "Warna huruf baris tag Blog"
+
+#: /functions.php:88
+msgid "Show horizontal menu?"
+msgstr "Tampilkan menu horizontal?"
+
+#: /functions.php:95
+msgid "Pages to be excluded in horizontal menu"
+msgstr "Halaman yang dikeluarkan pada menu horisontal"
+
+#: /functions.php:96
+msgid "Comma separated page IDs"
+msgstr "ID halaman dipisahkan oleh koma"
+
+#: /functions.php:103
+msgid "Show RSS feed link in horizontal menu?"
+msgstr "Tampilkan tautan umpan RSS di menu horisontal?"
+
+#: /functions.php:114
+msgid "Sidebar"
+msgstr "Bar samping"
+
+#: /functions.php:118
+msgid "Show left sidebar?"
+msgstr "Tampilkan bar samping kiri?"
+
+#: /functions.php:125
+msgid "Left sidebar width?"
+msgstr "Lebar bar samping kiri?"
+
+#: /functions.php:134
+msgid "Left sidebar fontsize"
+msgstr "Ukuran huruf bar samping kiri"
+
+#: /functions.php:138
+#: /functions.php:168
+#: /functions.php:189
+msgid "small"
+msgstr "kecil"
+
+#: /functions.php:139
+#: /functions.php:169
+#: /functions.php:190
+msgid "medium"
+msgstr "sedang"
+
+#: /functions.php:140
+#: /functions.php:170
+#: /functions.php:191
+msgid "large"
+msgstr "besar"
+
+#: /functions.php:148
+msgid "Show right sidebar?"
+msgstr "Tampilkan bar samping kanan?"
+
+#: /functions.php:155
+msgid "Right sidebar width?"
+msgstr "Lebar bar samping kanan?"
+
+#: /functions.php:164
+msgid "Right sidebar fontsize"
+msgstr "Ukuran huruf bar samping kanan"
+
+#: /functions.php:181
+msgid "Blog posts"
+msgstr "Artikel Blog"
+
+#: /functions.php:185
+msgid "Blog post text size"
+msgstr "Ukuran teks artikel Blog"
+
+#: /functions.php:197
+msgid "Show post author?"
+msgstr "Tampilkan pengirim artikel?"
+
+#: /functions.php:204
+msgid "Show post category?"
+msgstr "Tampilkan kategori artikel?"
+
+#: /functions.php:211
+msgid "Full post or excerpt in archive pages?"
+msgstr "Artikel lengkap atau ringkasan di halaman arsip?"
+
+#: /functions.php:212
+msgid "Displaying only excerpt in archive pages is a better SEO practice."
+msgstr "Menampilkan hanya ringkasan di arsip halaman adalah lebih baik untuk pelaksanaan SEO."
+
+#: /functions.php:215
+msgid "Full post"
+msgstr "Artikel lengkap"
+
+#: /functions.php:216
+msgid "Only excerpt"
+msgstr "Hanya ringkasan"
+
+#: /functions.php:226
+msgid "Footer"
+msgstr "Bagian bawah"
+
+#: /functions.php:230
+msgid "Footer text"
+msgstr "Teks bagian bawah"
+
+#: /functions.php:240
+msgid "General options"
+msgstr "Pilihan umum"
+
+#: /functions.php:244
+msgid "Rounded corners?"
+msgstr "Pojok melingkar?"
+
+#: /functions.php:245
+msgid "Rounded corners add to the fluid nature of the theme. Note that this will add non-standard CSS code."
+msgstr "Pojok melingkar ditambahkan ke tema secara alami. Catatan: hal ini akan menambah kode CSS yang tidak standar."
+
+#: /functions.php:258
+#: /functions.php:400
+msgid "Save changes"
+msgstr "Simpan perubahan"
+
+#: /functions.php:274
+#: /functions.php:401
+msgid "Reset to defaults"
+msgstr "Kembalikan ke semula"
+
+#: /functions.php:282
+#: /functions.php:295
+msgid "Settings"
+msgstr "Pengaturan"
+
+#: /functions.php:290
+msgid "Settings saved"
+msgstr "Pengaturan telah disimpan"
+
+#: /functions.php:291
+msgid "Settings reset"
+msgstr "Pengaturan telah dikembalikan"
+
+#: /functions.php:301
+msgid "version"
+msgstr "versi"
+
+#: /functions.php:301
+#, php-format
+msgid "Visit <a href=\"%s\">theme page</a>"
+msgstr "Kunjungi <a href=\"%s\">halaman tema</a>"
+
+#: /functions.php:301
+#, php-format
+msgid "View <a href=\"%s\">readme</a>"
+msgstr "Tampilkan <a href=\"%s\">bacasaya</a>"
+
+#: /functions.php:303
+msgid "Header Settings"
+msgstr "Pengaturan Bagian Atas"
+
+#: /functions.php:304
+msgid "Sidebar Settings"
+msgstr "Pengaturan Bar Samping"
+
+#: /functions.php:305
+msgid "Posts Settings"
+msgstr "Pengaturan Artikel"
+
+#: /functions.php:306
+msgid "Footer Settings"
+msgstr "Pengaturan Bagian Bawah"
+
+#: /functions.php:307
+msgid "General Settings"
+msgstr "Pengaturan Umum"
+
+#: /functions.php:312
+msgid "If you enjoy the theme, you can make a donation and support development. Thank you!"
+msgstr "Jika Anda menyenangi tema ini, Anda dapat memberikan donasi untuk mendukung pengembangan. Terima kasih!"
+
+#: /functions.php:352
+msgid "Close colorpicker"
+msgstr "Tutup pemilih warna"
+
+#: /sidebar.php:6
+msgid "Pages"
+msgstr "Halaman"
+
+#: /sidebar.php:8
+msgid "Categories"
+msgstr "Kategori"
+
+#: /sidebar.php:14
+#: /archives.php:11
+msgid "Archives"
+msgstr "Arsip"
+
+#: /sidebar.php:19
+#: /archives.php:25
+msgid "Tags"
+msgstr "Tag"
+
+#: /sidebar.php:36
+msgid "Meta"
+msgstr "Meta"
+
+#: /sidebar.php:40
+msgid "This page validates as XHTML 1.0 Transitional"
+msgstr "Halaman ini memvalidasi sebagai XHTML 1.0 Transitional"
+
+#: /sidebar.php:41
+msgid "XHTML Friends Network"
+msgstr "Jaringan Pertemanan XHTML"
+
+#: /sidebar.php:42
+msgid "Powered by WordPress, state-of-the-art semantic personal publishing platform."
+msgstr "Didukung oleh WordPress, platform penerbitan pribadi yang berstatus semantik seni."
+
+#: /index.php:10
+#: /archive.php:35
+#: /single.php:36
+#: /search.php:11
+#, php-format
+msgid "Permanent Link to %s"
+msgstr "Tautan tetap ke %s"
+
+#: /index.php:13
+#: /image.php:13
+#: /archive.php:38
+#: /single.php:15
+#: /search.php:14
+msgid "Posted by"
+msgstr "Dikirim oleh"
+
+#: /index.php:13
+#: /image.php:13
+#: /archive.php:38
+#: /single.php:15
+#: /search.php:14
+msgid "on"
+msgstr "pada"
+
+#: /index.php:15
+#: /image.php:15
+#: /archive.php:40
+#: /single.php:17
+#: /search.php:16
+msgid "j F Y, g:i a"
+msgstr "j F Y, H:i:s"
+
+#: /index.php:19
+#: /archive.php:46
+#, php-format
+msgid "Continue reading ‘%s’ »"
+msgstr "Lanjutkan membaca ‘%s’ »"
+
+#: /index.php:25
+#: /image.php:29
+#: /archive.php:56
+#: /single.php:27
+#: /search.php:26
+msgid "Filed under"
+msgstr "Disimpan di bawah"
+
+#: /index.php:28
+#: /image.php:32
+#: /archive.php:59
+#: /single.php:30
+#: /search.php:29
+msgid "Tagged"
+msgstr "Ditag"
+
+#: /index.php:33
+#: /archive.php:64
+#: /search.php:34
+msgid "1 Comment"
+msgstr "1 Komentar"
+
+#: /index.php:33
+#: /archive.php:64
+#: /comments.php:19
+#: /search.php:34
+msgid "% Comments"
+msgstr "% Komentar"
+
+#: /index.php:43
+#: /archive.php:28
+#: /archive.php:74
+msgid "&laquo; Older Entries"
+msgstr "&laquo; Entrian Sebelumnya"
+
+#: /index.php:44
+#: /archive.php:29
+#: /archive.php:75
+msgid "Newer Entries &raquo;"
+msgstr "Entrian Berikutnya &raquo;"
+
+#: /header.php:32
+msgid "Home"
+msgstr "Beranda"
+
+#: /header.php:34
+msgid "Feed"
+msgstr "Umpan"
+
+#: /archive.php:8
+#, php-format
+msgid "Archive of posts filed under the %s category."
+msgstr "Arsip untuk artikel yang disimpan di bawah kategori %s."
+
+#: /archive.php:11
+#, php-format
+msgid "Archive of posts tagged %s"
+msgstr "Arsip artikel yang ditag %s"
+
+#: /archive.php:14
+#: /archive.php:17
+#, php-format
+msgid "Archive of entries posted on %s"
+msgstr "Arsip entrian yang dikirim pada %s"
+
+#: /archive.php:14
+msgid "jS F Y"
+msgstr "j F Y"
+
+#: /archive.php:17
+msgid "F Y"
+msgstr "F Y"
+
+#: /archive.php:20
+#, php-format
+msgid "Archive of entries posted in the year %s"
+msgstr "Arsip entrian artikel pada tahun %s"
+
+#: /archive.php:23
+#, php-format
+msgid "Archive of entries posted by %s"
+msgstr "Arsip entrian artikel dikirim oleh %s"
+
+#: /404.php:5
+msgid "Error"
+msgstr "Galat"
+
+#: /comments.php:4
+msgid "Please do not load this page directly. Thanks!"
+msgstr "Mohon jangan memuat halaman ini secara langsung. Terima kasih!"
+
+#: /comments.php:7
+msgid "This post is password protected. Enter the password to view comments."
+msgstr "Artikel ini dilindungi oleh kata sandi. Masukkan kata sandi untuk menampilkan komentar."
+
+#: /comments.php:19
+msgid "No Comments"
+msgstr "Belum ada komentar"
+
+#: /comments.php:19
+msgid "One Comment"
+msgstr "Satu Komentar"
+
+#: /comments.php:25
+msgid "Reply to this comment"
+msgstr "Balas ke komentar ini"
+
+#: /comments.php:40
+msgid "Leave a Reply"
+msgstr "Kirim Balasan"
+
+#: /comments.php:40
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr "Kirim Balasan ke %s"
+
+#: /comments.php:47
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr "Anda harus <a href=\"%s\">log masuk</a> agar dapat mengirim komentar."
+
+#: /comments.php:54
+#, php-format
+msgid "Logged in as %s. <a href=\"%s\" title=\"Log out of this account\">Log out &raquo;</a>"
+msgstr "Tercatat masuk sebagai %s. <a href=\"%s\" title=\"Log keluar dari akun ini\">Log keluar &raquo;</a>"
+
+#: /comments.php:59
+msgid "Name"
+msgstr "Nama"
+
+#: /comments.php:59
+#: /comments.php:62
+msgid "required"
+msgstr "dibutuhkan"
+
+#: /comments.php:62
+msgid "Mail"
+msgstr "Mail"
+
+#: /comments.php:62
+msgid "will not be published"
+msgstr "tidak akan dipublikasikan"
+
+#: /comments.php:65
+msgid "Website"
+msgstr "Situs"
+
+#: /comments.php:73
+msgid "Submit Comment"
+msgstr "Kirim Komentar"
+
+#: /archives.php:13
+msgid "Archives by Month"
+msgstr "Arsip berdasarkan Bulan"
+
+#: /archives.php:18
+msgid "Archives by Subject"
+msgstr "Arsip berdasarkan Subyek"
+
+#: /search.php:6
+#, php-format
+msgid "Search results for %s"
+msgstr "Hasil pencarian untuk %s"
+
+#: /search.php:44
+msgid "&laquo; Previous Entries"
+msgstr "&laquo; Entrian Sebelumnya"
+
+#: /search.php:45
+msgid "Next Entries &raquo;"
+msgstr "Entrian Berikutnya &raquo;"
+

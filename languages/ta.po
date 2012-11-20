@@ -1,0 +1,550 @@
+# F2 theme for WordPress. Translation template file.
+# Copyright (C) 2009 Srini G
+# This file is distributed under the same license as the F2.
+# Srini G <srinig.com@gmail.com>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: F2 1.0.2\n"
+"Report-Msgid-Bugs-To: srinig.com@gmail.com\n"
+"POT-Creation-Date: 2009-09-01 12:22+0530\n"
+"PO-Revision-Date: 2009-09-13 21:36+0530\n"
+"Last-Translator: ravi <ravidreams@gmail.com>\n"
+"Language-Team: ravi <ravi@ravidreams.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"X-Poedit-Language: Tamil\n"
+"X-Poedit-Country: India\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: /links.php:12
+msgid "Links"
+msgstr "தொடுப்புகள்"
+
+#: /page.php:10
+#: /single.php:21
+msgid "Pages:"
+msgstr "பக்கங்கள்:"
+
+#: /page.php:14
+#: /index.php:36
+#: /image.php:35
+#: /archive.php:64
+#: /single.php:33
+#: /search.php:34
+msgid "Comment"
+msgstr "மறுமொழி"
+
+#: /page.php:14
+#: /image.php:35
+#: /single.php:33
+msgid "Comments are closed"
+msgstr "மறுமொழிகள் நிறுத்தப்பட்டுள்ளன"
+
+#: /page.php:15
+#: /image.php:36
+#: /single.php:34
+msgid "Trackback"
+msgstr "வரு தடம்"
+
+#: /page.php:17
+#: /index.php:38
+#: /image.php:38
+#: /archive.php:66
+#: /single.php:37
+#: /search.php:36
+msgid "Edit"
+msgstr "திருத்துக"
+
+#: /page.php:27
+#: /index.php:52
+#: /image.php:44
+#: /archive.php:80
+#: /404.php:5
+#: /single.php:52
+#: /search.php:50
+msgid "Not Found"
+msgstr "காணவில்லை"
+
+#: /page.php:28
+#: /index.php:53
+#: /image.php:45
+#: /archive.php:81
+#: /single.php:53
+#: /search.php:51
+msgid "Sorry, no posts matched your criteria."
+msgstr "மன்னிக்கவும், நீங்கள் தேடியவாறு இடுகை ஏதும் இல்லை."
+
+#: /functions.php:22
+msgid "Header"
+msgstr "தலைப்பகுதி"
+
+#: /functions.php:26
+msgid "Header background image?"
+msgstr "தலைப்பகுதி பின்னணிப் படம்?"
+
+#: /functions.php:32
+msgid "Header background image URL"
+msgstr "தலைப்பகுதி பின்னணிப் பட முகவரி"
+
+#: /functions.php:33
+msgid "Tip: <a target=\"_blank\" href=\"media-new.php\">Upload your image here</a> and grab the url."
+msgstr "குறிப்பு: <a target=\"_blank\" href=\"media-new.php\">உங்கள் படத்தை இங்கு பதிவேற்றி</a> முகவரியைப் பெறுங்கள்."
+
+#: /functions.php:40
+msgid "Repeat header background image?"
+msgstr "தலைப்பகுதி பின்னணிப் படத்தை மீண்டும் மீண்டும் காட்ட வேண்டுமா?"
+
+#: /functions.php:48
+msgid "Show blog title & tagline in header?"
+msgstr "வலைப்பதிவின் தலைப்பையும் வாசகத்தையும் தலைப்பில் காட்ட வேண்டுமா?"
+
+#: /functions.php:49
+msgid "You may uncheck this option if you use a background image as logo."
+msgstr "நீங்கள் ஒரு படத்தை உங்கள் வலைப்பதிவின் முத்திரையாகப் பயன்படுத்தினால், இந்தத் தெரிவை நீக்கவும்."
+
+#: /functions.php:56
+msgid "Header height"
+msgstr "தலைப்பகுதி உயரம்"
+
+#: /functions.php:64
+msgid "Header background color"
+msgstr "தலைப்பகுதி பின்னணி நிறம்"
+
+#: /functions.php:72
+msgid "Blog title font color"
+msgstr "வலைப்பதிவுத் தலைப்பின் வண்ணம்"
+
+#: /functions.php:80
+msgid "Blog tagline font color"
+msgstr "வலைப்பதிவு வாசகத்தின் நிறம்"
+
+#: /functions.php:88
+msgid "Show horizontal menu?"
+msgstr "கிடைமட்ட வரிசையில் பட்டியலைக் காட்டவா?"
+
+#: /functions.php:95
+msgid "Pages to be excluded in horizontal menu"
+msgstr "கிடைமட்ட பட்டியலில் மறைக்க வேண்டிய பக்கங்கள்"
+
+#: /functions.php:96
+msgid "Comma separated page IDs"
+msgstr "பக்க அடையாள எண்கள். காற்புள்ளிகள் கொண்டு பிரித்து எழுதவும்."
+
+#: /functions.php:103
+msgid "Show RSS feed link in horizontal menu?"
+msgstr "RSS ஓடைத் தொடுப்பை கிடைமட்ட பட்டியலில் காட்டவா?"
+
+#: /functions.php:114
+msgid "Sidebar"
+msgstr "பக்கப்பட்டை"
+
+#: /functions.php:118
+msgid "Show left sidebar?"
+msgstr "இடப்பக்கப் பட்டையைக் காட்டவா?"
+
+#: /functions.php:125
+msgid "Left sidebar width?"
+msgstr "இடப்பக்கப்பட்டை அகலம்?"
+
+#: /functions.php:134
+msgid "Left sidebar fontsize"
+msgstr "இடப்பக்கப்பட்டை எழுத்துரு அளவு"
+
+#: /functions.php:138
+#: /functions.php:168
+#: /functions.php:189
+msgid "small"
+msgstr "சிறிது"
+
+#: /functions.php:139
+#: /functions.php:169
+#: /functions.php:190
+msgid "medium"
+msgstr "நடுத்தரம்"
+
+#: /functions.php:140
+#: /functions.php:170
+#: /functions.php:191
+msgid "large"
+msgstr "பெரிது"
+
+#: /functions.php:148
+msgid "Show right sidebar?"
+msgstr "வலப்பக்கப்பட்டையைக் காட்டவா?"
+
+#: /functions.php:155
+msgid "Right sidebar width?"
+msgstr "வலப்பக்கப் பட்டை அகலம்?"
+
+#: /functions.php:164
+msgid "Right sidebar fontsize"
+msgstr "வலப்பக்கப்பட்டை எழுத்துரு அளவு"
+
+#: /functions.php:181
+msgid "Blog posts"
+msgstr "வலைப்பதிவு இடுகைகள்"
+
+#: /functions.php:185
+msgid "Blog post text size"
+msgstr "வலைப்பதிவு இடுகை எழுத்துரு அளவு"
+
+#: /functions.php:197
+msgid "Show post author?"
+msgstr "இடுகை ஆசிரியரைக் காட்டவா?"
+
+#: /functions.php:204
+msgid "Show post category?"
+msgstr "இடுகையின் பகுப்புகளைக் காட்டவா?"
+
+#: /functions.php:211
+msgid "Full post or excerpt in archive pages?"
+msgstr "தொகுப்புப் பக்கங்களில் முழுமையான இடுகையா சுருக்கமா?"
+
+#: /functions.php:212
+msgid "Displaying only excerpt in archive pages is a better SEO practice."
+msgstr "தொகுப்புப் பக்கங்களில் இடுகையின் சுருக்கத்தை மட்டும் காட்டுவது தேடுபொறிகளில் நன்கு தென்பட உதவும்."
+
+#: /functions.php:215
+msgid "Full post"
+msgstr "முழு இடுகை"
+
+#: /functions.php:216
+msgid "Only excerpt"
+msgstr "சுருக்கம் மட்டும்"
+
+#: /functions.php:226
+msgid "Footer"
+msgstr "அடிப்பகுதி"
+
+#: /functions.php:230
+msgid "Footer text"
+msgstr "அடிப்பகுதி உரை"
+
+#: /functions.php:240
+msgid "General options"
+msgstr "பொதுவான தெரிவுகள்"
+
+#: /functions.php:244
+msgid "Rounded corners?"
+msgstr "மழுங்கிய முனைகளா?"
+
+#: /functions.php:245
+msgid "Rounded corners add to the fluid nature of the theme. Note that this will add non-standard CSS code."
+msgstr "மழுங்கிய முனைகள் இந்த வார்ப்புருவின் இளகிய இயல்புடன் பொருந்தும். இதனால் சீர்தரமற்ற CSS நிரல்களைச் சேர்க்க வேண்டி வரும் என்பதைக் கவனிக்கவும்."
+
+#: /functions.php:258
+#: /functions.php:400
+msgid "Save changes"
+msgstr "மாற்றங்களைச் சேமிக்கவும்"
+
+#: /functions.php:274
+#: /functions.php:401
+msgid "Reset to defaults"
+msgstr "இயல்பிருப்புகளுக்கு மீள்க"
+
+#: /functions.php:282
+#: /functions.php:295
+msgid "Settings"
+msgstr "அமைப்புகள்"
+
+#: /functions.php:290
+msgid "Settings saved"
+msgstr "அமைப்புகள் சேமிக்கப்பட்டன"
+
+#: /functions.php:291
+msgid "Settings reset"
+msgstr "அமைப்புகள் மீளமைக்கப்பட்டன"
+
+#: /functions.php:301
+msgid "version"
+msgstr "பதிப்பு"
+
+#: /functions.php:301
+#, php-format
+msgid "Visit <a href=\"%s\">theme page</a>"
+msgstr "<a href=\"%s\">வார்ப்புரு பக்கத்தைப்</a> பார்க்கவும்"
+
+#: /functions.php:301
+#, php-format
+msgid "View <a href=\"%s\">readme</a>"
+msgstr "<a href=\"%s\">வார்ப்புரு உதவிக் குறிப்பைப்</a> பார்க்கவும்"
+
+#: /functions.php:303
+msgid "Header Settings"
+msgstr "தலைப்பகுதி அமைப்புகள்"
+
+#: /functions.php:304
+msgid "Sidebar Settings"
+msgstr "பக்கப்பட்டை அமைப்புகள்"
+
+#: /functions.php:305
+msgid "Posts Settings"
+msgstr "இடுகை அமைப்புகள்"
+
+#: /functions.php:306
+msgid "Footer Settings"
+msgstr "அடிப்பகுதி அமைப்புகள்"
+
+#: /functions.php:307
+msgid "General Settings"
+msgstr "பொதுவான அமைப்புகள்"
+
+#: /functions.php:312
+msgid "If you enjoy the theme, you can make a donation and support development. Thank you!"
+msgstr "உங்களுக்கு இந்த வார்ப்புரு பிடித்திருந்தால், நன்கொடை அளித்து வார்ப்புரு வளர்ச்சிக்கு உதவலாம். நன்றி!"
+
+#: /functions.php:352
+msgid "Close colorpicker"
+msgstr "நிறத் தெரிவை மூடவும்"
+
+#: /sidebar.php:6
+msgid "Pages"
+msgstr "பக்கங்கள்"
+
+#: /sidebar.php:8
+msgid "Categories"
+msgstr "பகுப்புகள்"
+
+#: /sidebar.php:14
+#: /archives.php:11
+msgid "Archives"
+msgstr "தொகுப்புகள்"
+
+#: /sidebar.php:19
+#: /archives.php:25
+msgid "Tags"
+msgstr "குறிச்சொற்கள்"
+
+#: /sidebar.php:36
+msgid "Meta"
+msgstr "மேலாண்மை"
+
+#: /sidebar.php:40
+msgid "This page validates as XHTML 1.0 Transitional"
+msgstr "இந்த பக்கம் XHTML 1.0 Transitional என உறுதி செய்யப்படுகிறது"
+
+#: /sidebar.php:41
+msgid "XHTML Friends Network"
+msgstr "XHTML நண்பர்கள் பிணையம்"
+
+#: /sidebar.php:42
+msgid "Powered by WordPress, state-of-the-art semantic personal publishing platform."
+msgstr "WordPress மென்பொருளால் இயக்கப்படுகிறது."
+
+#: /index.php:10
+#: /archive.php:35
+#: /single.php:36
+#: /search.php:11
+#, php-format
+msgid "Permanent Link to %s"
+msgstr "%s க்கான நிரந்தரத் தொடுப்பு"
+
+#: /index.php:13
+#: /image.php:13
+#: /archive.php:38
+#: /single.php:15
+#: /search.php:14
+msgid "Posted by"
+msgstr "ஆக்கம்:"
+
+#: /index.php:13
+#: /image.php:13
+#: /archive.php:38
+#: /single.php:15
+#: /search.php:14
+msgid "on"
+msgstr "on"
+
+#: /index.php:15
+#: /image.php:15
+#: /archive.php:40
+#: /single.php:17
+#: /search.php:16
+msgid "j F Y, g:i a"
+msgstr "j F Y, g:i a"
+
+#: /index.php:17
+msgid "Sticky post"
+msgstr "அறிவிப்பு இடுகை"
+
+#: /index.php:22
+#: /archive.php:46
+#, php-format
+msgid "Continue reading ‘%s’ »"
+msgstr "‘%s’ ஐத் தொடர்ந்து படிக்கவும்  »"
+
+#: /index.php:28
+#: /image.php:29
+#: /archive.php:56
+#: /single.php:27
+#: /search.php:26
+msgid "Filed under"
+msgstr "பகுப்புகள்:"
+
+#: /index.php:31
+#: /image.php:32
+#: /archive.php:59
+#: /single.php:30
+#: /search.php:29
+msgid "Tagged"
+msgstr "குறிச்சொற்கள்:"
+
+#: /index.php:36
+#: /archive.php:64
+#: /search.php:34
+msgid "1 Comment"
+msgstr "1 மறுமொழி"
+
+#: /index.php:36
+#: /archive.php:64
+#: /comments.php:19
+#: /search.php:34
+msgid "% Comments"
+msgstr "% மறுமொழிகள்"
+
+#: /index.php:46
+#: /archive.php:28
+#: /archive.php:74
+msgid "&laquo; Older Entries"
+msgstr "&laquo; பழைய இடுகைகள்"
+
+#: /index.php:47
+#: /archive.php:29
+#: /archive.php:75
+msgid "Newer Entries &raquo;"
+msgstr "புதிய இடுகைகள் &raquo;"
+
+#: /header.php:33
+msgid "Home"
+msgstr "முகப்பு"
+
+#: /header.php:35
+msgid "Feed"
+msgstr "ஓடை"
+
+#: /archive.php:8
+#, php-format
+msgid "Archive of posts filed under the %s category."
+msgstr "%s பகுப்பின் கீழ் உள்ள இடுகைகள்."
+
+#: /archive.php:11
+#, php-format
+msgid "Archive of posts tagged %s"
+msgstr "%s என்னும் குறிச்சொல்லைக் கொண்டுள்ள இடுகைகள்"
+
+#: /archive.php:14
+#: /archive.php:17
+#, php-format
+msgid "Archive of entries posted on %s"
+msgstr "%s அன்று பதிப்பித்த இடுகைகள்"
+
+#: /archive.php:14
+msgid "jS F Y"
+msgstr "jS F Y"
+
+#: /archive.php:17
+msgid "F Y"
+msgstr "F Y"
+
+#: /archive.php:20
+#, php-format
+msgid "Archive of entries posted in the year %s"
+msgstr "%s ஆண்டில் பதிப்பித்த இடுகைகள்"
+
+#: /archive.php:23
+#, php-format
+msgid "Archive of entries posted by %s"
+msgstr "%s எழுதிய இடுகைகள்"
+
+#: /404.php:5
+msgid "Error"
+msgstr "பிழை"
+
+#: /comments.php:4
+msgid "Please do not load this page directly. Thanks!"
+msgstr "தயவுசெய்து இப்பக்கத்தை நேரடியாகத் திறக்க வேண்டாம். நன்றி!"
+
+#: /comments.php:7
+msgid "This post is password protected. Enter the password to view comments."
+msgstr "இந்தப் பக்கம் கடவுச் சொல் கொண்டு காக்கப்பட்டுள்ளது. மறுமொழிகளைக் காண கடவுச்சொல்லை உள்ளிடுக."
+
+#: /comments.php:19
+msgid "No Comments"
+msgstr "மறுமொழி இல்லை"
+
+#: /comments.php:19
+msgid "One Comment"
+msgstr "ஒரு மறுமொழி"
+
+#: /comments.php:25
+msgid "Reply to this comment"
+msgstr "இந்த மறுமொழிக்குப் பதில் தருக"
+
+#: /comments.php:40
+msgid "Leave a Reply"
+msgstr "மறுமொழி ஒன்றை இடுக"
+
+#: /comments.php:40
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr "%s க்கு மறுமொழி இடுக"
+
+#: /comments.php:47
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr "மறுமொழி அளிக்க, நீங்கள் <a href=\"%s\">புகுபதிய</a> வேண்டும்."
+
+#: /comments.php:54
+#, php-format
+msgid "Logged in as %s. <a href=\"%s\" title=\"Log out of this account\">Log out &raquo;</a>"
+msgstr "%s ஆக வந்துள்ளீர்கள். <a href=\"%s\" title=\"இக்கணக்கை விட்டு வெளியேறுக\">வெளியேறுக &raquo;</a>"
+
+#: /comments.php:59
+msgid "Name"
+msgstr "பெயர்"
+
+#: /comments.php:59
+#: /comments.php:62
+msgid "required"
+msgstr "தேவை"
+
+#: /comments.php:62
+msgid "Mail"
+msgstr "மடல்"
+
+#: /comments.php:62
+msgid "will not be published"
+msgstr "வெளியிடப்படாது"
+
+#: /comments.php:65
+msgid "Website"
+msgstr "வலைத்தளம்"
+
+#: /comments.php:73
+msgid "Submit Comment"
+msgstr "மறுமொழியை அனுப்புக"
+
+#: /archives.php:13
+msgid "Archives by Month"
+msgstr "மாதவாரித் தொகுப்புகள்"
+
+#: /archives.php:18
+msgid "Archives by Subject"
+msgstr "தலைப்பு வாரித் தொகுப்புகள்"
+
+#: /search.php:6
+#, php-format
+msgid "Search results for %s"
+msgstr "%s என்பதற்கான தேடல் முடிவுகள்"
+
+#: /search.php:44
+msgid "&laquo; Previous Entries"
+msgstr "&laquo; முந்தைய இடுகைகள்"
+
+#: /search.php:45
+msgid "Next Entries &raquo;"
+msgstr "அடுத்தடுத்த இடுகைகள் &raquo;"
+

@@ -1,0 +1,539 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: F2 1.0.6\n"
+"Report-Msgid-Bugs-To: srinig.com@gmail.com\n"
+"POT-Creation-Date: 2009-09-01 12:22+0530\n"
+"PO-Revision-Date: \n"
+"Last-Translator: FatCow <zhr@tut.by>\n"
+"Language-Team: Srini's WordPress Laboratory <srinig.com@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Russian\n"
+"X-Poedit-Country: RUSSIAN FEDERATION\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: /links.php:12
+msgid "Links"
+msgstr "Спасылкі"
+
+#: /page.php:10
+#: /single.php:21
+msgid "Pages:"
+msgstr "Старонкі:"
+
+#: /page.php:14
+#: /index.php:36
+#: /image.php:35
+#: /archive.php:64
+#: /single.php:33
+#: /search.php:34
+msgid "Comment"
+msgstr "Каментары"
+
+#: /page.php:14
+#: /image.php:35
+#: /single.php:33
+msgid "Comments are closed"
+msgstr "Каментары забаронены"
+
+#: /page.php:15
+#: /image.php:36
+#: /single.php:34
+msgid "Trackback"
+msgstr "Зваротная спасылка"
+
+#: /page.php:17
+#: /index.php:38
+#: /image.php:38
+#: /archive.php:66
+#: /single.php:37
+#: /search.php:36
+msgid "Edit"
+msgstr "Змяніць"
+
+#: /page.php:27
+#: /index.php:52
+#: /image.php:44
+#: /archive.php:80
+#: /404.php:5
+#: /single.php:52
+#: /search.php:50
+msgid "Not Found"
+msgstr "Не знойдзена"
+
+#: /page.php:28
+#: /index.php:53
+#: /image.php:45
+#: /archive.php:81
+#: /single.php:53
+#: /search.php:51
+msgid "Sorry, no posts matched your criteria."
+msgstr "Выбачыце, няма запісаў, якія задавольваюць вашым умовам."
+
+#: /functions.php:22
+msgid "Header"
+msgstr "Загаловак"
+
+#: /functions.php:26
+msgid "Header background image?"
+msgstr "Выкарыстоўваць фонавы малюнак у загалоўку?"
+
+#: /functions.php:32
+msgid "Header background image URL"
+msgstr "Адрас фонавага малюнка"
+
+#: /functions.php:33
+msgid "Tip: <a target=\"_blank\" href=\"media-new.php\">Upload your image here</a> and grab the url."
+msgstr "Падказка <a target=\"_blank\" href=\"media-new.php\">Загрузіце малюнак тут</a> і атрымаеце спасылку."
+
+#: /functions.php:40
+msgid "Repeat header background image?"
+msgstr "Паўтараць малюнак у загалоўку?"
+
+#: /functions.php:48
+msgid "Show blog title & tagline in header?"
+msgstr "Паказваць загаловак блога і апісанне ў шапцы?"
+
+#: /functions.php:49
+msgid "You may uncheck this option if you use a background image as logo."
+msgstr "Вы можаце адключаць гэту опцыю, калі вы выкарыстоўваеце фонавы малюнак як лагатып."
+
+#: /functions.php:56
+msgid "Header height"
+msgstr "Вышыня шапкі"
+
+#: /functions.php:64
+msgid "Header background color"
+msgstr "Колер фону шапкі"
+
+#: /functions.php:72
+msgid "Blog title font color"
+msgstr "Колер шрыфта загалоўка блога"
+
+#: /functions.php:80
+msgid "Blog tagline font color"
+msgstr "Колер шрыфта падзагалоўка блога"
+
+#: /functions.php:88
+msgid "Show horizontal menu?"
+msgstr "Паказваць гарызантальнае меню?"
+
+#: /functions.php:95
+msgid "Pages to be excluded in horizontal menu"
+msgstr "Выключыць наступныя старонкі з гарызантальнага меню"
+
+#: /functions.php:96
+msgid "Comma separated page IDs"
+msgstr "Падзеленыя коскамі ID старонак"
+
+#: /functions.php:103
+msgid "Show RSS feed link in horizontal menu?"
+msgstr "Паказваць значок RSS у гарызантальным меню?"
+
+#: /functions.php:114
+msgid "Sidebar"
+msgstr "Бакавая панэль"
+
+#: /functions.php:118
+msgid "Show left sidebar?"
+msgstr "Паказваць левую бакавую панэль?"
+
+#: /functions.php:125
+msgid "Left sidebar width?"
+msgstr "Шырыня левага панэлі"
+
+#: /functions.php:134
+msgid "Left sidebar fontsize"
+msgstr "Памер шрыфта ў левым панэлі"
+
+#: /functions.php:138
+#: /functions.php:168
+#: /functions.php:189
+msgid "small"
+msgstr "Маленькі"
+
+#: /functions.php:139
+#: /functions.php:169
+#: /functions.php:190
+msgid "medium"
+msgstr "Сярэдні"
+
+#: /functions.php:140
+#: /functions.php:170
+#: /functions.php:191
+msgid "large"
+msgstr "Буйны"
+
+#: /functions.php:148
+msgid "Show right sidebar?"
+msgstr "Паказваць правую бакавую панэль?"
+
+#: /functions.php:155
+msgid "Right sidebar width?"
+msgstr "Шырыня правай панэлі"
+
+#: /functions.php:164
+msgid "Right sidebar fontsize"
+msgstr "Памер шрыфта ў правым панэлі"
+
+#: /functions.php:181
+msgid "Blog posts"
+msgstr "Запіс у блогу"
+
+#: /functions.php:185
+msgid "Blog post text size"
+msgstr "Памер шрыфта запісу ў блогу"
+
+#: /functions.php:197
+msgid "Show post author?"
+msgstr "Паказваць аўтара запісу?"
+
+#: /functions.php:204
+msgid "Show post category?"
+msgstr "Паказваць катэгорыю запісу?"
+
+#: /functions.php:211
+msgid "Full post or excerpt in archive pages?"
+msgstr "У архіве паказваць цалкам запіс ці толькі пачатак?"
+
+#: /functions.php:212
+msgid "Displaying only excerpt in archive pages is a better SEO practice."
+msgstr "Паказваць толькі пачатак рэкамендуецца для SEO."
+
+#: /functions.php:215
+msgid "Full post"
+msgstr "Цалкам запіс"
+
+#: /functions.php:216
+msgid "Only excerpt"
+msgstr "Толькі пачатак"
+
+#: /functions.php:226
+msgid "Footer"
+msgstr "Склеп"
+
+#: /functions.php:230
+msgid "Footer text"
+msgstr "Тэкст склепа"
+
+#: /functions.php:240
+msgid "General options"
+msgstr "Асноўныя налады"
+
+#: /functions.php:244
+msgid "Rounded corners?"
+msgstr "Закругляць куты?"
+
+#: /functions.php:245
+msgid "Rounded corners add to the fluid nature of the theme. Note that this will add non-standard CSS code."
+msgstr "Закругленыя куты ўпрыгожаць тэму, але дададуць не стандартны CSS код."
+
+#: /functions.php:258
+#: /functions.php:400
+msgid "Save changes"
+msgstr "Захаваць змены"
+
+#: /functions.php:274
+#: /functions.php:401
+msgid "Reset to defaults"
+msgstr "Вярнуцца да налад па-змаўчанню"
+
+#: /functions.php:282
+#: /functions.php:295
+msgid "Settings"
+msgstr "Налады"
+
+#: /functions.php:290
+msgid "Settings saved"
+msgstr "Налады захаваны"
+
+#: /functions.php:291
+msgid "Settings reset"
+msgstr "Скід налад"
+
+#: /functions.php:301
+msgid "version"
+msgstr "версія"
+
+#: /functions.php:301
+#, php-format
+msgid "Visit <a href=\"%s\">theme page</a>"
+msgstr "Наведаеце <a href=\"%s\">старонку тэмы</a>"
+
+#: /functions.php:301
+#, php-format
+msgid "View <a href=\"%s\">readme</a>"
+msgstr "Прачытайце <a href=\"%s\">readme</a>"
+
+#: /functions.php:303
+msgid "Header Settings"
+msgstr "Налады шапкі"
+
+#: /functions.php:304
+msgid "Sidebar Settings"
+msgstr "Налады сайдбаров"
+
+#: /functions.php:305
+msgid "Posts Settings"
+msgstr "Налады запісаў"
+
+#: /functions.php:306
+msgid "Footer Settings"
+msgstr "Налады склепа"
+
+#: /functions.php:307
+msgid "General Settings"
+msgstr "Асноўныя налады"
+
+#: /functions.php:312
+msgid "If you enjoy the theme, you can make a donation and support development. Thank you!"
+msgstr "Калі вам спадабалася гэта тэма, тыя вы можаце зрабіць ахвяраванне ў распрацоўку тэмы. Дзякуй!"
+
+#: /functions.php:352
+msgid "Close colorpicker"
+msgstr "Зачыніць выбар колеру"
+
+#: /sidebar.php:6
+msgid "Pages"
+msgstr "Старонкі"
+
+#: /sidebar.php:8
+msgid "Categories"
+msgstr "Катэгорыі"
+
+#: /sidebar.php:14
+#: /archives.php:11
+msgid "Archives"
+msgstr "Архівы"
+
+#: /sidebar.php:19
+#: /archives.php:25
+msgid "Tags"
+msgstr "Пазнакі:"
+
+#: /sidebar.php:36
+msgid "Meta"
+msgstr "Мета"
+
+#: /sidebar.php:40
+msgid "This page validates as XHTML 1.0 Transitional"
+msgstr "Эта страница проверяет XHTML 1.0 Transitional"
+
+#: /sidebar.php:41
+msgid "XHTML Friends Network"
+msgstr "XHTML Friends сеть"
+
+#: /sidebar.php:42
+msgid "Powered by WordPress, state-of-the-art semantic personal publishing platform."
+msgstr "Работает на WordPress, современной издательской платформе."
+
+#: /index.php:10
+#: /archive.php:35
+#: /single.php:36
+#: /search.php:11
+#, php-format
+msgid "Permanent Link to %s"
+msgstr "Прамая спасылка на %s"
+
+#: /index.php:13
+#: /image.php:13
+#: /archive.php:38
+#: /single.php:15
+#: /search.php:14
+msgid "Posted by"
+msgstr "Напісаў"
+
+#: /index.php:13
+#: /image.php:13
+#: /archive.php:38
+#: /single.php:15
+#: /search.php:14
+msgid "on"
+msgstr "у"
+
+#: /index.php:15
+#: /image.php:15
+#: /archive.php:40
+#: /single.php:17
+#: /search.php:16
+msgid "j F Y, g:i a"
+msgstr "j F Y, H:i"
+
+#: /index.php:17
+msgid "Sticky post"
+msgstr "Важны запіс"
+
+#: /index.php:22
+#: /index.php:28
+#: /image.php:29
+#: /archive.php:56
+#: /single.php:27
+#: /search.php:26
+msgid "Filed under"
+msgstr "Рубрыка:"
+
+#: /index.php:31
+#: /image.php:32
+#: /archive.php:59
+#: /single.php:30
+#: /search.php:29
+msgid "Tagged"
+msgstr "Пазнакі:"
+
+#: /index.php:36
+#: /archive.php:64
+#: /search.php:34
+msgid "1 Comment"
+msgstr "1 каментар"
+
+#: /index.php:36
+#: /archive.php:64
+#: /comments.php:19
+#: /search.php:34
+msgid "% Comments"
+msgstr "% каментароў"
+
+#: /index.php:46
+#: /archive.php:28
+#: /archive.php:74
+msgid "&laquo; Older Entries"
+msgstr "&laquo; назад"
+
+#: /index.php:47
+#: /archive.php:29
+#: /archive.php:75
+msgid "Newer Entries &raquo;"
+msgstr "наперад &raquo;"
+
+#: /header.php:33
+msgid "Home"
+msgstr "Галоўная"
+
+#: /header.php:35
+msgid "Feed"
+msgstr "Падпіска"
+
+#: /archive.php:8
+#, php-format
+msgid "Archive of posts filed under the %s category."
+msgstr "Усе запісы ў катэгорыі '%s'"
+
+#: /archive.php:11
+#, php-format
+msgid "Archive of posts tagged %s"
+msgstr "Усе запісы з пазнакай '%s'"
+
+#: /archive.php:14
+#: /archive.php:17
+#, php-format
+msgid "Archive of entries posted on %s"
+msgstr "Архіў запісаў за %s"
+
+#: /archive.php:14
+msgid "jS F Y"
+msgstr "jS F Y"
+
+#: /archive.php:17
+msgid "F Y"
+msgstr "F Y"
+
+#: /archive.php:20
+#, php-format
+msgid "Archive of entries posted in the year %s"
+msgstr "Архіў запісаў за %s год"
+
+#: /archive.php:23
+#, php-format
+msgid "Archive of entries posted by %s"
+msgstr "Архіў запісаў ад %s"
+
+#: /404.php:5
+msgid "Error"
+msgstr "Памылка"
+
+#: /comments.php:4
+msgid "Please do not load this page directly. Thanks!"
+msgstr "Калі ласка не адкрывайце гэту старонку напроста. Дзякуй!"
+
+#: /comments.php:7
+msgid "This post is password protected. Enter the password to view comments."
+msgstr "Запіс абаронена паролем. Увядзіце пароль, каб убачыць каментары."
+
+#: /comments.php:19
+msgid "No Comments"
+msgstr "Няма каментароў"
+
+#: /comments.php:19
+msgid "One Comment"
+msgstr "Адзін каментар"
+
+#: /comments.php:25
+msgid "Reply to this comment"
+msgstr "Адказаць на каментар"
+
+#: /comments.php:40
+msgid "Leave a Reply"
+msgstr "Напісаць водгук"
+
+#: /comments.php:40
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr "Напісаць водгук на %s"
+
+#: /comments.php:47
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr "Вы павінны <a href=\"%s\">увайсці</a>, каб пакінуць каментар."
+
+#: /comments.php:54
+#, php-format
+msgid "Logged in as %s. <a href=\"%s\" title=\"Log out of this account\">Log out &raquo;</a>"
+msgstr "Вы ўвайшлі як %s. <a href=\"%s\" title=\"Выйсці з гэтага акаўнта\">Выйсці &raquo;</a>"
+
+#: /comments.php:59
+msgid "Name"
+msgstr "Імя"
+
+#: /comments.php:59
+#: /comments.php:62
+msgid "required"
+msgstr "абавязкова"
+
+#: /comments.php:62
+msgid "Mail"
+msgstr "Электронная пошта"
+
+#: /comments.php:62
+msgid "will not be published"
+msgstr "не будзе апублікаваны"
+
+#: /comments.php:65
+msgid "Website"
+msgstr "Сайт"
+
+#: /comments.php:73
+msgid "Submit Comment"
+msgstr "Пакінуць каментар"
+
+#: /archives.php:13
+msgid "Archives by Month"
+msgstr "Архіў за месяц"
+
+#: /archives.php:18
+msgid "Archives by Subject"
+msgstr "Архіў па тэме"
+
+#: /search.php:6
+#, php-format
+msgid "Search results for %s"
+msgstr "Вынікі пошуку '%s'"
+
+#: /search.php:44
+msgid "&laquo; Previous Entries"
+msgstr "&laquo; папярэднія запісы"
+
+#: /search.php:45
+msgid "Next Entries &raquo;"
+msgstr "наступныя запісы &raquo;"
+

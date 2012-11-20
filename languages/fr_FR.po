@@ -1,0 +1,533 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: F2 1.0\n"
+"Report-Msgid-Bugs-To: srinig.com@gmail.com\n"
+"POT-Creation-Date: 2009-08-20 14:09+0530\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Etienne <etienne@gnulinux.fr>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: FR\n"
+
+#: /links.php:12
+msgid "Links"
+msgstr "Liens"
+
+#: /page.php:10
+#: /single.php:22
+msgid "Pages:"
+msgstr "Pages:"
+
+#: /page.php:14
+#: /index.php:33
+#: /archive.php:64
+#: /single.php:34
+#: /search.php:34
+msgid "Comment"
+msgstr "Commenter"
+
+#: /page.php:14
+#: /single.php:34
+msgid "Comments are closed"
+msgstr "Les commentaires sont fermés"
+
+#: /page.php:15
+#: /single.php:35
+msgid "Trackback"
+msgstr "Rétrolien"
+
+#: /page.php:17
+#: /index.php:35
+#: /archive.php:66
+#: /single.php:37
+#: /search.php:36
+msgid "Edit"
+msgstr "Editer"
+
+#: /page.php:27
+#: /index.php:49
+#: /archive.php:80
+#: /404.php:5
+#: /single.php:52
+#: /search.php:50
+msgid "Not Found"
+msgstr "Non trouvé"
+
+#: /page.php:28
+#: /index.php:50
+#: /archive.php:81
+#: /single.php:53
+#: /search.php:51
+msgid "Sorry, no posts matched your criteria."
+msgstr "Désolé mais aucun article ne correspond à vos critères"
+
+#: /functions.php:19
+msgid "Header"
+msgstr "Entête"
+
+#: /functions.php:23
+msgid "Header background image?"
+msgstr "Image d'arrière plan pour l'entête"
+
+#: /functions.php:29
+msgid "Header background image URL"
+msgstr "URL pour l'image d'arrière plan de l'entête"
+
+#: /functions.php:30
+msgid "Tip: <a target=\"_blank\" href=\"media-new.php\">Upload your image here</a> and grab the url."
+msgstr "Suggestion: <a target=\"_blank\" href=\"media-new.php\">Télécharger votre image içi</a> et  copiez l'url."
+
+#: /functions.php:37
+msgid "Repeat header background image?"
+msgstr "Répétez l'image d'arrière plan dans l'entête ?"
+
+#: /functions.php:45
+msgid "Show blog title & tagline in header?"
+msgstr "Afficher le titre du blog et le slogan dans l'entête ?"
+
+#: /functions.php:46
+msgid "You may uncheck this option if you use a background image as logo."
+msgstr "Vous pouvez décocher cette option si vous utilisez une image d'arrière plan comme logo"
+
+#: /functions.php:53
+msgid "Header height"
+msgstr "Hauteur d'entête"
+
+#: /functions.php:61
+msgid "Header background color"
+msgstr "Couleur d'arrière plan de l'entête"
+
+#: /functions.php:69
+msgid "Blog title font color"
+msgstr "Couleur de police du titre du blog"
+
+#: /functions.php:77
+msgid "Blog tagline font color"
+msgstr "Couleur de police du slogan"
+
+#: /functions.php:85
+msgid "Show horizontal menu?"
+msgstr "Montrer le menu horizontal ?"
+
+#: /functions.php:92
+msgid "Pages to be excluded in horizontal menu"
+msgstr "Pages à exclure du menu horizontal"
+
+#: /functions.php:93
+msgid "Comma separated page IDs"
+msgstr "ID des pages séparées par des virgules"
+
+#: /functions.php:100
+msgid "Show RSS feed link in horizontal menu?"
+msgstr "Montrer le lien RSS dans le menu horizontal ?"
+
+#: /functions.php:111
+msgid "Sidebar"
+msgstr "Barre latérale"
+
+#: /functions.php:115
+msgid "Show left sidebar?"
+msgstr "Afficher la barre latérale gauche ?"
+
+#: /functions.php:122
+msgid "Left sidebar width?"
+msgstr "Largeur de la barre latérale gauche ?"
+
+#: /functions.php:131
+msgid "Left sidebar fontsize"
+msgstr "Taille de police de la barre latérale gauche"
+
+#: /functions.php:135
+#: /functions.php:165
+#: /functions.php:186
+msgid "small"
+msgstr "petite"
+
+#: /functions.php:136
+#: /functions.php:166
+#: /functions.php:187
+msgid "medium"
+msgstr "moyenne"
+
+#: /functions.php:137
+#: /functions.php:167
+#: /functions.php:188
+msgid "large"
+msgstr "grande"
+
+#: /functions.php:145
+msgid "Show right sidebar?"
+msgstr "Afficher la barre latérale droite ?"
+
+#: /functions.php:152
+msgid "Right sidebar width?"
+msgstr "Largeur de la barre latérale droite ?"
+
+#: /functions.php:161
+msgid "Right sidebar fontsize"
+msgstr "Taille de police de la barre latérale droite"
+
+#: /functions.php:178
+msgid "Blog posts"
+msgstr "Articles du blog"
+
+#: /functions.php:182
+msgid "Blog post text size"
+msgstr "Taille du texte des articles du blog"
+
+#: /functions.php:194
+msgid "Show post author?"
+msgstr "Afficher l'auteur des articles ?"
+
+#: /functions.php:201
+msgid "Show post category?"
+msgstr "Afficher la catégorie des articles ?"
+
+#: /functions.php:208
+msgid "Full post or excerpt in archive pages?"
+msgstr "Article complet ou extrait dans les pages d'archives ?"
+
+#: /functions.php:209
+msgid "Displaying only excerpt in archive pages is a better SEO practice."
+msgstr "Afficher les seuls extraits dans les pages d'archives est une bonne pratique pour les moteurs de recherche."
+
+#: /functions.php:212
+msgid "Full post"
+msgstr "Article complet"
+
+#: /functions.php:213
+msgid "Only excerpt"
+msgstr "Extrait seulement"
+
+#: /functions.php:223
+msgid "Footer"
+msgstr "Pied de page"
+
+#: /functions.php:227
+msgid "Footer text"
+msgstr "Texte de pied de page"
+
+#: /functions.php:234
+msgid "Show link to WordPress & Fluid Blue"
+msgstr "Afficher le lien vers Wordpress et Fluid Blue"
+
+#: /functions.php:244
+msgid "General options"
+msgstr "Options générales"
+
+#: /functions.php:248
+msgid "Rounded corners?"
+msgstr "Coins arrondis ?"
+
+#: /functions.php:249
+msgid "Rounded corners add to the fluid nature of the theme. Note that this will add non-standard CSS code."
+msgstr "Les coins arrondis ajoutent de la fluidité au thème. Notez que cela ajoute du code CSS non standard."
+
+#: /functions.php:288
+#: /functions.php:301
+msgid "Settings"
+msgstr "Réglages"
+
+#: /functions.php:307
+#, php-format
+msgid "Visit <a href=\"%s\">theme page</a>"
+msgstr "Visiter <a href=\"%s\">la page du thème </a>"
+
+#: /functions.php:307
+#, php-format
+msgid "View <a href=\"%s\">readme</a>"
+msgstr "Afficher <a href=\"%s\">readme</a>"
+
+#: /functions.php:309
+msgid "Header Settings"
+msgstr "Réglages de l'entête"
+
+#: /functions.php:310
+msgid "Sidebar Settings"
+msgstr "Réglages de la barre latérale"
+
+#: /functions.php:311
+msgid "Posts Settings"
+msgstr "Réglages des articles"
+
+#: /functions.php:312
+msgid "Footer Settings"
+msgstr "Réglages du pied de page"
+
+#: /functions.php:313
+msgid "General Settings"
+msgstr "Réglages généraux"
+
+#: /functions.php:318
+#, php-format
+msgid "If you enjoy the theme, you can make a donation and support development. Thank you!"
+msgstr "Si vous appréciez ce thème, vous pouvez faire un don et supporter le développement. Merci !"
+
+#: /sidebar.php:6
+msgid "Pages"
+msgstr "Pages"
+
+#: /sidebar.php:8
+msgid "Categories"
+msgstr "Catégories"
+
+#: /sidebar.php:14
+#: /archives.php:11
+msgid "Archives"
+msgstr "Archives"
+
+#: /sidebar.php:19
+#: /archives.php:25
+msgid "Tags"
+msgstr "Tags"
+
+#: /sidebar.php:36
+msgid "Meta"
+msgstr "Meta"
+
+#: /sidebar.php:40
+msgid "This page validates as XHTML 1.0 Transitional"
+msgstr "Cette page est valide  XHTML 1.0 Transitional"
+
+#: /sidebar.php:41
+msgid "XHTML Friends Network"
+msgstr "XHTML Friends Network"
+
+#: /sidebar.php:42
+msgid "Powered by WordPress, state-of-the-art semantic personal publishing platform."
+msgstr "Propulsé par WordPress, le nec plus ultra des plates-formes sémantiques de publication personnelle."
+
+#: /index.php:10
+#: /archive.php:35
+#: /search.php:11
+#, php-format
+msgid "Permanent Link to %s"
+msgstr "Lien permanent vers %s"
+
+#: /index.php:13
+#: /archive.php:38
+#: /single.php:16
+#: /search.php:14
+msgid "Posted by"
+msgstr "Posté par"
+
+#: /index.php:13
+#: /archive.php:38
+#: /single.php:16
+#: /search.php:14
+msgid "on"
+msgstr "le"
+
+#: /index.php:15
+#: /archive.php:40
+#: /single.php:18
+#: /search.php:16
+msgid "j F Y, g:i a"
+msgstr "j F Y, g:i a"
+
+#: /index.php:19
+#: /archive.php:46
+#, php-format
+msgid "Continue reading ‘%s’ »"
+msgstr "Poursuivre la lecture ‘%s’ »"
+
+#: /index.php:25
+#: /archive.php:56
+#: /single.php:28
+#: /search.php:26
+msgid "Filed under"
+msgstr "Archivé sous"
+
+#: /index.php:28
+#: /archive.php:59
+#: /single.php:31
+#: /search.php:29
+msgid "Tagged"
+msgstr "Taggé"
+
+#: /index.php:33
+#: /archive.php:64
+#: /search.php:34
+msgid "1 Comment"
+msgstr "Un commentaire"
+
+#: /index.php:33
+#: /archive.php:64
+#: /comments.php:19
+#: /search.php:34
+msgid "% Comments"
+msgstr "% commentaires"
+
+#: /index.php:43
+#: /archive.php:28
+#: /archive.php:74
+msgid "&laquo; Older Entries"
+msgstr "&laquo; Entrées anciennes"
+
+#: /index.php:44
+#: /archive.php:29
+#: /archive.php:75
+msgid "Newer Entries &raquo;"
+msgstr "Nouvelles entrées &raquo;"
+
+#: /header.php:32
+msgid "Home"
+msgstr "Accueil"
+
+#: /header.php:34
+msgid "Feed"
+msgstr "Feed"
+
+#: /archive.php:8
+#, php-format
+msgid "Archive of posts filed under the %s category."
+msgstr "Archive des articles rangées dans la catégorie %s ."
+
+#: /archive.php:11
+#, php-format
+msgid "Archive of posts tagged %s"
+msgstr "Archives des articles taggés %s"
+
+#: /archive.php:14
+#: /archive.php:17
+#, php-format
+msgid "Archive of entries posted on %s"
+msgstr "Archives des entrées postées le %s"
+
+#: /archive.php:14
+msgid "jS F Y"
+msgstr "jS F Y"
+
+#: /archive.php:17
+msgid "F Y"
+msgstr "F Y"
+
+#: /archive.php:20
+#, php-format
+msgid "Archive of entries posted in the year %s"
+msgstr "Archives des entrées postées dans l'année %s"
+
+#: /archive.php:23
+#, php-format
+msgid "Archive of entries posted by %s"
+msgstr "Archives des entrées postées par %s"
+
+#: /404.php:5
+msgid "Error"
+msgstr "Erreur"
+
+#: /comments.php:4
+msgid "Please do not load this page directly. Thanks!"
+msgstr "Merci de ne pas télécharger cette page directement. Merci !"
+
+#: /comments.php:7
+msgid "This post is password protected. Enter the password to view comments."
+msgstr "Cet article est protégé par un mot de passe. Entrez le mot de passe pour voir les commentaires."
+
+#: /comments.php:19
+msgid "No Comments"
+msgstr "Pas de commentaires"
+
+#: /comments.php:19
+msgid "One Comment"
+msgstr "Un commentaire"
+
+#: /comments.php:25
+msgid "Reply to this comment"
+msgstr "Répondre à ce commentaire"
+
+#: /comments.php:40
+msgid "Leave a Reply"
+msgstr "Laissez une réponse"
+
+#: /comments.php:40
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr "Laissez une réponse à %s"
+
+#: /comments.php:59
+msgid "Name"
+msgstr "Nom"
+
+#: /comments.php:59
+#: /comments.php:62
+msgid "required"
+msgstr "requis"
+
+#: /comments.php:62
+msgid "Mail"
+msgstr "Mail"
+
+#: /comments.php:62
+msgid "will not be published"
+msgstr "ne sera pas publié"
+
+#: /comments.php:65
+msgid "Website"
+msgstr "Site web"
+
+#: /archives.php:13
+msgid "Archives by Month"
+msgstr "Archives par mois"
+
+#: /archives.php:18
+msgid "Archives by Subject"
+msgstr "Archives par sujet"
+
+#: /search.php:6
+#, php-format
+msgid "Search results for %s"
+msgstr "Résultats de recherche pour %s"
+
+#: /search.php:44
+msgid "&laquo; Previous Entries"
+msgstr "&laquo; Entrées précédentes"
+
+#: /search.php:45
+msgid "Next Entries &raquo;"
+msgstr "Entrées suivantes &raquo;"
+
+#: /functions.php:258
+#: /functions.php:400
+msgid "Save changes"
+msgstr "Enregistrer les modifications"
+
+#: /functions.php:274
+#: /functions.php:401
+msgid "Reset to defaults"
+msgstr "Réglages par défaut"
+
+#: /functions.php:290
+msgid "Settings saved"
+msgstr "Réglages sauvegardés"
+
+#: /functions.php:291
+msgid "Settings reset"
+msgstr "Réinitialisation des réglages"
+
+#: /functions.php:301
+msgid "version"
+msgstr "version"
+
+#: /functions.php:352
+msgid "Close colorpicker"
+msgstr "Fermer colorpicker"
+
+#: /comments.php:47
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr "Vous devez <a href=\"%s\"> être connecté </a> pour déposer un commentaire."
+
+#: /comments.php:54
+#, php-format
+msgid "Logged in as %s. <a href=\"%s\" title=\"Log out of this account\">Log out &raquo;</a>"
+msgstr "Connecté comme %s. <a href=\"%s\" title=\"Log out of this account\">se déconnecter &raquo;</a>"
+
+
+#: /comments.php:73
+msgid "Submit Comment"
+msgstr "Déposer un commentaire"
+

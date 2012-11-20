@@ -1,0 +1,497 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: F2 1.0.2\n"
+"Report-Msgid-Bugs-To: srinig.com@gmail.com\n"
+"POT-Creation-Date: 2009-09-01 12:22+0530\n"
+"PO-Revision-Date: 2010-01-21 20:43+0900\n"
+"Last-Translator: Mako <mako@pasero.net>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Japanese\n"
+"X-Poedit-Country: JAPAN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: /links.php:12
+msgid "Links"
+msgstr "リンク"
+
+#: /page.php:10 /single.php:21
+msgid "Pages:"
+msgstr "ページ:"
+
+#: /page.php:14 /index.php:36 /image.php:35 /archive.php:64 /single.php:33
+#: /search.php:34
+msgid "Comment"
+msgstr "コメント"
+
+#: /page.php:14 /image.php:35 /single.php:33
+msgid "Comments are closed"
+msgstr "コメントは受け付けていません"
+
+#: /page.php:15 /image.php:36 /single.php:34
+msgid "Trackback"
+msgstr "トラックバック"
+
+#: /page.php:17 /index.php:38 /image.php:38 /archive.php:66 /single.php:37
+#: /search.php:36
+msgid "Edit"
+msgstr "編集"
+
+#: /page.php:27 /index.php:52 /image.php:44 /archive.php:80 /404.php:5
+#: /single.php:52 /search.php:50
+msgid "Not Found"
+msgstr "見つかりませんでした"
+
+#: /page.php:28 /index.php:53 /image.php:45 /archive.php:81 /single.php:53
+#: /search.php:51
+msgid "Sorry, no posts matched your criteria."
+msgstr "該当する投稿は見つかりませんでした。"
+
+#: /functions.php:22
+msgid "Header"
+msgstr "ヘッダー"
+
+#: /functions.php:26
+msgid "Header background image?"
+msgstr "ヘッダーの背景画像を使いますか ?"
+
+#: /functions.php:32
+msgid "Header background image URL"
+msgstr "ヘッダーの背景画像の URL"
+
+#: /functions.php:33
+msgid ""
+"Tip: <a target=\"_blank\" href=\"media-new.php\">Upload your image here</a> "
+"and grab the url."
+msgstr ""
+"小技: <a target=\"_blank\" href=\"media-new.php\">ここに画像をアップロードし"
+"て</a>、URL をコピーしてください。"
+
+#: /functions.php:40
+msgid "Repeat header background image?"
+msgstr "ヘッダーの背景画像を繰り返しますか ?"
+
+#: /functions.php:48
+msgid "Show blog title & tagline in header?"
+msgstr "タイトルとキャッチフレーズをヘッダーに表示しますか ?"
+
+#: /functions.php:49
+msgid "You may uncheck this option if you use a background image as logo."
+msgstr ""
+"背景画像がロゴのようなものなら、このオプションをはずしてもいいでしょう。"
+
+#: /functions.php:56
+msgid "Header height"
+msgstr "ヘッダーの高さ"
+
+#: /functions.php:64
+msgid "Header background color"
+msgstr "ヘッダーの背景色"
+
+#: /functions.php:72
+msgid "Blog title font color"
+msgstr "ブログタイトルの文字の色"
+
+#: /functions.php:80
+msgid "Blog tagline font color"
+msgstr "キャッチフレーズの文字の色"
+
+#: /functions.php:88
+msgid "Show horizontal menu?"
+msgstr "帯メニューを表示しますか ?"
+
+#: /functions.php:95
+msgid "Pages to be excluded in horizontal menu"
+msgstr "帯メニューから除くページ"
+
+#: /functions.php:96
+msgid "Comma separated page IDs"
+msgstr "ページ ID をコンマで区切って入力してください"
+
+#: /functions.php:103
+msgid "Show RSS feed link in horizontal menu?"
+msgstr "RSS フィードのリンクを帯メニューに表示しますか ?"
+
+#: /functions.php:114
+msgid "Sidebar"
+msgstr "サイドバー"
+
+#: /functions.php:118
+msgid "Show left sidebar?"
+msgstr "左サードバーを表示しますか ?"
+
+#: /functions.php:125
+msgid "Left sidebar width?"
+msgstr "左サイドバーの幅は ?"
+
+#: /functions.php:134
+msgid "Left sidebar fontsize"
+msgstr "左サイドバーの文字サイズ"
+
+#: /functions.php:138 /functions.php:168 /functions.php:189
+msgid "small"
+msgstr "小"
+
+#: /functions.php:139 /functions.php:169 /functions.php:190
+msgid "medium"
+msgstr "中"
+
+#: /functions.php:140 /functions.php:170 /functions.php:191
+msgid "large"
+msgstr "大"
+
+#: /functions.php:148
+msgid "Show right sidebar?"
+msgstr "右サイドバーを表示しますか ?"
+
+#: /functions.php:155
+msgid "Right sidebar width?"
+msgstr "右サイドバーの幅は ?"
+
+#: /functions.php:164
+msgid "Right sidebar fontsize"
+msgstr "右サイドバーの文字サイズ"
+
+#: /functions.php:181
+msgid "Blog posts"
+msgstr "ブログの投稿"
+
+#: /functions.php:185
+msgid "Blog post text size"
+msgstr "ブログの投稿の文字サイズ"
+
+#: /functions.php:197
+msgid "Show post author?"
+msgstr "投稿の作者を表示しますか ?"
+
+#: /functions.php:204
+msgid "Show post category?"
+msgstr "投稿のカテゴリーを表示しますか ?"
+
+#: /functions.php:211
+msgid "Full post or excerpt in archive pages?"
+msgstr "アーカイブで全文を表示しますか ?"
+
+#: /functions.php:212
+msgid "Displaying only excerpt in archive pages is a better SEO practice."
+msgstr "SEO 手法的には、アーカイブでは「抜粋だけ」が望ましいでしょう。"
+
+#: /functions.php:215
+msgid "Full post"
+msgstr "投稿の全文"
+
+#: /functions.php:216
+msgid "Only excerpt"
+msgstr "抜粋だけ"
+
+#: /functions.php:226
+msgid "Footer"
+msgstr "フッター"
+
+#: /functions.php:230
+msgid "Footer text"
+msgstr "フッターに表示する文"
+
+#: /functions.php:240
+msgid "General options"
+msgstr "その他のオプション"
+
+#: /functions.php:244
+msgid "Rounded corners?"
+msgstr "角を丸めますか ?"
+
+#: /functions.php:245
+msgid ""
+"Rounded corners add to the fluid nature of the theme. Note that this will "
+"add non-standard CSS code."
+msgstr ""
+"このテーマの可変幅の性質に丸い角(すみ)を追加します。なお、非標準の CSS コード"
+"を追加することになりますので、ご注意ください。"
+
+#: /functions.php:258 /functions.php:400
+msgid "Save changes"
+msgstr "変更を保存"
+
+#: /functions.php:274 /functions.php:401
+msgid "Reset to defaults"
+msgstr "デフォルト設定に戻す"
+
+#: /functions.php:282 /functions.php:295
+msgid "Settings"
+msgstr "設定"
+
+#: /functions.php:290
+msgid "Settings saved"
+msgstr "設定を保存しました"
+
+#: /functions.php:291
+msgid "Settings reset"
+msgstr "設定を元に戻しました"
+
+#: /functions.php:301
+msgid "version"
+msgstr "バージョン"
+
+#: /functions.php:301
+#, php-format
+msgid "Visit <a href=\"%s\">theme page</a>"
+msgstr "<a href=\"%s\">テーマのページ</a>へ行く"
+
+#: /functions.php:301
+#, php-format
+msgid "View <a href=\"%s\">readme</a>"
+msgstr "<a href=\"%s\">readme</a>を見る"
+
+#: /functions.php:303
+msgid "Header Settings"
+msgstr "ヘッダーの設定"
+
+#: /functions.php:304
+msgid "Sidebar Settings"
+msgstr "サイドバーの設定"
+
+#: /functions.php:305
+msgid "Posts Settings"
+msgstr "投稿の設定"
+
+#: /functions.php:306
+msgid "Footer Settings"
+msgstr "フッターの設定"
+
+#: /functions.php:307
+msgid "General Settings"
+msgstr "その他の設定"
+
+#: /functions.php:312
+msgid ""
+"If you enjoy the theme, you can make a donation and support development. "
+"Thank you!"
+msgstr ""
+"このテーマをお気に入っていただけましたら、どうか寄附によって開発を援助してく"
+"ださい。ありがとうございました。"
+
+#: /functions.php:352
+msgid "Close colorpicker"
+msgstr "カラーピッカーを閉じる"
+
+#: /sidebar.php:6
+msgid "Pages"
+msgstr "ページ"
+
+#: /sidebar.php:8
+msgid "Categories"
+msgstr "カテゴリー"
+
+#: /sidebar.php:14 /archives.php:11
+msgid "Archives"
+msgstr "アーカイブ"
+
+#: /sidebar.php:19 /archives.php:25
+msgid "Tags"
+msgstr "タグ"
+
+#: /sidebar.php:36
+msgid "Meta"
+msgstr "メタ情報"
+
+#: /sidebar.php:40
+msgid "This page validates as XHTML 1.0 Transitional"
+msgstr "このページが XHTML 1.0 Transitional に準拠しているか確認する"
+
+#: /sidebar.php:41
+msgid "XHTML Friends Network"
+msgstr "XHTML Friends Network"
+
+#: /sidebar.php:42
+msgid ""
+"Powered by WordPress, state-of-the-art semantic personal publishing platform."
+msgstr ""
+"Powered by WordPress, state-of-the-art semantic personal publishing platform."
+
+#: /index.php:10 /archive.php:35 /single.php:36 /search.php:11
+#, php-format
+msgid "Permanent Link to %s"
+msgstr "%s へのパーマリンク"
+
+#: /index.php:13 /image.php:13 /archive.php:38 /single.php:15 /search.php:14
+msgid "Posted by"
+msgstr "作者:"
+
+#: /index.php:13 /image.php:13 /archive.php:38 /single.php:15 /search.php:14
+msgid "on"
+msgstr " "
+
+#: /index.php:15 /image.php:15 /archive.php:40 /single.php:17 /search.php:16
+msgid "j F Y, g:i a"
+msgstr "Y年n月j日 G:i"
+
+#: /index.php:17
+msgid "Sticky post"
+msgstr "固定の投稿"
+
+#: /index.php:22 /archive.php:46
+#, php-format
+msgid "Continue reading ‘%s’ »"
+msgstr "続きを読む ‘%s’ »"
+
+#: /index.php:28 /image.php:29 /archive.php:56 /single.php:27 /search.php:26
+msgid "Filed under"
+msgstr "カテゴリー:"
+
+#: /index.php:31 /image.php:32 /archive.php:59 /single.php:30 /search.php:29
+msgid "Tagged"
+msgstr "タグ:"
+
+#: /index.php:36 /archive.php:64 /search.php:34
+msgid "1 Comment"
+msgstr "コメント"
+
+#: /index.php:36 /archive.php:64 /comments.php:19 /search.php:34
+msgid "% Comments"
+msgstr "コメント"
+
+#: /index.php:46 /archive.php:28 /archive.php:74
+msgid "&laquo; Older Entries"
+msgstr "&laquo; 古いエントリーへ"
+
+#: /index.php:47 /archive.php:29 /archive.php:75
+msgid "Newer Entries &raquo;"
+msgstr "新しいエントリーへ &raquo;"
+
+#: /header.php:33
+msgid "Home"
+msgstr "ホーム"
+
+#: /header.php:35
+msgid "Feed"
+msgstr "フィード"
+
+#: /archive.php:8
+#, php-format
+msgid "Archive of posts filed under the %s category."
+msgstr "カテゴリー %s のアーカイブ"
+
+#: /archive.php:11
+#, php-format
+msgid "Archive of posts tagged %s"
+msgstr "タグ %s のアーカイブ"
+
+#: /archive.php:14 /archive.php:17
+#, php-format
+msgid "Archive of entries posted on %s"
+msgstr "%s に投稿されたエントリーのアーカイブ"
+
+#: /archive.php:14
+msgid "jS F Y"
+msgstr "Y年n月j日"
+
+#: /archive.php:17
+msgid "F Y"
+msgstr "Y年n月"
+
+#: /archive.php:20
+#, php-format
+msgid "Archive of entries posted in the year %s"
+msgstr "%s 年に投稿されたエントリーのアーカイブ"
+
+#: /archive.php:23
+#, php-format
+msgid "Archive of entries posted by %s"
+msgstr "%s によって投稿されたエントリーのアーカイブ"
+
+#: /404.php:5
+msgid "Error"
+msgstr "エラー"
+
+#: /comments.php:4
+msgid "Please do not load this page directly. Thanks!"
+msgstr "このページを直接読み込まないでください。"
+
+#: /comments.php:7
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+"この投稿はパスワードで保護されています。コメントを閲覧するにはパスワードを入"
+"力してください。"
+
+#: /comments.php:19
+msgid "No Comments"
+msgstr "コメントはありません"
+
+#: /comments.php:19
+msgid "One Comment"
+msgstr "コメント"
+
+#: /comments.php:25
+msgid "Reply to this comment"
+msgstr "このコメントに返信する"
+
+#: /comments.php:40
+msgid "Leave a Reply"
+msgstr "コメントをどうぞ"
+
+#: /comments.php:40
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr "%s にコメントする"
+
+#: /comments.php:47
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr "コメントを投稿するには<a href=\"%s\">ログイン</a>してください。"
+
+#: /comments.php:54
+#, php-format
+msgid ""
+"Logged in as %s. <a href=\"%s\" title=\"Log out of this account\">Log out "
+"&raquo;</a>"
+msgstr ""
+"%s としてログイン中。<a href=\"%s\" title=\"このアカウントからログアウトする"
+"\">ログアウト &raquo;</a>"
+
+#: /comments.php:59
+msgid "Name"
+msgstr "お名前"
+
+#: /comments.php:59 /comments.php:62
+msgid "required"
+msgstr "必須"
+
+#: /comments.php:62
+msgid "Mail"
+msgstr "メールアドレス"
+
+#: /comments.php:62
+msgid "will not be published"
+msgstr "公開されません"
+
+#: /comments.php:65
+msgid "Website"
+msgstr "ウェブサイト"
+
+#: /comments.php:73
+msgid "Submit Comment"
+msgstr "コメント送信"
+
+#: /archives.php:13
+msgid "Archives by Month"
+msgstr "月別のアーカイブ"
+
+#: /archives.php:18
+msgid "Archives by Subject"
+msgstr "カテゴリー別アーカイブ"
+
+#: /search.php:6
+#, php-format
+msgid "Search results for %s"
+msgstr "%s の検索結果"
+
+#: /search.php:44
+msgid "&laquo; Previous Entries"
+msgstr "&laquo; 前のエントリーへ"
+
+#: /search.php:45
+msgid "Next Entries &raquo;"
+msgstr "次のエントリーへ &raquo;"

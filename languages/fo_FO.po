@@ -1,0 +1,654 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: F2 v1.0.6\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2009-10-29 06:49-0500\n"
+"Last-Translator: Hjalti á Lava <hlava2005@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: Faroese\n"
+"X-Poedit-Country: FAROE ISLANDS\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: 404.php:5
+#@ f2
+msgid "Error"
+msgstr "Fejlur"
+
+#: 404.php:5
+#: archive.php:80
+#: image.php:44
+#: index.php:52
+#: page.php:27
+#: search.php:50
+#: single.php:52
+#@ f2
+msgid "Not Found"
+msgstr "Einki funnið"
+
+#: archive.php:8
+#, php-format
+#@ f2
+msgid "Archive of posts filed under the %s category."
+msgstr "Arkiv av postum sum eru goymdir undir %s bólkinum."
+
+#: archive.php:11
+#, php-format
+#@ f2
+msgid "Archive of posts tagged %s"
+msgstr "Arkiv av postum merktir %s"
+
+#: archive.php:14
+#: archive.php:17
+#, php-format
+#@ f2
+msgid "Archive of entries posted on %s"
+msgstr "Arkiv av innleggum skriva tann %s"
+
+#: archive.php:14
+msgid "jS F Y"
+msgstr ""
+
+#: archive.php:17
+msgid "F Y"
+msgstr ""
+
+#: archive.php:20
+#, php-format
+#@ f2
+msgid "Archive of entries posted in the year %s"
+msgstr "Arkiv av innleggum skriva í árinum %s"
+
+#: archive.php:23
+#, php-format
+#@ f2
+msgid "Archive of entries posted by %s"
+msgstr "Arkiv av innleggum skriva av %s"
+
+#: archive.php:28
+#: archive.php:74
+#: index.php:46
+#@ f2
+msgid "&laquo; Older Entries"
+msgstr "&laquo; Eldri innlegg"
+
+#: archive.php:29
+#: archive.php:75
+#: index.php:47
+#@ f2
+msgid "Newer Entries &raquo;"
+msgstr "Nýggjari innlegg &raquo;"
+
+#: archive.php:35
+#: index.php:10
+#: search.php:11
+#: single.php:36
+#, php-format
+#@ f2
+msgid "Permanent Link to %s"
+msgstr "Permanent leinkja til %s"
+
+#: archive.php:38
+#: image.php:13
+#: index.php:13
+#: search.php:14
+#: single.php:15
+#@ f2
+msgid "Posted by"
+msgstr "Skriva av"
+
+#: archive.php:38
+#: image.php:13
+#: index.php:13
+#: search.php:14
+#: single.php:15
+#@ f2
+msgid "on"
+msgstr "tann"
+
+#: archive.php:40
+#: image.php:15
+#: index.php:15
+#: search.php:16
+#: single.php:17
+#@ f2
+msgid "j F Y, g:i a"
+msgstr "j F Y, g:i a"
+
+#: archive.php:46
+#: index.php:22
+#, php-format
+#@ f2
+msgid "Continue reading ‘%s’ »"
+msgstr "Halt áfram at lesa ‘%s’ »"
+
+#: archive.php:56
+#: image.php:29
+#: index.php:28
+#: search.php:26
+#: single.php:27
+#@ f2
+msgid "Filed under"
+msgstr "Goymt undir"
+
+#: archive.php:59
+#: image.php:32
+#: index.php:31
+#: search.php:29
+#: single.php:30
+#@ f2
+msgid "Tagged"
+msgstr "Merkt"
+
+#: archive.php:64
+#: image.php:35
+#: index.php:36
+#: page.php:14
+#: search.php:34
+#: single.php:33
+#@ f2
+msgid "Comment"
+msgstr "Viðmerking"
+
+#: archive.php:64
+#: index.php:36
+#: search.php:34
+#@ f2
+msgid "1 Comment"
+msgstr "1 viðmerking"
+
+#: archive.php:64
+#: comments.php:19
+#: index.php:36
+#: search.php:34
+#@ f2
+msgid "% Comments"
+msgstr "% viðmerkingar"
+
+#: archive.php:66
+#: image.php:38
+#: index.php:38
+#: page.php:17
+#: search.php:36
+#: single.php:37
+#@ f2
+msgid "Edit"
+msgstr "Broyt"
+
+#: archive.php:81
+#: image.php:45
+#: index.php:53
+#: page.php:28
+#: search.php:51
+#: single.php:53
+#@ f2
+msgid "Sorry, no posts matched your criteria."
+msgstr "Tíðanverri, eingin postur svaraði til tína leiting."
+
+#: archives.php:11
+#: sidebar.php:14
+#@ f2
+msgid "Archives"
+msgstr "Arkiv"
+
+#: archives.php:13
+#@ f2
+msgid "Archives by Month"
+msgstr "Arkiv bólka eftir mánaði"
+
+#: archives.php:18
+#@ f2
+msgid "Archives by Subject"
+msgstr "Arkiv bólka eftir evni"
+
+#: archives.php:25
+#: sidebar.php:19
+#@ f2
+msgid "Tags"
+msgstr "Frámerki"
+
+#: comments.php:4
+#@ f2
+msgid "Please do not load this page directly. Thanks!"
+msgstr "Vinarliga ikki lesa hesa síðu beinleiðis. Takk!"
+
+#: comments.php:7
+#@ f2
+msgid "This post is password protected. Enter the password to view comments."
+msgstr "Hesin postur er vardur við loyniorð. Skriva loyniorð fyri at síggja viðmerkingar."
+
+#: comments.php:19
+#@ f2
+msgid "No Comments"
+msgstr "Eingin viðmerking"
+
+#: comments.php:19
+#@ f2
+msgid "One Comment"
+msgstr "Ein viðmerking"
+
+#: comments.php:25
+#@ f2
+msgid "Reply to this comment"
+msgstr "Svara hesari viðmerking"
+
+#: comments.php:40
+#@ f2
+msgid "Leave a Reply"
+msgstr "Skriva eina viðmerking"
+
+#: comments.php:40
+#, php-format
+#@ f2
+msgid "Leave a Reply to %s"
+msgstr "Skriva eina viðmerking til %s"
+
+#: comments.php:47
+#, php-format
+#@ f2
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr "Tú mást vera <a href=\"%s\">loggaður á</a> fyri at skriva viðmerking."
+
+#: comments.php:54
+#, php-format
+#@ f2
+msgid "Logged in as %s. <a href=\"%s\" title=\"Log out of this account\">Log out &raquo;</a>"
+msgstr "Loggaður á sum %s. <a href=\"%s\" title=\"Logga av hesari konto\">Logga av &raquo;</a>"
+
+#: comments.php:59
+#@ f2
+msgid "Name"
+msgstr "Navn"
+
+#: comments.php:59
+#: comments.php:62
+#@ f2
+msgid "required"
+msgstr "kravt"
+
+#: comments.php:62
+#@ f2
+msgid "Mail"
+msgstr "e-mail"
+
+#: comments.php:62
+#@ f2
+msgid "will not be published"
+msgstr "verður ikki lagt út alment"
+
+#: comments.php:65
+#@ f2
+msgid "Website"
+msgstr "Heimasíða"
+
+#: comments.php:73
+#@ f2
+msgid "Submit Comment"
+msgstr "Send viðmerking"
+
+#: functions.php:22
+#@ f2
+msgid "Header"
+msgstr ""
+
+#: functions.php:26
+#@ f2
+msgid "Header background image?"
+msgstr ""
+
+#: functions.php:32
+#@ f2
+msgid "Header background image URL"
+msgstr ""
+
+#: functions.php:33
+#@ f2
+msgid "Tip: <a target=\"_blank\" href=\"media-new.php\">Upload your image here</a> and grab the url."
+msgstr ""
+
+#: functions.php:40
+#@ f2
+msgid "Repeat header background image?"
+msgstr ""
+
+#: functions.php:48
+#@ f2
+msgid "Show blog title & tagline in header?"
+msgstr ""
+
+#: functions.php:49
+#@ f2
+msgid "You may uncheck this option if you use a background image as logo."
+msgstr ""
+
+#: functions.php:56
+#@ f2
+msgid "Header height"
+msgstr ""
+
+#: functions.php:64
+#@ f2
+msgid "Header background color"
+msgstr ""
+
+#: functions.php:72
+#@ f2
+msgid "Blog title font color"
+msgstr ""
+
+#: functions.php:80
+#@ f2
+msgid "Blog tagline font color"
+msgstr ""
+
+#: functions.php:88
+#@ f2
+msgid "Show horizontal menu?"
+msgstr ""
+
+#: functions.php:95
+#@ f2
+msgid "Pages to be excluded in horizontal menu"
+msgstr ""
+
+#: functions.php:96
+#@ f2
+msgid "Comma separated page IDs"
+msgstr ""
+
+#: functions.php:103
+#@ f2
+msgid "Show RSS feed link in horizontal menu?"
+msgstr ""
+
+#: functions.php:114
+#@ f2
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:118
+#@ f2
+msgid "Show left sidebar?"
+msgstr ""
+
+#: functions.php:125
+#@ f2
+msgid "Left sidebar width?"
+msgstr ""
+
+#: functions.php:134
+#@ f2
+msgid "Left sidebar fontsize"
+msgstr ""
+
+#: functions.php:138
+#: functions.php:168
+#: functions.php:189
+#@ f2
+msgid "small"
+msgstr ""
+
+#: functions.php:139
+#: functions.php:169
+#: functions.php:190
+#@ f2
+msgid "medium"
+msgstr ""
+
+#: functions.php:140
+#: functions.php:170
+#: functions.php:191
+#@ f2
+msgid "large"
+msgstr ""
+
+#: functions.php:148
+#@ f2
+msgid "Show right sidebar?"
+msgstr ""
+
+#: functions.php:155
+#@ f2
+msgid "Right sidebar width?"
+msgstr ""
+
+#: functions.php:164
+#@ f2
+msgid "Right sidebar fontsize"
+msgstr ""
+
+#: functions.php:181
+#@ f2
+msgid "Blog posts"
+msgstr ""
+
+#: functions.php:185
+#@ f2
+msgid "Blog post text size"
+msgstr ""
+
+#: functions.php:197
+#@ f2
+msgid "Show post author?"
+msgstr ""
+
+#: functions.php:204
+#@ f2
+msgid "Show post category?"
+msgstr ""
+
+#: functions.php:211
+#@ f2
+msgid "Full post or excerpt in archive pages?"
+msgstr ""
+
+#: functions.php:212
+#@ f2
+msgid "Displaying only excerpt in archive pages is a better SEO practice."
+msgstr ""
+
+#: functions.php:215
+#@ f2
+msgid "Full post"
+msgstr ""
+
+#: functions.php:216
+#@ f2
+msgid "Only excerpt"
+msgstr ""
+
+#: functions.php:226
+#@ f2
+msgid "Footer"
+msgstr ""
+
+#: functions.php:230
+#@ f2
+msgid "Footer text"
+msgstr ""
+
+#: functions.php:240
+#@ f2
+msgid "General options"
+msgstr ""
+
+#: functions.php:244
+#@ f2
+msgid "Rounded corners?"
+msgstr ""
+
+#: functions.php:245
+#@ f2
+msgid "Rounded corners add to the fluid nature of the theme. Note that this will add non-standard CSS code."
+msgstr ""
+
+#: functions.php:258
+#: functions.php:400
+#@ f2
+msgid "Save changes"
+msgstr ""
+
+#: functions.php:274
+#: functions.php:401
+#@ f2
+msgid "Reset to defaults"
+msgstr ""
+
+#: functions.php:282
+#: functions.php:295
+#@ f2
+msgid "Settings"
+msgstr ""
+
+#: functions.php:290
+#@ f2
+msgid "Settings saved"
+msgstr ""
+
+#: functions.php:291
+#@ f2
+msgid "Settings reset"
+msgstr ""
+
+#: functions.php:301
+#@ f2
+msgid "version"
+msgstr ""
+
+#: functions.php:301
+#, php-format
+#@ f2
+msgid "Visit <a href=\"%s\">theme page</a>"
+msgstr ""
+
+#: functions.php:301
+#, php-format
+#@ f2
+msgid "View <a href=\"%s\">readme</a>"
+msgstr ""
+
+#: functions.php:303
+#@ f2
+msgid "Header Settings"
+msgstr ""
+
+#: functions.php:304
+#@ f2
+msgid "Sidebar Settings"
+msgstr ""
+
+#: functions.php:305
+#@ f2
+msgid "Posts Settings"
+msgstr ""
+
+#: functions.php:306
+#@ f2
+msgid "Footer Settings"
+msgstr ""
+
+#: functions.php:307
+#@ f2
+msgid "General Settings"
+msgstr ""
+
+#: functions.php:312
+#@ f2
+msgid "If you enjoy the theme, you can make a donation and support development. Thank you!"
+msgstr ""
+
+#: functions.php:352
+#@ f2
+msgid "Close colorpicker"
+msgstr ""
+
+#: header.php:33
+#@ f2
+msgid "Home"
+msgstr "Heim"
+
+#: header.php:35
+#@ f2
+msgid "Feed"
+msgstr "Tíðindi"
+
+#: image.php:35
+#: page.php:14
+#: single.php:33
+#@ f2
+msgid "Comments are closed"
+msgstr "Viðmerkingar eru stongdar"
+
+#: image.php:36
+#: page.php:15
+#: single.php:34
+#@ f2
+msgid "Trackback"
+msgstr ""
+
+#: index.php:17
+msgid "Sticky post"
+msgstr ""
+
+#: links.php:12
+#@ f2
+msgid "Links"
+msgstr "Leinkjur"
+
+#: page.php:10
+#: single.php:21
+#@ f2
+msgid "Pages:"
+msgstr "Síður:"
+
+#: search.php:6
+#, php-format
+#@ f2
+msgid "Search results for %s"
+msgstr "Leitiúrslit fyri  %s"
+
+#: search.php:44
+#@ f2
+msgid "&laquo; Previous Entries"
+msgstr "&laquo; Fyrru innlegg"
+
+#: search.php:45
+#@ f2
+msgid "Next Entries &raquo;"
+msgstr "Næstu innlegg &raquo;"
+
+#: sidebar.php:6
+#@ f2
+msgid "Pages"
+msgstr "Síður"
+
+#: sidebar.php:8
+#@ f2
+msgid "Categories"
+msgstr "Bólkar"
+
+#: sidebar.php:36
+msgid "Meta"
+msgstr ""
+
+#: sidebar.php:40
+msgid "This page validates as XHTML 1.0 Transitional"
+msgstr ""
+
+#: sidebar.php:41
+msgid "XHTML Friends Network"
+msgstr ""
+
+#: sidebar.php:42
+msgid "Powered by WordPress, state-of-the-art semantic personal publishing platform."
+msgstr ""
+

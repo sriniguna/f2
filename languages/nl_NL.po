@@ -1,0 +1,539 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: F2 1.0\n"
+"Report-Msgid-Bugs-To: srinig.com@gmail.com\n"
+"POT-Creation-Date: 2009-08-26 09:36+0530\n"
+"PO-Revision-Date: 2009-09-18 10:25+0100\n"
+"Last-Translator: R.Helmes <rob345    AT         gmail       DOT      com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Dutch\n"
+"X-Poedit-Country: UK\n"
+
+#: /links.php:12
+msgid "Links"
+msgstr "Links"
+
+#: /page.php:10
+#: /single.php:21
+msgid "Pages:"
+msgstr "Pagina's:"
+
+#: /page.php:14
+#: /index.php:33
+#: /image.php:35
+#: /archive.php:64
+#: /single.php:33
+#: /search.php:34
+msgid "Comment"
+msgstr "Commentaar"
+
+#: /page.php:14
+#: /image.php:35
+#: /single.php:33
+msgid "Comments are closed"
+msgstr "Commentaar afgesloten"
+
+#: /page.php:15
+#: /image.php:36
+#: /single.php:34
+msgid "Trackback"
+msgstr "Terugverwijzing"
+
+#: /page.php:17
+#: /index.php:35
+#: /image.php:38
+#: /archive.php:66
+#: /single.php:37
+#: /search.php:36
+msgid "Edit"
+msgstr "Wijzig"
+
+#: /page.php:27
+#: /index.php:49
+#: /image.php:44
+#: /archive.php:80
+#: /404.php:5
+#: /single.php:52
+#: /search.php:50
+msgid "Not Found"
+msgstr "Niet gevonden"
+
+#: /page.php:28
+#: /index.php:50
+#: /image.php:45
+#: /archive.php:81
+#: /single.php:53
+#: /search.php:51
+msgid "Sorry, no posts matched your criteria."
+msgstr "Sorry, geen van de berichten voldoen aan de criteria"
+
+#: /functions.php:22
+msgid "Header"
+msgstr "Kop"
+
+#: /functions.php:26
+msgid "Header background image?"
+msgstr "Kop achtergrond plaatje?"
+
+#: /functions.php:32
+msgid "Header background image URL"
+msgstr "Kop achtergrond plaatje URL"
+
+#: /functions.php:33
+msgid "Tip: <a target=\"_blank\" href=\"media-new.php\">Upload your image here</a> and grab the url."
+msgstr "Tip: <a target=\"_blank\" href=\"media-new.php\">Upload het plaatje hier</a> en kopieer de url."
+
+#: /functions.php:40
+msgid "Repeat header background image?"
+msgstr "Achtergrond plaatje herhalen in de kop?"
+
+#: /functions.php:48
+msgid "Show blog title & tagline in header?"
+msgstr "Blog titel en de koptekst laten zien in de kop?"
+
+#: /functions.php:49
+msgid "You may uncheck this option if you use a background image as logo."
+msgstr "Vink deze optie uit als een achtergrondplaatje gebruikt wordt als logo."
+
+#: /functions.php:56
+msgid "Header height"
+msgstr "Hoogte van de kop"
+
+#: /functions.php:64
+msgid "Header background color"
+msgstr "Achtergrond kleur kop"
+
+#: /functions.php:72
+msgid "Blog title font color"
+msgstr "Blog titel tekst kleur"
+
+#: /functions.php:80
+msgid "Blog tagline font color"
+msgstr "Blog tagline lettertype kleur"
+
+#: /functions.php:88
+msgid "Show horizontal menu?"
+msgstr "Horizontaal menu tonen?"
+
+#: /functions.php:95
+msgid "Pages to be excluded in horizontal menu"
+msgstr "Pagina's die niet getoond moeten worden in het horizontale menu"
+
+#: /functions.php:96
+msgid "Comma separated page IDs"
+msgstr "Komma gescheiden pagina ID's"
+
+#: /functions.php:103
+msgid "Show RSS feed link in horizontal menu?"
+msgstr "RSS feed laten zien in het horizontale menu?"
+
+#: /functions.php:114
+msgid "Sidebar"
+msgstr "Zijbalk"
+
+#: /functions.php:118
+msgid "Show left sidebar?"
+msgstr "Linker zijbalk laten zien?"
+
+#: /functions.php:125
+msgid "Left sidebar width?"
+msgstr "Linker zijbalk breedte?"
+
+#: /functions.php:134
+msgid "Left sidebar fontsize"
+msgstr "Linker zijbalk lettergrootte?"
+
+#: /functions.php:138
+#: /functions.php:168
+#: /functions.php:189
+msgid "small"
+msgstr "klein"
+
+#: /functions.php:139
+#: /functions.php:169
+#: /functions.php:190
+msgid "medium"
+msgstr "gemiddeld"
+
+#: /functions.php:140
+#: /functions.php:170
+#: /functions.php:191
+msgid "large"
+msgstr "groot"
+
+#: /functions.php:148
+msgid "Show right sidebar?"
+msgstr "Rechter zijbalk tonen?"
+
+#: /functions.php:155
+msgid "Right sidebar width?"
+msgstr "Rechter zijbalk breedte?"
+
+#: /functions.php:164
+msgid "Right sidebar fontsize"
+msgstr "Rechter zijbalk lettergrootte"
+
+#: /functions.php:181
+msgid "Blog posts"
+msgstr "Blog berichten"
+
+#: /functions.php:185
+msgid "Blog post text size"
+msgstr "Blog bericht tekst grootte"
+
+#: /functions.php:197
+msgid "Show post author?"
+msgstr "Auteur van het bericht tonen?"
+
+#: /functions.php:204
+msgid "Show post category?"
+msgstr "Berichtencategorie tonen?"
+
+#: /functions.php:211
+msgid "Full post or excerpt in archive pages?"
+msgstr "Volledig bericht of samenvatting tonen op de archief pagina's?"
+
+#: /functions.php:212
+msgid "Displaying only excerpt in archive pages is a better SEO practice."
+msgstr "Alleen de samenvatting tonen is meer zoekmachine (SEO) vriendelijk"
+
+#: /functions.php:215
+msgid "Full post"
+msgstr "Volledig bericht"
+
+#: /functions.php:216
+msgid "Only excerpt"
+msgstr "Alleen samenvatting"
+
+#: /functions.php:226
+msgid "Footer"
+msgstr "Voet"
+
+#: /functions.php:230
+msgid "Footer text"
+msgstr "Voettekst"
+
+#: /functions.php:240
+msgid "General options"
+msgstr "Algemene instellingen"
+
+#: /functions.php:244
+msgid "Rounded corners?"
+msgstr "Afgeronde hoeken?"
+
+#: /functions.php:245
+msgid "Rounded corners add to the fluid nature of the theme. Note that this will add non-standard CSS code."
+msgstr "Afgeronde hoeken dragen bij aan de fluide kenmerken van het thema. Let op dat er geen standaard CSS code wordt gebruikt."
+
+#: /functions.php:258
+#: /functions.php:400
+msgid "Save changes"
+msgstr "Wijzigingen opslaan"
+
+#: /functions.php:274
+#: /functions.php:401
+msgid "Reset to defaults"
+msgstr "Terug naar standaard instellingen"
+
+#: /functions.php:282
+#: /functions.php:295
+msgid "Settings"
+msgstr "Instellingen"
+
+#: /functions.php:290
+msgid "Settings saved"
+msgstr "Instellingen opgeslagen"
+
+#: /functions.php:291
+msgid "Settings reset"
+msgstr "Instellingen gereset"
+
+#: /functions.php:301
+msgid "version"
+msgstr "versie"
+
+#: /functions.php:301
+#, php-format
+msgid "Visit <a href=\"%s\">theme page</a>"
+msgstr "Bezoek <a href=\"%s\">theme pagina</a>"
+
+#: /functions.php:301
+#, php-format
+msgid "View <a href=\"%s\">readme</a>"
+msgstr "Toon <a href=\"%s\">de leesmij pagina</a>"
+
+#: /functions.php:303
+msgid "Header Settings"
+msgstr "Kop instellingen"
+
+#: /functions.php:304
+msgid "Sidebar Settings"
+msgstr "Zijbalk instellingen"
+
+#: /functions.php:305
+msgid "Posts Settings"
+msgstr "Berichten instellingen"
+
+#: /functions.php:306
+msgid "Footer Settings"
+msgstr "Voet instellingen"
+
+#: /functions.php:307
+msgid "General Settings"
+msgstr "Algemene instellingen"
+
+#: /functions.php:312
+msgid "If you enjoy the theme, you can make a donation and support development. Thank you!"
+msgstr "Als je het thema goed vindt kun je een donatie doen en de verdere ontwikkeling steunen. Alvast bedankt!"
+
+#: /functions.php:352
+msgid "Close colorpicker"
+msgstr "Sluit Kleurzoeker"
+
+#: /sidebar.php:6
+msgid "Pages"
+msgstr "Pagina's"
+
+#: /sidebar.php:8
+msgid "Categories"
+msgstr "Categorieën"
+
+#: /sidebar.php:14
+#: /archives.php:11
+msgid "Archives"
+msgstr "Archieven"
+
+#: /sidebar.php:19
+#: /archives.php:25
+msgid "Tags"
+msgstr "Tags"
+
+#: /sidebar.php:36
+msgid "Meta"
+msgstr "Meta"
+
+#: /sidebar.php:40
+msgid "This page validates as XHTML 1.0 Transitional"
+msgstr "Deze pagina is XHTML 1.0 Transitional gevalideerd"
+
+#: /sidebar.php:41
+msgid "XHTML Friends Network"
+msgstr "XHTML vrienden netwerk"
+
+#: /sidebar.php:42
+msgid "Powered by WordPress, state-of-the-art semantic personal publishing platform."
+msgstr "Gemaakt met WordPress, state-of-the-art semantisch persoonlijk publicatie platform"
+
+#: /index.php:10
+#: /archive.php:35
+#: /single.php:36
+#: /search.php:11
+#, php-format
+msgid "Permanent Link to %s"
+msgstr "Permanente link naar %s"
+
+#: /index.php:13
+#: /image.php:13
+#: /archive.php:38
+#: /single.php:15
+#: /search.php:14
+msgid "Posted by"
+msgstr "Gepost door"
+
+#: /index.php:13
+#: /image.php:13
+#: /archive.php:38
+#: /single.php:15
+#: /search.php:14
+msgid "on"
+msgstr "op"
+
+#: /index.php:15
+#: /image.php:15
+#: /archive.php:40
+#: /single.php:17
+#: /search.php:16
+msgid "j F Y, g:i a"
+msgstr "j F Y, g:i a"
+
+#: /index.php:19
+#: /archive.php:46
+#, php-format
+msgid "Continue reading ‘%s’ »"
+msgstr "Lees verder ‘%s’ »"
+
+#: /index.php:25
+#: /image.php:29
+#: /archive.php:56
+#: /single.php:27
+#: /search.php:26
+msgid "Filed under"
+msgstr "Opgeslagen onder"
+
+#: /index.php:28
+#: /image.php:32
+#: /archive.php:59
+#: /single.php:30
+#: /search.php:29
+msgid "Tagged"
+msgstr "Getagged"
+
+#: /index.php:33
+#: /archive.php:64
+#: /search.php:34
+msgid "1 Comment"
+msgstr "1 Commentaar"
+
+#: /index.php:33
+#: /archive.php:64
+#: /comments.php:19
+#: /search.php:34
+msgid "% Comments"
+msgstr "% commentaren"
+
+#: /index.php:43
+#: /archive.php:28
+#: /archive.php:74
+msgid "&laquo; Older Entries"
+msgstr "&laquo; Oudere berichten"
+
+#: /index.php:44
+#: /archive.php:29
+#: /archive.php:75
+msgid "Newer Entries &raquo;"
+msgstr "Nieuwere berichten &raquo;"
+
+#: /header.php:32
+msgid "Home"
+msgstr "Home"
+
+#: /header.php:34
+msgid "Feed"
+msgstr "Feed"
+
+#: /archive.php:8
+#, php-format
+msgid "Archive of posts filed under the %s category."
+msgstr "Berichtenarchief opgeslagen in catergorie %s"
+
+#: /archive.php:11
+#, php-format
+msgid "Archive of posts tagged %s"
+msgstr "Berichtenarchief gemarkeerd met %s"
+
+#: /archive.php:14
+#: /archive.php:17
+#, php-format
+msgid "Archive of entries posted on %s"
+msgstr "Archief van berichten gepost op %s"
+
+#: /archive.php:14
+msgid "jS F Y"
+msgstr "F jS Y"
+
+#: /archive.php:17
+msgid "F Y"
+msgstr "F Y"
+
+#: /archive.php:20
+#, php-format
+msgid "Archive of entries posted in the year %s"
+msgstr "Archief van berichten gepost in het jaar %s"
+
+#: /archive.php:23
+#, php-format
+msgid "Archive of entries posted by %s"
+msgstr "Archief van berichten gepost door %s"
+
+#: /404.php:5
+msgid "Error"
+msgstr "Fout"
+
+#: /comments.php:4
+msgid "Please do not load this page directly. Thanks!"
+msgstr "Laad deze pagina niet direct. Bedankt!"
+
+#: /comments.php:7
+msgid "This post is password protected. Enter the password to view comments."
+msgstr "Dit bericht is wachtwoord beschermd. Voer het wachtwoord in om hert commentaar te bekijken."
+
+#: /comments.php:19
+msgid "No Comments"
+msgstr "Geen commentaar"
+
+#: /comments.php:19
+msgid "One Comment"
+msgstr "Één commentaar"
+
+#: /comments.php:25
+msgid "Reply to this comment"
+msgstr "Reageer op dit commentaar"
+
+#: /comments.php:40
+msgid "Leave a Reply"
+msgstr "Laat een bericht achter"
+
+#: /comments.php:40
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr "Laat een bericht achter voor %s"
+
+#: /comments.php:47
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr "U moet <a href=\"%s\"> ingelogd zijn</a> om een reactie te posten."
+
+#: /comments.php:54
+#, php-format
+msgid "Logged in as %s. <a href=\"%s\" title=\"Log out of this account\">Log out &raquo;</a>"
+msgstr "Ingelogd als %s. <a href=\"%s\" title=\"Log uit\">Log uit &raquo;</a>"
+
+#: /comments.php:59
+msgid "Name"
+msgstr "Naam"
+
+#: /comments.php:59
+#: /comments.php:62
+msgid "required"
+msgstr "verplicht"
+
+#: /comments.php:62
+msgid "Mail"
+msgstr "Mail"
+
+#: /comments.php:62
+msgid "will not be published"
+msgstr "wordt niet gepubliceerd"
+
+#: /comments.php:65
+msgid "Website"
+msgstr "Website"
+
+#: /comments.php:73
+msgid "Submit Comment"
+msgstr "Commentaar indienen"
+
+#: /archives.php:13
+msgid "Archives by Month"
+msgstr "Archieven per maand"
+
+#: /archives.php:18
+msgid "Archives by Subject"
+msgstr "Archieven per onderwerp"
+
+#: /search.php:6
+#, php-format
+msgid "Search results for %s"
+msgstr "Zoek resultaten voor %s"
+
+#: /search.php:44
+msgid "&laquo; Previous Entries"
+msgstr "&laquo; Oudere berichten"
+
+#: /search.php:45
+msgid "Next Entries &raquo;"
+msgstr "Nieuwere berichten &raquo;"
+

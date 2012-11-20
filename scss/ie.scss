@@ -1,0 +1,142 @@
+/* Welcome to Compass. Use this file to write IE specific override styles.
+ * Import this file using the following HTML or equivalent:
+ * <!--[if IE]>
+ *   <link href="/stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
+ * <![endif]--> */
+
+body {
+	padding: 20px;
+}
+
+.site-header {
+	text-align: left;
+	hgroup {
+		padding: 20px;
+	}
+}
+
+#header-image {
+	padding: 20px;
+}
+
+.sidebar {
+	padding: 20px 20px 0;
+}
+
+.widget {
+	margin: 0 0 20px;
+}
+
+.site-content {
+	margin: 20px;
+}
+
+.paging-navigation, .post-navigation, #image-navigation, .page-header {
+	padding: 10px 20px;
+}
+
+.wp-post-image.attachment-post-thumbnail {
+	width:150px;
+	margin: 0.4em 20px 20px 0;
+}
+
+.comments-area article, .pingback {
+	margin: 20px 0;
+	padding: 20px;
+}
+
+cite.fn, .comment-meta {
+	top: 20px;
+	left: 83px;
+}
+time.pubdate, .comment-meta {
+	top: 44px;
+}
+
+.no-sidebar #page {
+	min-width: 480px;
+}
+
+@mixin ie-sidebars($sidebar_width) {
+	&.one-sidebar-left, &.one-sidebar-right, &.two-sidebars {
+		#page {
+			min-width: $sidebar_width + 580px;
+		}
+		#primary {
+			padding: 0;
+			margin: 0;
+			float: left;
+			margin-right: -100%;
+			width: 100%;
+		}
+		#secondary {
+			width: ($sidebar_width + 40px);
+		}
+		#sidebar-1, #sidebar-2 {
+			width: $sidebar_width;
+		}
+	}
+	&.one-sidebar-left {
+		#main {
+			padding: 0 0 0 ($sidebar_width + 40px);
+		}
+
+		#secondary {
+			float: left;
+			margin-left: -1*($sidebar_width + 40px);
+		}
+
+		#sidebar-1 {
+			float: left;
+		}
+	}
+	&.one-sidebar-right {
+		#main {
+			padding: 0 ($sidebar_width + 40px) 0 0;
+		}
+
+
+		#secondary {
+			float: right;
+			margin-right: -1*($sidebar_width + 40px);
+		}
+		#sidebar-1 {
+			float: right;
+		}
+	}
+
+	&.two-sidebars {
+		#page {
+			min-width: ( $sidebar-width*2 + 620px );
+		}
+		#main {
+			padding: 0 ($sidebar_width + 40px);
+		}
+
+		#secondary {
+			width: auto;
+		}
+
+		#sidebar-1 {
+			float: left;
+			margin-left: -1*($sidebar_width + 40px);
+		}
+
+		#sidebar-2 {
+			float: right;
+			margin-right: -1*($sidebar_width + 40px);
+			padding-top: 20px;
+		}
+	}
+}
+
+
+.narrow-sidebar {
+	@include ie-sidebars(160px);
+}
+.medium-sidebar {
+	@include ie-sidebars(260px);
+}
+.wide-sidebar {
+	@include ie-sidebars(300px);
+}

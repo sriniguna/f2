@@ -1,0 +1,87 @@
+body {
+  direction: rtl;
+  unicode-bidi: embed;
+  text-align: right;
+}
+
+ul, ol {
+  margin: 0 40px 1.5em 0;
+  margin: 0 4rem 1.5em 0;
+}
+ul ul, ul ol, ol ul, ol ol {
+  margin-left: 0;
+  margin-right: 20px;
+  margin-right: 2rem;
+}
+
+blockquote {
+  border-left: 0;
+  border-right: 2px solid #6d97b7;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.site-header .site-navigation.main-navigation ul {
+  text-align: right;
+}
+.site-header .site-navigation.main-navigation ul ul {
+  left: auto;
+  right: 0;
+}
+.site-header .site-navigation.main-navigation ul ul ul {
+  left: auto;
+  right: 100%;
+}
+.site-header .site-navigation.main-navigation li {
+  float: right;
+}
+
+.wp-post-image.attachment-post-thumbnail {
+  float: right;
+  margin: 0.4em 0 10px 10px;
+  margin: 0.4em 0 1rem 1rem;
+}
+
+.site-content .nav-previous, .site-content .previous-image {
+  float: right;
+}
+
+.site-content .nav-next, .site-content .next-image {
+  float: left;
+  text-align: left;
+}
+
+ul.children {
+  margin-left: 0;
+  margin-right: 20px;
+  margin-right: 2rem;
+}
+
+cite.fn, .comment-meta {
+  left: auto;
+  right: 63px;
+}
+
+.comment-form-author input, .comment-form-email input, .comment-form-url input {
+  left: auto;
+  right: 4em;
+}
+
+.widget ul ul {
+  margin-left: 0;
+  margin-right: 20px;
+  margin-right: 2rem;
+}
+
+@media screen and (min-width: 41em) {
+  .site-header {
+    text-align: right;
+  }
+
+  cite.fn, .comment-meta {
+    left: auto;
+    right: 73px;
+  }
+}

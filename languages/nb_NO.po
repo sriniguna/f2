@@ -1,0 +1,550 @@
+# F2 theme for WordPress. Translation template file.
+# Copyright (C) 2009 Srini G
+# This file is distributed under the same license as the F2.
+# Srini G <srinig.com@gmail.com>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: F2 1.0.2_01\n"
+"Report-Msgid-Bugs-To: srinig.com@gmail.com\n"
+"POT-Creation-Date: 2009-09-01 12:22+0530\n"
+"PO-Revision-Date: 2009-12-23 19:44+0100\n"
+"Last-Translator: Eivind Ødegård <gingermig@yahoo.no>\n"
+"Language-Team: Sieino <enordset@online.no>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Norwegian Bokmal\n"
+"X-Poedit-Country: NORWAY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-Basepath: C:\\Users\\Eilif\\Transfer1521\\Norsk_Counter\\090926_2.62\\2.62_languages\n"
+
+#: /links.php:12
+msgid "Links"
+msgstr "Lenker"
+
+#: /page.php:10
+#: /single.php:21
+msgid "Pages:"
+msgstr "Sider"
+
+#: /page.php:14
+#: /index.php:36
+#: /image.php:35
+#: /archive.php:64
+#: /single.php:33
+#: /search.php:34
+msgid "Comment"
+msgstr "Kommentar"
+
+#: /page.php:14
+#: /image.php:35
+#: /single.php:33
+msgid "Comments are closed"
+msgstr "Stengt for kommentarer"
+
+#: /page.php:15
+#: /image.php:36
+#: /single.php:34
+msgid "Trackback"
+msgstr "Spor tilbake"
+
+#: /page.php:17
+#: /index.php:38
+#: /image.php:38
+#: /archive.php:66
+#: /single.php:37
+#: /search.php:36
+msgid "Edit"
+msgstr "Redigere"
+
+#: /page.php:27
+#: /index.php:52
+#: /image.php:44
+#: /archive.php:80
+#: /404.php:5
+#: /single.php:52
+#: /search.php:50
+msgid "Not Found"
+msgstr "Ikke funnet"
+
+#: /page.php:28
+#: /index.php:53
+#: /image.php:45
+#: /archive.php:81
+#: /single.php:53
+#: /search.php:51
+msgid "Sorry, no posts matched your criteria."
+msgstr "Beklager, ingen innlegg passet dine søkekriteria"
+
+#: /functions.php:22
+msgid "Header"
+msgstr "Blogghode"
+
+#: /functions.php:26
+msgid "Header background image?"
+msgstr "Bakgrunnsbilde på blogghodet?"
+
+#: /functions.php:32
+msgid "Header background image URL"
+msgstr "URL til bakgrunnsbildet for blogghodet"
+
+#: /functions.php:33
+msgid "Tip: <a target=\"_blank\" href=\"media-new.php\">Upload your image here</a> and grab the url."
+msgstr "Tips: <a target=\"_blank\" href=\"media-new.php\">Last opp bildet ditt her</a>  og hent url-en."
+
+#: /functions.php:40
+msgid "Repeat header background image?"
+msgstr "Gjenta bakgrunnsbildet til bogghodet?"
+
+#: /functions.php:48
+msgid "Show blog title & tagline in header?"
+msgstr "Vis bloggnavn og slagord i hodet?"
+
+#: /functions.php:49
+msgid "You may uncheck this option if you use a background image as logo."
+msgstr "Du kan fjerne avkryssingen her om du bruker bakgrunnsbildet som logo."
+
+#: /functions.php:56
+msgid "Header height"
+msgstr "Hodehøyde"
+
+#: /functions.php:64
+msgid "Header background color"
+msgstr "Bakgrunnsfarge for blogghodet"
+
+#: /functions.php:72
+msgid "Blog title font color"
+msgstr "Bokstavfarge for bloggtittelen"
+
+#: /functions.php:80
+msgid "Blog tagline font color"
+msgstr "Bokstavfarge for slagordet"
+
+#: /functions.php:88
+msgid "Show horizontal menu?"
+msgstr "Vis horisontal meny"
+
+#: /functions.php:95
+msgid "Pages to be excluded in horizontal menu"
+msgstr "Sider som skal utelates i horisontal meny "
+
+#: /functions.php:96
+msgid "Comma separated page IDs"
+msgstr "Komma for å skille side-ID-ene"
+
+#: /functions.php:103
+msgid "Show RSS feed link in horizontal menu?"
+msgstr "Vis lenke til RSS-strøm i horisontal meny"
+
+#: /functions.php:114
+msgid "Sidebar"
+msgstr "Sidefelt"
+
+#: /functions.php:118
+msgid "Show left sidebar?"
+msgstr "Vis venstre sidefelt"
+
+#: /functions.php:125
+msgid "Left sidebar width?"
+msgstr "Venstre sidefeltbredde?"
+
+#: /functions.php:134
+msgid "Left sidebar fontsize"
+msgstr "Venstre sidefelts tegnstørrelse"
+
+#: /functions.php:138
+#: /functions.php:168
+#: /functions.php:189
+msgid "small"
+msgstr "liten"
+
+#: /functions.php:139
+#: /functions.php:169
+#: /functions.php:190
+msgid "medium"
+msgstr "middels"
+
+#: /functions.php:140
+#: /functions.php:170
+#: /functions.php:191
+msgid "large"
+msgstr "stor"
+
+#: /functions.php:148
+msgid "Show right sidebar?"
+msgstr "Vis høyre sidefelt?"
+
+#: /functions.php:155
+msgid "Right sidebar width?"
+msgstr "Høyre sidefeltbredde"
+
+#: /functions.php:164
+msgid "Right sidebar fontsize"
+msgstr "Høyre sidefelts tegnstørrelse"
+
+#: /functions.php:181
+msgid "Blog posts"
+msgstr "Bogginnlegg"
+
+#: /functions.php:185
+msgid "Blog post text size"
+msgstr "Tekststørrelse for blogginnlegg"
+
+#: /functions.php:197
+msgid "Show post author?"
+msgstr "Vis innleggsforfatter?"
+
+#: /functions.php:204
+msgid "Show post category?"
+msgstr "Vis innleggskategori?"
+
+#: /functions.php:211
+msgid "Full post or excerpt in archive pages?"
+msgstr "Hele innlegget eller utdrag i arkivet?"
+
+#: /functions.php:212
+msgid "Displaying only excerpt in archive pages is a better SEO practice."
+msgstr "Å vise bare utdrag i arkivet er bedre for søkeoptimalisering."
+
+#: /functions.php:215
+msgid "Full post"
+msgstr "Hele innlegget"
+
+#: /functions.php:216
+msgid "Only excerpt"
+msgstr "Bare utdrag"
+
+#: /functions.php:226
+msgid "Footer"
+msgstr "Sidefot"
+
+#: /functions.php:230
+msgid "Footer text"
+msgstr "Tekst sidefot"
+
+#: /functions.php:240
+msgid "General options"
+msgstr "Generelt oppsett"
+
+#: /functions.php:244
+msgid "Rounded corners?"
+msgstr "Runde hjørner"
+
+#: /functions.php:245
+msgid "Rounded corners add to the fluid nature of the theme. Note that this will add non-standard CSS code."
+msgstr "Avrundende hjørner bedrer flyten i temaet. Merk at dette vil legge til ikke-standard CSS-kode."
+
+#: /functions.php:258
+#: /functions.php:400
+msgid "Save changes"
+msgstr "Lagre endringene"
+
+#: /functions.php:274
+#: /functions.php:401
+msgid "Reset to defaults"
+msgstr "Tilbakestill til standard"
+
+#: /functions.php:282
+#: /functions.php:295
+msgid "Settings"
+msgstr "Alternativer"
+
+#: /functions.php:290
+msgid "Settings saved"
+msgstr "Alternativer lagret"
+
+#: /functions.php:291
+msgid "Settings reset"
+msgstr "Alternativer tilbakestilt"
+
+#: /functions.php:301
+msgid "version"
+msgstr "versjon"
+
+#: /functions.php:301
+#, php-format
+msgid "Visit <a href=\"%s\">theme page</a>"
+msgstr "Besøk <a href=\"%s\">temasiden</a>"
+
+#: /functions.php:301
+#, php-format
+msgid "View <a href=\"%s\">readme</a>"
+msgstr "Se <a href=\"%s\">readme-filen</a>"
+
+#: /functions.php:303
+msgid "Header Settings"
+msgstr "Sidehodeoppsett"
+
+#: /functions.php:304
+msgid "Sidebar Settings"
+msgstr "Sidefeltoppsett"
+
+#: /functions.php:305
+msgid "Posts Settings"
+msgstr "Oppsett for innlegg"
+
+#: /functions.php:306
+msgid "Footer Settings"
+msgstr "Sidefotoppsett"
+
+#: /functions.php:307
+msgid "General Settings"
+msgstr "Generelt oppsett"
+
+#: /functions.php:312
+msgid "If you enjoy the theme, you can make a donation and support development. Thank you!"
+msgstr "Om du liker temaet, kan du gi en slump og støtte utviklingen. Takk!"
+
+#: /functions.php:352
+msgid "Close colorpicker"
+msgstr "Lukk fargepalett"
+
+#: /sidebar.php:6
+msgid "Pages"
+msgstr "Sider"
+
+#: /sidebar.php:8
+msgid "Categories"
+msgstr "Kategorier"
+
+#: /sidebar.php:14
+#: /archives.php:11
+msgid "Archives"
+msgstr "Arkiver"
+
+#: /sidebar.php:19
+#: /archives.php:25
+msgid "Tags"
+msgstr "Merker"
+
+#: /sidebar.php:36
+msgid "Meta"
+msgstr "Hva . . ."
+
+#: /sidebar.php:40
+msgid "This page validates as XHTML 1.0 Transitional"
+msgstr "Denne siden er gyldig XHTML 1.0 Transitional"
+
+#: /sidebar.php:41
+msgid "XHTML Friends Network"
+msgstr "XHTML Friends Network"
+
+#: /sidebar.php:42
+msgid "Powered by WordPress, state-of-the-art semantic personal publishing platform."
+msgstr "Drevet av WordPress, en moderne personlig publiseringsplatform."
+
+#: /index.php:10
+#: /archive.php:35
+#: /single.php:36
+#: /search.php:11
+#, php-format
+msgid "Permanent Link to %s"
+msgstr "Permanent lenke til %s"
+
+#: /index.php:13
+#: /image.php:13
+#: /archive.php:38
+#: /single.php:15
+#: /search.php:14
+msgid "Posted by"
+msgstr "Skrevet av"
+
+#: /index.php:13
+#: /image.php:13
+#: /archive.php:38
+#: /single.php:15
+#: /search.php:14
+msgid "on"
+msgstr "den"
+
+#: /index.php:15
+#: /image.php:15
+#: /archive.php:40
+#: /single.php:17
+#: /search.php:16
+msgid "j F Y, g:i a"
+msgstr "j. F Y, g:i:s"
+
+#: /index.php:17
+msgid "Sticky post"
+msgstr "Klistret innlegg"
+
+#: /index.php:22
+#: /archive.php:46
+#, php-format
+msgid "Continue reading ‘%s’ »"
+msgstr "Fortsett å lese ‘%s’ »"
+
+#: /index.php:28
+#: /image.php:29
+#: /archive.php:56
+#: /single.php:27
+#: /search.php:26
+msgid "Filed under"
+msgstr "Lagret under"
+
+#: /index.php:31
+#: /image.php:32
+#: /archive.php:59
+#: /single.php:30
+#: /search.php:29
+msgid "Tagged"
+msgstr "Merket"
+
+#: /index.php:36
+#: /archive.php:64
+#: /search.php:34
+msgid "1 Comment"
+msgstr "1 kommentar"
+
+#: /index.php:36
+#: /archive.php:64
+#: /comments.php:19
+#: /search.php:34
+msgid "% Comments"
+msgstr "% kommentarer"
+
+#: /index.php:46
+#: /archive.php:28
+#: /archive.php:74
+msgid "&laquo; Older Entries"
+msgstr "&laquo; Eldre innlegg"
+
+#: /index.php:47
+#: /archive.php:29
+#: /archive.php:75
+msgid "Newer Entries &raquo;"
+msgstr "Nyere innlegg &raquo;"
+
+#: /header.php:33
+msgid "Home"
+msgstr "Startside"
+
+#: /header.php:35
+msgid "Feed"
+msgstr "Nyhetsstrøm"
+
+#: /archive.php:8
+#, php-format
+msgid "Archive of posts filed under the %s category."
+msgstr "Arkiv med innlegg lagret under kategorien %s"
+
+#: /archive.php:11
+#, php-format
+msgid "Archive of posts tagged %s"
+msgstr "Arkiv med innlegg merket %s"
+
+#: /archive.php:14
+#: /archive.php:17
+#, php-format
+msgid "Archive of entries posted on %s"
+msgstr "Arkiv med innlegg skrevet den %s"
+
+#: /archive.php:14
+msgid "jS F Y"
+msgstr "jS F Y"
+
+#: /archive.php:17
+msgid "F Y"
+msgstr "F Y"
+
+#: /archive.php:20
+#, php-format
+msgid "Archive of entries posted in the year %s"
+msgstr "Arkiv med innlegg fra året %s "
+
+#: /archive.php:23
+#, php-format
+msgid "Archive of entries posted by %s"
+msgstr "Arkiv med innlegg skrevet av %s"
+
+#: /404.php:5
+msgid "Error"
+msgstr "Feil"
+
+#: /comments.php:4
+msgid "Please do not load this page directly. Thanks!"
+msgstr "Vær snill å ikke laste inn denne siden direkte. Takk!"
+
+#: /comments.php:7
+msgid "This post is password protected. Enter the password to view comments."
+msgstr "Dette innlegget er passordbeskyttet. Skriv inn passordet for å få se kommentarer."
+
+#: /comments.php:19
+msgid "No Comments"
+msgstr "Ingen kommentarer"
+
+#: /comments.php:19
+msgid "One Comment"
+msgstr "En kommentar"
+
+#: /comments.php:25
+msgid "Reply to this comment"
+msgstr "Svar til denne kommentaren"
+
+#: /comments.php:40
+msgid "Leave a Reply"
+msgstr "Legg igjen et svar/en kommentar"
+
+#: /comments.php:40
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr "Legg igjen svar/kommentar til %s"
+
+#: /comments.php:47
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr "Du må være <a href=\"%s\">logget inn</a> for å skrive en kommentar."
+
+#: /comments.php:54
+#, php-format
+msgid "Logged in as %s. <a href=\"%s\" title=\"Log out of this account\">Log out &raquo;</a>"
+msgstr "Logget inn som %s. <a href=\"%s\" title=\"Logg ut fra denne kontoen\">Logg ut &raquo;</a>"
+
+#: /comments.php:59
+msgid "Name"
+msgstr "Navn"
+
+#: /comments.php:59
+#: /comments.php:62
+msgid "required"
+msgstr "kreves"
+
+#: /comments.php:62
+msgid "Mail"
+msgstr "E-post"
+
+#: /comments.php:62
+msgid "will not be published"
+msgstr "Vil ikke bli offentliggjort"
+
+#: /comments.php:65
+msgid "Website"
+msgstr "Nettside"
+
+#: /comments.php:73
+msgid "Submit Comment"
+msgstr "Legg inn kommentar"
+
+#: /archives.php:13
+msgid "Archives by Month"
+msgstr "Arkiv etter måned"
+
+#: /archives.php:18
+msgid "Archives by Subject"
+msgstr "Arkiv etter emne"
+
+#: /search.php:6
+#, php-format
+msgid "Search results for %s"
+msgstr "Søkeresultat for %s"
+
+#: /search.php:44
+msgid "&laquo; Previous Entries"
+msgstr "&laquo; Forrige innlegg"
+
+#: /search.php:45
+msgid "Next Entries &raquo;"
+msgstr "Neste innlegg &raquo;"
+

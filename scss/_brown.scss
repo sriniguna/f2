@@ -1,0 +1,109 @@
+/* Color Scheme: Brown */
+
+$bg_color: #d1bd9d;
+$color: #413a35;
+$header_bg_color: #634121;
+$page_bg_color: #fff8f1;
+$page_border_color: #b2b6a9;
+$sidebar_bg_color: #f6ecdb;
+$header_nav_bg_color: #43250b;
+$header_nav_color: #a9947b;
+$title_color: #b58c5c;
+$link_color: #8e5f2d;
+.color-scheme-brown {
+	background-color: $bg_color;
+	color: $color;
+
+	a {
+		color: $link_color;
+		&:visited {
+			color: lighten($link-color, 4%);
+		}
+	}
+
+	blockquote,
+	pre,
+	th,
+	code,
+	kbd,
+	tt,
+	var,
+	.wp-caption,
+	.entry-attachment,
+	.paging-navigation, 
+	.post-navigation, 
+	#image-navigation, 
+	.page-header {
+		background: $sidebar_bg_color;
+	}
+
+	blockquote,
+	table,
+	th,
+	td,
+	.wp-caption,
+	.entry-attachment
+	&.blog .format-aside,
+	&.archive .format-aside,
+	.hentry,
+	.paging-navigation, 
+	.post-navigation, 
+	#image-navigation, 
+	.page-header {
+		border-color: darken($sidebar_bg_color, 20%);
+	}
+
+	.site-header {
+		background: $header_bg_color;
+		hgroup {
+			.site-title a {
+				color: $title_color;
+			}
+			.site-description {
+				color: lighten($title_color, 20%);
+			}
+		}
+		.site-navigation {
+			a, .menu-toggle {
+				background: $header_nav_bg_color;
+				border-color: lighten($header_nav_bg_color, 5%);
+				&:hover {
+					background: lighten($header_nav_bg_color, 5%);
+				}
+				color: $header_nav_color;
+			}
+		}
+	}
+
+	#header-image {
+		background-color: $sidebar_bg_color;
+	}
+
+
+	.sidebar {
+		background: $sidebar_bg_color;
+	}
+
+	#page {
+		background: $page_bg_color;
+		border: none;
+	}
+
+	.comments-area {
+		article, .pingback {
+			background-color: lighten($sidebar_bg_color, 2%);
+			border-color: $sidebar_bg_color;
+		}
+		.bypostauthor article {
+			border-color: darken($sidebar_bg_color, 20%);
+		}
+	}
+
+
+	.site-footer {
+		background: darken($header_bg_color, 10%);
+		a {
+			color: $header_nav_color;
+		}
+	}
+}

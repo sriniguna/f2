@@ -1,0 +1,549 @@
+# F2 theme for WordPress. Translation template file.
+# Copyright (C) 2009 Srini G
+# This file is distributed under the same license as the F2.
+# Srini G <srinig.com@gmail.com>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: F2 1.0.2\n"
+"Report-Msgid-Bugs-To: srinig.com@gmail.com\n"
+"POT-Creation-Date: 2009-09-01 12:22+0530\n"
+"PO-Revision-Date: 2009-10-22 15:12+0800\n"
+"Last-Translator: \n"
+"Language-Team:  <awuitcn@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Poedit-Language: Chinese\n"
+"X-Poedit-Country: CHINA\n"
+
+#: /links.php:12
+msgid "Links"
+msgstr "友情链接"
+
+#: /page.php:10
+#: /single.php:21
+msgid "Pages:"
+msgstr "页面:"
+
+#: /page.php:14
+#: /index.php:36
+#: /image.php:35
+#: /archive.php:64
+#: /single.php:33
+#: /search.php:34
+msgid "Comment"
+msgstr "评论"
+
+#: /page.php:14
+#: /image.php:35
+#: /single.php:33
+msgid "Comments are closed"
+msgstr "评论已关闭."
+
+#: /page.php:15
+#: /image.php:36
+#: /single.php:34
+msgid "Trackback"
+msgstr "引用"
+
+#: /page.php:17
+#: /index.php:38
+#: /image.php:38
+#: /archive.php:66
+#: /single.php:37
+#: /search.php:36
+msgid "Edit"
+msgstr "编辑"
+
+#: /page.php:27
+#: /index.php:52
+#: /image.php:44
+#: /archive.php:80
+#: /404.php:5
+#: /single.php:52
+#: /search.php:50
+msgid "Not Found"
+msgstr "没有找到"
+
+#: /page.php:28
+#: /index.php:53
+#: /image.php:45
+#: /archive.php:81
+#: /single.php:53
+#: /search.php:51
+msgid "Sorry, no posts matched your criteria."
+msgstr "对不起,没有找到您想查询的."
+
+#: /functions.php:22
+msgid "Header"
+msgstr "头部"
+
+#: /functions.php:26
+msgid "Header background image?"
+msgstr "头部背景图片?"
+
+#: /functions.php:32
+msgid "Header background image URL"
+msgstr "头部背景图片URL"
+
+#: /functions.php:33
+msgid "Tip: <a target=\"_blank\" href=\"media-new.php\">Upload your image here</a> and grab the url."
+msgstr "小提示:<a target=\"_blank\" href=\"media-new.php\">点击这里上传图片</a>并获取图片URL."
+
+#: /functions.php:40
+msgid "Repeat header background image?"
+msgstr "背景图片重复?"
+
+#: /functions.php:48
+msgid "Show blog title & tagline in header?"
+msgstr "在头部显示博客标题和副标题?"
+
+#: /functions.php:49
+msgid "You may uncheck this option if you use a background image as logo."
+msgstr "您可以取消此选项,如果您使用背景图像作为logo."
+
+#: /functions.php:56
+msgid "Header height"
+msgstr "头部高度"
+
+#: /functions.php:64
+msgid "Header background color"
+msgstr "头部背景颜色"
+
+#: /functions.php:72
+msgid "Blog title font color"
+msgstr "博客标题字体颜色"
+
+#: /functions.php:80
+msgid "Blog tagline font color"
+msgstr "博客副标题字体颜色"
+
+#: /functions.php:88
+msgid "Show horizontal menu?"
+msgstr "显示横向菜单?"
+
+#: /functions.php:95
+msgid "Pages to be excluded in horizontal menu"
+msgstr "在横向菜单中不想显示的页面"
+
+#: /functions.php:96
+msgid "Comma separated page IDs"
+msgstr "请填写页面ID,多个ID之间用逗号分隔"
+
+#: /functions.php:103
+msgid "Show RSS feed link in horizontal menu?"
+msgstr "在横向菜单显示RSS订阅链接?"
+
+#: /functions.php:114
+msgid "Sidebar"
+msgstr "边栏"
+
+#: /functions.php:118
+msgid "Show left sidebar?"
+msgstr "显示左侧边栏?"
+
+#: /functions.php:125
+msgid "Left sidebar width?"
+msgstr "左侧边栏的宽度?"
+
+#: /functions.php:134
+msgid "Left sidebar fontsize"
+msgstr "左侧边栏的字体大小"
+
+#: /functions.php:138
+#: /functions.php:168
+#: /functions.php:189
+msgid "small"
+msgstr "小"
+
+#: /functions.php:139
+#: /functions.php:169
+#: /functions.php:190
+msgid "medium"
+msgstr "中"
+
+#: /functions.php:140
+#: /functions.php:170
+#: /functions.php:191
+msgid "large"
+msgstr "大"
+
+#: /functions.php:148
+msgid "Show right sidebar?"
+msgstr "显示右侧边栏?"
+
+#: /functions.php:155
+msgid "Right sidebar width?"
+msgstr "右侧边栏的宽度?"
+
+#: /functions.php:164
+msgid "Right sidebar fontsize"
+msgstr "右侧边栏的字体大小"
+
+#: /functions.php:181
+msgid "Blog posts"
+msgstr "博客文章"
+
+#: /functions.php:185
+msgid "Blog post text size"
+msgstr "博客文章字体大小"
+
+#: /functions.php:197
+msgid "Show post author?"
+msgstr "显示文章作者?"
+
+#: /functions.php:204
+msgid "Show post category?"
+msgstr "显示文章分类?"
+
+#: /functions.php:211
+msgid "Full post or excerpt in archive pages?"
+msgstr "在存档页面显示全文还是摘要?"
+
+#: /functions.php:212
+msgid "Displaying only excerpt in archive pages is a better SEO practice."
+msgstr "在存档页面只显示摘要有利于SEO."
+
+#: /functions.php:215
+msgid "Full post"
+msgstr "全文"
+
+#: /functions.php:216
+msgid "Only excerpt"
+msgstr "仅摘要"
+
+#: /functions.php:226
+msgid "Footer"
+msgstr "底部"
+
+#: /functions.php:230
+msgid "Footer text"
+msgstr "底部文本"
+
+#: /functions.php:240
+msgid "General options"
+msgstr "通用设置"
+
+#: /functions.php:244
+msgid "Rounded corners?"
+msgstr "圆角?"
+
+#: /functions.php:245
+msgid "Rounded corners add to the fluid nature of the theme. Note that this will add non-standard CSS code."
+msgstr "圆角增加了主题的动感.请注意,这将增加非标准的CSS代码."
+
+#: /functions.php:258
+#: /functions.php:400
+msgid "Save changes"
+msgstr "保存设置"
+
+#: /functions.php:274
+#: /functions.php:401
+msgid "Reset to defaults"
+msgstr "恢复默认设置"
+
+#: /functions.php:282
+#: /functions.php:295
+msgid "Settings"
+msgstr "设置"
+
+#: /functions.php:290
+msgid "Settings saved"
+msgstr "设置已保存"
+
+#: /functions.php:291
+msgid "Settings reset"
+msgstr "已恢复设置"
+
+#: /functions.php:301
+msgid "version"
+msgstr "版本"
+
+#: /functions.php:301
+#, php-format
+msgid "Visit <a href=\"%s\">theme page</a>"
+msgstr "访问 <a href=\"%s\">主题页面</a>"
+
+#: /functions.php:301
+#, php-format
+msgid "View <a href=\"%s\">readme</a>"
+msgstr "查看<a href=\"%s\">readme</a>"
+
+#: /functions.php:303
+msgid "Header Settings"
+msgstr "头部设置"
+
+#: /functions.php:304
+msgid "Sidebar Settings"
+msgstr "边栏设置"
+
+#: /functions.php:305
+msgid "Posts Settings"
+msgstr "文章设置"
+
+#: /functions.php:306
+msgid "Footer Settings"
+msgstr "底部设置"
+
+#: /functions.php:307
+msgid "General Settings"
+msgstr "通用设置"
+
+#: /functions.php:312
+msgid "If you enjoy the theme, you can make a donation and support development. Thank you!"
+msgstr "如果你喜欢这个主题,您可以通过捐赠和支持开发.非常感谢您!"
+
+#: /functions.php:352
+msgid "Close colorpicker"
+msgstr "关闭颜色选择器"
+
+#: /sidebar.php:6
+msgid "Pages"
+msgstr "页面"
+
+#: /sidebar.php:8
+msgid "Categories"
+msgstr "分类"
+
+#: /sidebar.php:14
+#: /archives.php:11
+msgid "Archives"
+msgstr "存档"
+
+#: /sidebar.php:19
+#: /archives.php:25
+msgid "Tags"
+msgstr "标签"
+
+#: /sidebar.php:36
+msgid "Meta"
+msgstr "Meta"
+
+#: /sidebar.php:40
+msgid "This page validates as XHTML 1.0 Transitional"
+msgstr "This page validates as XHTML 1.0 Transitional"
+
+#: /sidebar.php:41
+msgid "XHTML Friends Network"
+msgstr "XHTML Friends Network"
+
+#: /sidebar.php:42
+msgid "Powered by WordPress, state-of-the-art semantic personal publishing platform."
+msgstr "Powered by WordPress, state-of-the-art semantic personal publishing platform."
+
+#: /index.php:10
+#: /archive.php:35
+#: /single.php:36
+#: /search.php:11
+#, php-format
+msgid "Permanent Link to %s"
+msgstr "本文的固定链接为%s"
+
+#: /index.php:13
+#: /image.php:13
+#: /archive.php:38
+#: /single.php:15
+#: /search.php:14
+msgid "Posted by"
+msgstr "作者"
+
+#: /index.php:13
+#: /image.php:13
+#: /archive.php:38
+#: /single.php:15
+#: /search.php:14
+msgid "on"
+msgstr "在"
+
+#: /index.php:15
+#: /image.php:15
+#: /archive.php:40
+#: /single.php:17
+#: /search.php:16
+msgid "j F Y, g:i a"
+msgstr "j F Y, g:i a"
+
+#: /index.php:17
+msgid "Sticky post"
+msgstr "Sticky post"
+
+#: /index.php:22
+#: /archive.php:46
+#, php-format
+msgid "Continue reading ‘%s’ »"
+msgstr "继续阅读'%s' »"
+
+#: /index.php:28
+#: /image.php:29
+#: /archive.php:56
+#: /single.php:27
+#: /search.php:26
+msgid "Filed under"
+msgstr "分类:"
+
+#: /index.php:31
+#: /image.php:32
+#: /archive.php:59
+#: /single.php:30
+#: /search.php:29
+msgid "Tagged"
+msgstr "标签:"
+
+#: /index.php:36
+#: /archive.php:64
+#: /search.php:34
+msgid "1 Comment"
+msgstr "1个评论"
+
+#: /index.php:36
+#: /archive.php:64
+#: /comments.php:19
+#: /search.php:34
+msgid "% Comments"
+msgstr "%个评论"
+
+#: /index.php:46
+#: /archive.php:28
+#: /archive.php:74
+msgid "&laquo; Older Entries"
+msgstr "&laquo; 较旧的文章"
+
+#: /index.php:47
+#: /archive.php:29
+#: /archive.php:75
+msgid "Newer Entries &raquo;"
+msgstr "较新的文章 &raquo;"
+
+#: /header.php:33
+msgid "Home"
+msgstr "主页"
+
+#: /header.php:35
+msgid "Feed"
+msgstr "订阅"
+
+#: /archive.php:8
+#, php-format
+msgid "Archive of posts filed under the %s category."
+msgstr "在分类 %s 下的文章存档"
+
+#: /archive.php:11
+#, php-format
+msgid "Archive of posts tagged %s"
+msgstr "标签 %s 文章存档"
+
+#: /archive.php:14
+#: /archive.php:17
+#, php-format
+msgid "Archive of entries posted on %s"
+msgstr "发布在 %s  的文章存档"
+
+#: /archive.php:14
+msgid "jS F Y"
+msgstr "jS F Y"
+
+#: /archive.php:17
+msgid "F Y"
+msgstr "F Y"
+
+#: /archive.php:20
+#, php-format
+msgid "Archive of entries posted in the year %s"
+msgstr "发布在%s年的文章存档"
+
+#: /archive.php:23
+#, php-format
+msgid "Archive of entries posted by %s"
+msgstr "由%s发布的文章存档"
+
+#: /404.php:5
+msgid "Error"
+msgstr "错误"
+
+#: /comments.php:4
+msgid "Please do not load this page directly. Thanks!"
+msgstr "请不要直接加载该页面,谢谢!"
+
+#: /comments.php:7
+msgid "This post is password protected. Enter the password to view comments."
+msgstr "本文设为密码保护,请输入正确的密码以查看."
+
+#: /comments.php:19
+msgid "No Comments"
+msgstr "没有评论"
+
+#: /comments.php:19
+msgid "One Comment"
+msgstr "1 评论"
+
+#: /comments.php:25
+msgid "Reply to this comment"
+msgstr "回复"
+
+#: /comments.php:40
+msgid "Leave a Reply"
+msgstr "留下评论"
+
+#: /comments.php:40
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr "回复%s"
+
+#: /comments.php:47
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr "您必须<a href=\"%s\">登录</a>发表评论."
+
+#: /comments.php:54
+#, php-format
+msgid "Logged in as %s. <a href=\"%s\" title=\"Log out of this account\">Log out &raquo;</a>"
+msgstr "登录账户为 %s. <a href=\"%s\" title=\"Log out of this account\">退出&raquo;</a>"
+
+#: /comments.php:59
+msgid "Name"
+msgstr "昵称"
+
+#: /comments.php:59
+#: /comments.php:62
+msgid "required"
+msgstr "必填"
+
+#: /comments.php:62
+msgid "Mail"
+msgstr "电子邮件"
+
+#: /comments.php:62
+msgid "will not be published"
+msgstr "不会被公开"
+
+#: /comments.php:65
+msgid "Website"
+msgstr "网址"
+
+#: /comments.php:73
+msgid "Submit Comment"
+msgstr "提交评论"
+
+#: /archives.php:13
+msgid "Archives by Month"
+msgstr "按月份存档"
+
+#: /archives.php:18
+msgid "Archives by Subject"
+msgstr "按分类存档"
+
+#: /search.php:6
+#, php-format
+msgid "Search results for %s"
+msgstr "关于 %s 的搜索结果"
+
+#: /search.php:44
+msgid "&laquo; Previous Entries"
+msgstr "&laquo; 前一项"
+
+#: /search.php:45
+msgid "Next Entries &raquo;"
+msgstr "下一项"
+

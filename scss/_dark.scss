@@ -1,0 +1,125 @@
+/* Color Scheme: Dark */
+
+$bg_color: #5a5245;
+$color: #a8a8a8;
+$header_bg_color: #2f2e2d;
+$page_bg_color: #413e37;
+$page_border_color: #413e37;
+$sidebar_bg_color: #36332e;
+$header_nav_bg_color: #36332e;
+$header_nav_color: #c6c8c9;
+$title_color: #9b8972;
+$link_color: #b8a892;
+.color-scheme-dark {
+	background-color: $bg_color;
+	color: $color;
+
+	button,
+	input,
+	select,
+	textarea {
+		color: $color;
+	}
+
+	a {
+		color: $link_color;
+		&:visited {
+			color: darken($link-color, 4%);
+		}
+	}
+
+	blockquote,
+	pre,
+	th,
+	code,
+	kbd,
+	tt,
+	var,
+	.wp-caption,
+	.entry-attachment,
+	.paging-navigation, 
+	.post-navigation, 
+	#image-navigation, 
+	.page-header
+	 {
+		background: $sidebar_bg_color;
+	}
+
+	blockquote,
+	table,
+	th,
+	td,
+	input,
+	button,
+	textarea,
+	.wp-caption,
+	.entry-attachment,
+	&.blog .format-aside,
+	&.archive .format-aside,
+	.hentry,
+	.paging-navigation, 
+	.post-navigation, 
+	#image-navigation, 
+	.page-header {
+		border-color: $header_bg_color;
+	}
+
+
+	.site-header {
+		background: $header_bg_color;
+		hgroup {
+			.site-title a {
+				color: $title_color;
+			}
+			.site-description {
+				color: $color;
+			}
+		}
+		.site-navigation {
+			a, .menu-toggle {
+				background: $header_nav_bg_color;
+				border-color: darken($header_nav_bg_color, 5%);
+				&:hover {
+					background: darken($header_nav_bg_color, 5%);
+				}
+				color: $header_nav_color;
+			}
+		}
+	}
+
+	#header-image {
+		background-color: $sidebar_bg_color;
+	}
+
+
+	.sidebar {
+		background: $sidebar_bg_color;
+	}
+
+	#page {
+		background: $page_bg_color;
+		border: none;
+	}
+
+	.comments-area {
+		article, .pingback {
+			background-color: lighten($sidebar_bg_color, 8%);
+			border-color: $sidebar_bg_color;
+		}
+		.bypostauthor article {
+			border-color: lighten($sidebar_bg_color, 20%);
+		}
+	}
+
+	.avatar, .wp-post-image {
+		background-color: $header_bg_color;
+		border-color: $sidebar_bg_color;
+	}
+
+	.site-footer {
+		background: $header_bg_color;
+		a {
+			color: $header_nav_color;
+		}
+	}
+}

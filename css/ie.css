@@ -1,0 +1,223 @@
+/* Welcome to Compass. Use this file to write IE specific override styles.
+ * Import this file using the following HTML or equivalent:
+ * <!--[if IE]>
+ *   <link href="/stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
+ * <![endif]--> */
+body {
+  padding: 20px;
+}
+
+.site-header {
+  text-align: left;
+}
+.site-header hgroup {
+  padding: 20px;
+}
+
+#header-image {
+  padding: 20px;
+}
+
+.sidebar {
+  padding: 20px 20px 0;
+}
+
+.widget {
+  margin: 0 0 20px;
+}
+
+.site-content {
+  margin: 20px;
+}
+
+.paging-navigation, .post-navigation, #image-navigation, .page-header {
+  padding: 10px 20px;
+}
+
+.wp-post-image.attachment-post-thumbnail {
+  width: 150px;
+  margin: 0.4em 20px 20px 0;
+}
+
+.comments-area article, .pingback {
+  margin: 20px 0;
+  padding: 20px;
+}
+
+cite.fn, .comment-meta {
+  top: 20px;
+  left: 83px;
+}
+
+time.pubdate, .comment-meta {
+  top: 44px;
+}
+
+.no-sidebar #page {
+  min-width: 480px;
+}
+
+.narrow-sidebar.one-sidebar-left #page, .narrow-sidebar.one-sidebar-right #page, .narrow-sidebar.two-sidebars #page {
+  min-width: 740px;
+}
+.narrow-sidebar.one-sidebar-left #primary, .narrow-sidebar.one-sidebar-right #primary, .narrow-sidebar.two-sidebars #primary {
+  padding: 0;
+  margin: 0;
+  float: left;
+  margin-right: -100%;
+  width: 100%;
+}
+.narrow-sidebar.one-sidebar-left #secondary, .narrow-sidebar.one-sidebar-right #secondary, .narrow-sidebar.two-sidebars #secondary {
+  width: 200px;
+}
+.narrow-sidebar.one-sidebar-left #sidebar-1, .narrow-sidebar.one-sidebar-left #sidebar-2, .narrow-sidebar.one-sidebar-right #sidebar-1, .narrow-sidebar.one-sidebar-right #sidebar-2, .narrow-sidebar.two-sidebars #sidebar-1, .narrow-sidebar.two-sidebars #sidebar-2 {
+  width: 160px;
+}
+.narrow-sidebar.one-sidebar-left #main {
+  padding: 0 0 0 200px;
+}
+.narrow-sidebar.one-sidebar-left #secondary {
+  float: left;
+  margin-left: -200px;
+}
+.narrow-sidebar.one-sidebar-left #sidebar-1 {
+  float: left;
+}
+.narrow-sidebar.one-sidebar-right #main {
+  padding: 0 200px 0 0;
+}
+.narrow-sidebar.one-sidebar-right #secondary {
+  float: right;
+  margin-right: -200px;
+}
+.narrow-sidebar.one-sidebar-right #sidebar-1 {
+  float: right;
+}
+.narrow-sidebar.two-sidebars #page {
+  min-width: 940px;
+}
+.narrow-sidebar.two-sidebars #main {
+  padding: 0 200px;
+}
+.narrow-sidebar.two-sidebars #secondary {
+  width: auto;
+}
+.narrow-sidebar.two-sidebars #sidebar-1 {
+  float: left;
+  margin-left: -200px;
+}
+.narrow-sidebar.two-sidebars #sidebar-2 {
+  float: right;
+  margin-right: -200px;
+  padding-top: 20px;
+}
+
+.medium-sidebar.one-sidebar-left #page, .medium-sidebar.one-sidebar-right #page, .medium-sidebar.two-sidebars #page {
+  min-width: 840px;
+}
+.medium-sidebar.one-sidebar-left #primary, .medium-sidebar.one-sidebar-right #primary, .medium-sidebar.two-sidebars #primary {
+  padding: 0;
+  margin: 0;
+  float: left;
+  margin-right: -100%;
+  width: 100%;
+}
+.medium-sidebar.one-sidebar-left #secondary, .medium-sidebar.one-sidebar-right #secondary, .medium-sidebar.two-sidebars #secondary {
+  width: 300px;
+}
+.medium-sidebar.one-sidebar-left #sidebar-1, .medium-sidebar.one-sidebar-left #sidebar-2, .medium-sidebar.one-sidebar-right #sidebar-1, .medium-sidebar.one-sidebar-right #sidebar-2, .medium-sidebar.two-sidebars #sidebar-1, .medium-sidebar.two-sidebars #sidebar-2 {
+  width: 260px;
+}
+.medium-sidebar.one-sidebar-left #main {
+  padding: 0 0 0 300px;
+}
+.medium-sidebar.one-sidebar-left #secondary {
+  float: left;
+  margin-left: -300px;
+}
+.medium-sidebar.one-sidebar-left #sidebar-1 {
+  float: left;
+}
+.medium-sidebar.one-sidebar-right #main {
+  padding: 0 300px 0 0;
+}
+.medium-sidebar.one-sidebar-right #secondary {
+  float: right;
+  margin-right: -300px;
+}
+.medium-sidebar.one-sidebar-right #sidebar-1 {
+  float: right;
+}
+.medium-sidebar.two-sidebars #page {
+  min-width: 1140px;
+}
+.medium-sidebar.two-sidebars #main {
+  padding: 0 300px;
+}
+.medium-sidebar.two-sidebars #secondary {
+  width: auto;
+}
+.medium-sidebar.two-sidebars #sidebar-1 {
+  float: left;
+  margin-left: -300px;
+}
+.medium-sidebar.two-sidebars #sidebar-2 {
+  float: right;
+  margin-right: -300px;
+  padding-top: 20px;
+}
+
+.wide-sidebar.one-sidebar-left #page, .wide-sidebar.one-sidebar-right #page, .wide-sidebar.two-sidebars #page {
+  min-width: 880px;
+}
+.wide-sidebar.one-sidebar-left #primary, .wide-sidebar.one-sidebar-right #primary, .wide-sidebar.two-sidebars #primary {
+  padding: 0;
+  margin: 0;
+  float: left;
+  margin-right: -100%;
+  width: 100%;
+}
+.wide-sidebar.one-sidebar-left #secondary, .wide-sidebar.one-sidebar-right #secondary, .wide-sidebar.two-sidebars #secondary {
+  width: 340px;
+}
+.wide-sidebar.one-sidebar-left #sidebar-1, .wide-sidebar.one-sidebar-left #sidebar-2, .wide-sidebar.one-sidebar-right #sidebar-1, .wide-sidebar.one-sidebar-right #sidebar-2, .wide-sidebar.two-sidebars #sidebar-1, .wide-sidebar.two-sidebars #sidebar-2 {
+  width: 300px;
+}
+.wide-sidebar.one-sidebar-left #main {
+  padding: 0 0 0 340px;
+}
+.wide-sidebar.one-sidebar-left #secondary {
+  float: left;
+  margin-left: -340px;
+}
+.wide-sidebar.one-sidebar-left #sidebar-1 {
+  float: left;
+}
+.wide-sidebar.one-sidebar-right #main {
+  padding: 0 340px 0 0;
+}
+.wide-sidebar.one-sidebar-right #secondary {
+  float: right;
+  margin-right: -340px;
+}
+.wide-sidebar.one-sidebar-right #sidebar-1 {
+  float: right;
+}
+.wide-sidebar.two-sidebars #page {
+  min-width: 1220px;
+}
+.wide-sidebar.two-sidebars #main {
+  padding: 0 340px;
+}
+.wide-sidebar.two-sidebars #secondary {
+  width: auto;
+}
+.wide-sidebar.two-sidebars #sidebar-1 {
+  float: left;
+  margin-left: -340px;
+}
+.wide-sidebar.two-sidebars #sidebar-2 {
+  float: right;
+  margin-right: -340px;
+  padding-top: 20px;
+}

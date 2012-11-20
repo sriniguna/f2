@@ -1,0 +1,335 @@
+
+@import "reset";
+
+body {
+	background: #fff;
+	color: #000;
+	font-family: sans-serif;
+	font-size: 16px;
+	font-size: 1.6rem;
+	line-height: 1.5;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: serif;
+	font-weight: bold;
+}
+
+.site-header hgroup, 
+#header-image,
+.page-header,
+.featured-image, 
+// .entry-title,
+// .entry-meta,
+.site-footer {
+	text-align: center;
+}
+
+a {
+	color: #000;
+	text-decoration: none;
+}
+
+p {
+	margin-bottom: 1.5em;
+}
+
+ul, ol {
+	margin: 0 0 1.5em 40px;
+	margin: 0 0 1.5em 4rem;
+}
+
+p {
+	margin-bottom: 1.5em;
+}
+
+ul, ol {
+	margin: 0 0 1.5em 40px;
+	margin: 0 0 1.5em 4rem;
+}
+
+ul {
+	list-style: disc;
+}
+
+ol {
+	list-style: decimal;
+}
+
+ul ul, ol ol, ul ol, ol ul {
+	margin-bottom: 0;
+	margin-left: 20px;
+	margin-left: 2rem;
+}
+
+dt {
+	font-weight: bold;
+}
+
+dd {
+	margin: 0 1.5em 1.5em;
+}
+
+b, strong {
+	font-weight: bold;
+}
+
+dfn, cite, em, i {
+	font-style: italic;
+}
+
+blockquote {
+	margin-bottom: 1.5em;
+	padding: 0 0 0 1.6em;
+	padding: 0 0 0 1.6em;
+	border-left: 2px solid #aaa;
+}
+
+address {
+	margin: 0 0 1.5em;
+}
+
+pre {
+	border: 1px solid #aaa;
+	font-family: "Courier 10 Pitch", Courier, monospace;
+	font-size: 0.875em;
+	margin-bottom: 1.6em;
+	padding: 1.6em;
+	overflow: auto;
+	max-width: 100%;
+}
+
+code, kbd, tt, var {
+	background: #eee;
+	font: 0.875em Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+}
+
+
+sup,
+sub {
+	font-size: 75%;
+	height: 0;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
+}
+
+sup {
+	bottom: 1ex;
+}
+
+sub {
+	top: .5ex;
+}
+
+small {
+	font-size: 75%;
+}
+
+big {
+	font-size: 125%;
+}
+
+figure {
+	margin: 0;
+}
+
+table {
+	margin: 0 0 1.5em;
+	width: 100%;
+	border-width:0 1px 1px 0;
+	border-style:solid;
+	border-color:#aaa;
+}
+
+th, td {
+	padding:5px 10px;
+	border-width:1px 0 0 1px;
+	border-style:solid;
+	border-color:#aaa;
+
+}
+
+th {
+	font-weight: bold;
+	background:#f4f4f4;
+}
+
+
+
+#secondary, nav {
+	display: none;
+}
+
+.site-header {
+	border-bottom: 1px solid #aaa;
+	margin-bottom: 20px;
+	margin-bottom: 2rem;
+}
+.site-header hgroup, #header-image {
+	margin-bottom: 20px;
+	margin-bottom: 2rem;
+}
+
+.site-title {
+	font-size: 30px;
+	font-size: 3rem;
+	text-transform: uppercase;
+}
+
+.site-description {
+	font-size: 14px;
+	font-size: 1.4rem;
+	font-family: sans-serif;
+	font-weight: normal;
+}
+
+.has-logo-image  {
+	.site-title, .site-description {
+		height: 0;
+		width: 0;
+		overflow: hidden;
+	}
+}
+
+.hentry, .page-header {
+	padding: 0 0 1.6em;
+	margin: 0 0 1.6em;
+	border-bottom: 1px solid #aaa;
+}
+
+.page-header span {
+	text-decoration: underline;
+}
+
+.entry-title {
+	font-size: 24px;
+	font-size: 2.4rem;
+	word-wrap:break-word;
+}
+
+
+
+.entry-content, .comment-content {
+	h1 {
+		font-size: 20px;
+		font-size: 2rem;
+	}
+	h2 {
+		font-size: 18px;
+		font-size: 1.8rem;
+	}
+	h3 {
+		font-size: 16px;
+		font-size: 1.6rem;
+	}
+	h4 {
+		font: bold 15px sans-serif;
+		font: bold 1.5rem sans-serif;
+		text-transform: uppercase;
+	}
+	h5 {
+		font: bold 15px sans-serif;
+		font: bold 1.5rem sans-serif;
+	}
+	h6 {
+		font: bold 14px sans-serif;
+		font: bold 1.4rem sans-serif;
+		font-variant: small-caps;
+	}
+	h1, h2, h3, h4, h5, h6 {
+		margin-bottom: 20px;
+		margin-bottom: 2rem;
+	}
+}
+
+.entry-meta {
+	clear: both;
+	font-size: 11px;
+	font-size: 1.1rem;
+	color: #888;
+}
+
+
+.wp-post-image {
+	margin: 0 0 1.5em;
+	&.attachment-post-thumbnail {
+		float: left;
+		margin: 0.4em 20px 20px 0;
+		margin: 0.4em 2rem 2rem 0;
+	}
+}
+
+
+.sticky .poststicky:before {
+	content: '. ';
+}
+
+.entry-content,
+.entry-summary,
+.comment-content {
+	margin: 1.5em 0 0;
+}
+
+
+
+.comments-title {
+	margin-bottom: 1.6em;
+}
+
+ol.commentlist {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul.children {
+	list-style: none;
+	margin-left: 20px;
+	margin-left: 2rem;
+}
+
+.comments-area {
+	article {
+		margin: 20px 0;
+		margin: 2rem 0;
+		border-bottom: 1px solid #aaa;
+		position: relative;
+	}
+	.pingback {
+		@extend article;
+	}
+}
+
+.avatar {
+	border: 1px solid #ccc;
+}
+
+
+cite.fn {
+	font-weight: bold;
+	font-style: normal;
+}
+cite.fn, .comment-meta {
+	position: absolute;
+	top: 0;
+	left: 53px;
+}
+.comment-meta {
+	top: 24px;
+	top: 2.4rem;
+}
+.comment-meta, .comment-notes, .form-allowed-tags {
+	font-size: 12px;
+	font-size: 1.2rem;
+}
+
+.reply, #respond {
+	display:none;
+}
+
+.site-footer {
+	font-size: 12px;
+	font-size: 1.2rem;
+}

@@ -1,0 +1,653 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: F2 v1.0.10\n"
+"Report-Msgid-Bugs-To: srinig.com@gmail.com\n"
+"POT-Creation-Date: 2009-09-01 12:22+0530\n"
+"PO-Revision-Date: 2010-07-09 10:50+0530\n"
+"Last-Translator: Ashish Jha <ashish@outshinesolutions.com>\n"
+"Language-Team: Outshine SOlutions <ashish@outshinesolutions.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: Hindi\n"
+"X-Poedit-Country: INDIA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ../\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+# @ f2
+#: /links.php:12
+msgid "Links"
+msgstr "लिंक"
+
+# @ f2
+#: /page.php:10
+#: /single.php:21
+msgid "Pages:"
+msgstr "पेज:"
+
+# @ f2
+#: /page.php:14
+#: /index.php:36
+#: /image.php:35
+#: /archive.php:64
+#: /single.php:33
+#: /search.php:34
+msgid "Comment"
+msgstr "टिप्पणी"
+
+# @ f2
+#: /page.php:14
+#: /image.php:35
+#: /single.php:33
+msgid "Comments are closed"
+msgstr "टिप्पणियाँ बंद हैं"
+
+# @ f2
+#: /page.php:15
+#: /image.php:36
+#: /single.php:34
+msgid "Trackback"
+msgstr "ट्रैकबेक"
+
+# @ f2
+#: /page.php:17
+#: /index.php:38
+#: /image.php:38
+#: /archive.php:66
+#: /single.php:37
+#: /search.php:36
+msgid "Edit"
+msgstr "संपादित करें"
+
+# @ f2
+#: /page.php:27
+#: /index.php:52
+#: /image.php:44
+#: /archive.php:80
+#: /404.php:5
+#: /single.php:52
+#: /search.php:50
+msgid "Not Found"
+msgstr "नहीं मिला"
+
+# @ f2
+#: /page.php:28
+#: /index.php:53
+#: /image.php:45
+#: /archive.php:81
+#: /single.php:53
+#: /search.php:51
+msgid "Sorry, no posts matched your criteria."
+msgstr "क्षमा करें, कोई पोस्ट आपके मानदंडों का नहीं मिला."
+
+# @ f2
+#: /functions.php:22
+msgid "Header"
+msgstr "हेडर "
+
+# @ f2
+#: /functions.php:26
+msgid "Header background image?"
+msgstr "हेडर पृष्ठभूमि छवि?"
+
+# @ f2
+#: /functions.php:32
+msgid "Header background image URL"
+msgstr "हेडर पृष्ठभूमि छवि URL"
+
+# @ f2
+#: /functions.php:33
+msgid "Tip: <a target=\"_blank\" href=\"media-new.php\">Upload your image here</a> and grab the url."
+msgstr "सुझाव:<a target=\"_blank\" href=\"media-new.php\">यहाँ अपनी छवि अपलोड करें </a> और url हासिल करे. "
+
+# @ f2
+#: /functions.php:40
+msgid "Repeat header background image?"
+msgstr "दोहराए  हेडर पृष्ठभूमि छवि ?"
+
+# @ f2
+#: /functions.php:48
+msgid "Show blog title & tagline in header?"
+msgstr "हेडर  में ब्लॉग शीर्षक और टैगलाइन दिखाएँ?"
+
+# @ f2
+#: /functions.php:49
+msgid "You may uncheck this option if you use a background image as logo."
+msgstr "आप इस विकल्प को अचयनित कर सकते है यदि आप पृष्ठभूमि छवि का उपयोग लोगो के रूप में कर रहे  हैं."
+
+# @ f2
+#: /functions.php:56
+msgid "Header height"
+msgstr "हेडर ऊंचाई"
+
+# @ f2
+#: /functions.php:64
+msgid "Header background color"
+msgstr "हेडर पृष्ठभूमि का रंग"
+
+# @ f2
+#: /functions.php:72
+msgid "Blog title font color"
+msgstr "ब्लॉग शीर्षक फ़ॉन्ट का रंग"
+
+# @ f2
+#: /functions.php:80
+msgid "Blog tagline font color"
+msgstr "ब्लॉग टैगलाइन फ़ॉन्ट का रंग"
+
+# @ f2
+#: /functions.php:88
+msgid "Show horizontal menu?"
+msgstr "क्षैतिज मेनू दिखाएँ?"
+
+# @ f2
+#: /functions.php:95
+msgid "Pages to be excluded in horizontal menu"
+msgstr "क्षैतिज मेनू से  बाहर के पृष्ठ"
+
+# @ f2
+#: /functions.php:96
+msgid "Comma separated page IDs"
+msgstr "अल्पविराम से अलग पृष्ठ आईडी"
+
+# @ f2
+#: /functions.php:103
+msgid "Show RSS feed link in horizontal menu?"
+msgstr "क्षैतिज मेनू में आरएसएस फ़ीड लिंक दिखाए?"
+
+# @ f2
+#: /functions.php:114
+msgid "Sidebar"
+msgstr "साइडबार"
+
+# @ f2
+#: /functions.php:118
+msgid "Show left sidebar?"
+msgstr "बायां साइडबार दिखाएँ?"
+
+# @ f2
+#: /functions.php:125
+msgid "Left sidebar width?"
+msgstr "बाएं साइडबार की चौड़ाई?"
+
+# @ f2
+#: /functions.php:134
+msgid "Left sidebar fontsize"
+msgstr "बाएं साइडबार का फॉण्ट साइज़ ?"
+
+# @ f2
+#: /functions.php:138
+#: /functions.php:168
+#: /functions.php:189
+msgid "small"
+msgstr "छोटा"
+
+# @ f2
+#: /functions.php:139
+#: /functions.php:169
+#: /functions.php:190
+msgid "medium"
+msgstr "सामान्य"
+
+# @ f2
+#: /functions.php:140
+#: /functions.php:170
+#: /functions.php:191
+msgid "large"
+msgstr "बड़ा"
+
+# @ f2
+#: /functions.php:148
+msgid "Show right sidebar?"
+msgstr "दायां साइडबार दिखाएँ ?"
+
+# @ f2
+#: /functions.php:155
+msgid "Right sidebar width?"
+msgstr "दाएं साइडबार की चौड़ाई?"
+
+# @ f2
+#: /functions.php:164
+msgid "Right sidebar fontsize"
+msgstr "दाएं साइडबार का  फॉण्ट साइज़"
+
+# @ f2
+#: /functions.php:181
+msgid "Blog posts"
+msgstr "ब्लॉग पोस्ट"
+
+# @ f2
+#: /functions.php:185
+msgid "Blog post text size"
+msgstr "ब्लॉग पोस्ट टेक्स्ट का आकार"
+
+# @ f2
+#: /functions.php:197
+msgid "Show post author?"
+msgstr "पोस्ट लेखक दिखाएँ?"
+
+# @ f2
+#: /functions.php:204
+msgid "Show post category?"
+msgstr "पोस्ट श्रेणी दिखाएँ?"
+
+# @ f2
+#: /functions.php:211
+msgid "Full post or excerpt in archive pages?"
+msgstr "पूर्ण पोस्ट या अंश पृष्ठों में संग्रह?"
+
+# @ f2
+#: /functions.php:212
+msgid "Displaying only excerpt in archive pages is a better SEO practice."
+msgstr "अंश संग्रह पृष्ठों में ही प्रदर्शित करना एक बेहतर एसईओ अभ्यास है."
+
+# @ f2
+#: /functions.php:215
+msgid "Full post"
+msgstr "पूर्ण पोस्ट"
+
+# @ f2
+#: /functions.php:216
+msgid "Only excerpt"
+msgstr "केवल अंश"
+
+# @ f2
+#: /functions.php:226
+msgid "Footer"
+msgstr "पाद लेख"
+
+# @ f2
+#: /functions.php:230
+msgid "Footer text"
+msgstr "पाद लेख टेक्स्ट"
+
+# @ f2
+#: /functions.php:240
+msgid "General options"
+msgstr "सामान्य विकल्प"
+
+# @ f2
+#: /functions.php:244
+msgid "Rounded corners?"
+msgstr "गोल कोने ?"
+
+# @ f2
+#: /functions.php:245
+msgid "Rounded corners add to the fluid nature of the theme. Note that this will add non-standard CSS code."
+msgstr "गोल कोनों थीम में द्रव प्रकृति जोड़ते है. ध्यान दें कि यह गैर मानक सीएसएस कोड जोड़ देगा."
+
+# @ f2
+#: /functions.php:258
+#: /functions.php:400
+msgid "Save changes"
+msgstr "परिवर्तन सहेजें"
+
+# @ f2
+#: /functions.php:274
+#: /functions.php:401
+msgid "Reset to defaults"
+msgstr "डिफ़ॉल्ट सेट करें"
+
+# @ f2
+#: /functions.php:282
+#: /functions.php:295
+msgid "Settings"
+msgstr "सेटिंग्स"
+
+# @ f2
+#: /functions.php:290
+msgid "Settings saved"
+msgstr "सेटिंग्स सहेज ली गयी."
+
+# @ f2
+#: /functions.php:291
+msgid "Settings reset"
+msgstr "सेटिंग्स रीसेट"
+
+# @ f2
+#: /functions.php:301
+msgid "version"
+msgstr "संस्करण"
+
+# @ f2
+#: /functions.php:301
+#, php-format
+msgid "Visit <a href=\"%s\">theme page</a>"
+msgstr "दर्शन करे <a href=\"%s\">थीम पृष्ठ</a>"
+
+# @ f2
+#: /functions.php:301
+#, php-format
+msgid "View <a href=\"%s\">readme</a>"
+msgstr "दर्शन करे <a href=\"%s\">मुझे पढ़े</a>"
+
+# @ f2
+#: /functions.php:303
+msgid "Header Settings"
+msgstr "हेडर सेटिंग्स"
+
+# @ f2
+#: /functions.php:304
+msgid "Sidebar Settings"
+msgstr "साइडबार सेटिंग्स"
+
+# @ f2
+#: /functions.php:305
+msgid "Posts Settings"
+msgstr "पोस्ट सेटिंग्स"
+
+# @ f2
+#: /functions.php:306
+msgid "Footer Settings"
+msgstr "पाद लेख सेटिंग्स"
+
+# @ f2
+#: /functions.php:307
+msgid "General Settings"
+msgstr "सामान्य सेटिंग्स"
+
+# @ f2
+#: /functions.php:312
+msgid "If you enjoy the theme, you can make a donation and support development. Thank you!"
+msgstr " यदि आप को थीम पसंद हो तो, आप एक दान और विकास में सहायता कर सकते हैं. धन्यवाद!"
+
+# @ f2
+#: /functions.php:352
+msgid "Close colorpicker"
+msgstr "कोलोरपीकर  बंद करे."
+
+# @ f2
+#: /sidebar.php:6
+msgid "Pages"
+msgstr "पेज"
+
+# @ f2
+#: /sidebar.php:8
+msgid "Categories"
+msgstr "श्रेणियाँ"
+
+# @ f2
+#: /sidebar.php:14
+#: /archives.php:11
+msgid "Archives"
+msgstr "अभिलेखागार"
+
+# @ f2
+#: /sidebar.php:19
+#: /archives.php:25
+msgid "Tags"
+msgstr "टैग"
+
+#: /sidebar.php:36
+msgid "Meta"
+msgstr "Meta"
+
+#: /sidebar.php:40
+msgid "This page validates as XHTML 1.0 Transitional"
+msgstr "यह पन्ना XHTML 1.0 संक्रमणकालीन के रूप की पुष्टि करता है. "
+
+#: /sidebar.php:41
+msgid "XHTML Friends Network"
+msgstr "XHTML नेटवर्क मित्र "
+
+#: /sidebar.php:42
+msgid "Powered by WordPress, state-of-the-art semantic personal publishing platform."
+msgstr "WordPress द्वारा संचालित, राज्य के अत्याधुनिक अर्थ निजी कला प्रकाशन मंच."
+
+# @ f2
+#: /index.php:10
+#: /archive.php:35
+#: /single.php:36
+#: /search.php:11
+#, php-format
+msgid "Permanent Link to %s"
+msgstr "%s के लिए स्थायी लिंक"
+
+# @ f2
+#: /index.php:13
+#: /image.php:13
+#: /archive.php:38
+#: /single.php:15
+#: /search.php:14
+msgid "Posted by"
+msgstr "पोस्ट द्वारा "
+
+# @ f2
+#: /index.php:13
+#: /image.php:13
+#: /archive.php:38
+#: /single.php:15
+#: /search.php:14
+msgid "on"
+msgstr "चालू"
+
+# @ f2
+#: /index.php:15
+#: /image.php:15
+#: /archive.php:40
+#: /single.php:17
+#: /search.php:16
+msgid "j F Y, g:i a"
+msgstr "j F Y, g:i a"
+
+#: /index.php:17
+msgid "Sticky post"
+msgstr "स्थिर पोस्ट"
+
+# @ f2
+#: /index.php:22
+#: /archive.php:46
+#, php-format
+msgid "Continue reading ‘%s’ »"
+msgstr "पढ़ना जारी रखें ‘%s’ »"
+
+# @ f2
+#: /index.php:28
+#: /image.php:29
+#: /archive.php:56
+#: /single.php:27
+#: /search.php:26
+msgid "Filed under"
+msgstr "के तहत दर्ज किया"
+
+# @ f2
+#: /index.php:31
+#: /image.php:32
+#: /archive.php:59
+#: /single.php:30
+#: /search.php:29
+msgid "Tagged"
+msgstr "चिह्नित"
+
+# @ f2
+#: /index.php:36
+#: /archive.php:64
+#: /search.php:34
+msgid "1 Comment"
+msgstr "1 टिप्पणी"
+
+# @ f2
+#: /index.php:36
+#: /archive.php:64
+#: /comments.php:19
+#: /search.php:34
+msgid "% Comments"
+msgstr "%  टिप्पणी"
+
+# @ f2
+#: /index.php:46
+#: /archive.php:28
+#: /archive.php:74
+msgid "&laquo; Older Entries"
+msgstr "&laquo; पुरानी प्रविष्टियां"
+
+# @ f2
+#: /index.php:47
+#: /archive.php:29
+#: /archive.php:75
+msgid "Newer Entries &raquo;"
+msgstr "नई प्रविष्टियां &raquo;"
+
+# @ f2
+#: /header.php:33
+msgid "Home"
+msgstr "होम "
+
+# @ f2
+#: /header.php:35
+msgid "Feed"
+msgstr "फीड "
+
+# @ f2
+#: /archive.php:8
+#, php-format
+msgid "Archive of posts filed under the %s category."
+msgstr "पदों का पुरालेख %s  श्रेणी के तहत दर्ज किया."
+
+# @ f2
+#: /archive.php:11
+#, php-format
+msgid "Archive of posts tagged %s"
+msgstr "टैग पदों का पुरालेख  %s"
+
+# @ f2
+#: /archive.php:14
+#: /archive.php:17
+#, php-format
+msgid "Archive of entries posted on %s"
+msgstr "प्रविष्टिय पदों का पुरालेख तिथि  %s"
+
+#: /archive.php:14
+msgid "jS F Y"
+msgstr "jS F Y"
+
+#: /archive.php:17
+msgid "F Y"
+msgstr "F Y"
+
+# @ f2
+#: /archive.php:20
+#, php-format
+msgid "Archive of entries posted in the year %s"
+msgstr "प्रविष्टिय पदों का पुरालेख साल %s"
+
+# @ f2
+#: /archive.php:23
+#, php-format
+msgid "Archive of entries posted by %s"
+msgstr "प्रविष्टिय पदों का पुरालेख क्रम %s"
+
+# @ f2
+#: /404.php:5
+msgid "Error"
+msgstr "त्रुटि"
+
+# @ f2
+#: /comments.php:4
+msgid "Please do not load this page directly. Thanks!"
+msgstr "कृपया इस पृष्ठ सीधे लोड नहीं करे . धन्यवाद!"
+
+# @ f2
+#: /comments.php:7
+msgid "This post is password protected. Enter the password to view comments."
+msgstr "इस पोस्ट पासवर्ड संरक्षित है. टिप्पणियाँ देखने के लिए पासवर्ड दर्ज करें."
+
+# @ f2
+#: /comments.php:19
+msgid "No Comments"
+msgstr "कोई टिप्पणी नहीं"
+
+# @ f2
+#: /comments.php:19
+msgid "One Comment"
+msgstr "एक टिप्पणी"
+
+# @ f2
+#: /comments.php:25
+msgid "Reply to this comment"
+msgstr "इस टिप्पणी का उत्तर  दे."
+
+# @ f2
+#: /comments.php:40
+msgid "Leave a Reply"
+msgstr "उत्तर  दे."
+
+# @ f2
+#: /comments.php:40
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr " %s का उत्तर  दे."
+
+# @ f2
+#: /comments.php:47
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr "एक टिप्पणी पोस्ट करने के लिए, आपको <a href=\"%s\">लॉगिन</a> होना चाहिए."
+
+# @ f2
+#: /comments.php:54
+#, php-format
+msgid "Logged in as %s. <a href=\"%s\" title=\"Log out of this account\">Log out &raquo;</a>"
+msgstr "%s के रूप में लॉग इन. <a href=\"%s\" title=\"इस खाते से बाहर जाये\">लॉगआउट  &raquo;</a>"
+
+# @ f2
+#: /comments.php:59
+msgid "Name"
+msgstr "नाम"
+
+# @ f2
+#: /comments.php:59
+#: /comments.php:62
+msgid "required"
+msgstr "अपेक्षित"
+
+# @ f2
+#: /comments.php:62
+msgid "Mail"
+msgstr "ई-मेल"
+
+# @ f2
+#: /comments.php:62
+msgid "will not be published"
+msgstr "प्रकाशित नहीं किया जाएगा"
+
+# @ f2
+#: /comments.php:65
+msgid "Website"
+msgstr "वेबसाइट"
+
+# @ f2
+#: /comments.php:73
+msgid "Submit Comment"
+msgstr "टिप्पणी भेजें"
+
+# @ f2
+#: /archives.php:13
+msgid "Archives by Month"
+msgstr "महीने द्वारा अभिलेखागार"
+
+# @ f2
+#: /archives.php:18
+msgid "Archives by Subject"
+msgstr "विषय द्वारा अभिलेखागार"
+
+# @ f2
+#: /search.php:6
+#, php-format
+msgid "Search results for %s"
+msgstr " %s खोज के लिए परिणाम"
+
+# @ f2
+#: /search.php:44
+msgid "&laquo; Previous Entries"
+msgstr "&laquo; पिछली प्रविष्टियां"
+
+# @ f2
+#: /search.php:45
+msgid "Next Entries &raquo;"
+msgstr "अगली  प्रविष्टियां &raquo;"
+

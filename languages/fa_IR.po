@@ -1,0 +1,532 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: F2 1.0\n"
+"Report-Msgid-Bugs-To: srinig.com@gmail.com\n"
+"POT-Creation-Date: 2009-08-20 14:09+0530\n"
+"PO-Revision-Date: \n"
+"Last-Translator: ghiasabadi <ghiasabadi@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: FR\n"
+
+#: /links.php:12
+msgid "Links"
+msgstr "پیوندها"
+
+#: /page.php:10
+#: /single.php:22
+msgid "Pages:"
+msgstr "برگه‌ها:"
+
+#: /page.php:14
+#: /index.php:33
+#: /archive.php:64
+#: /single.php:34
+#: /search.php:34
+msgid "Comment"
+msgstr "دیدگاه شما"
+
+#: /page.php:14
+#: /single.php:34
+msgid "Comments are closed"
+msgstr "~~~"
+
+#: /page.php:15
+#: /single.php:35
+msgid "Trackback"
+msgstr "بازتاب"
+
+#: /page.php:17
+#: /index.php:35
+#: /archive.php:66
+#: /single.php:37
+#: /search.php:36
+msgid "Edit"
+msgstr " ویرایش"
+
+#: /page.php:27
+#: /index.php:49
+#: /archive.php:80
+#: /404.php:5
+#: /single.php:52
+#: /search.php:50
+msgid "Not Found"
+msgstr "لطفاً جستجو کنید"
+
+#: /page.php:28
+#: /index.php:50
+#: /archive.php:81
+#: /single.php:53
+#: /search.php:51
+msgid "Sorry, no posts matched your criteria."
+msgstr "ببخشید، چنین نوشته‌ای پیدا نشد."
+
+#: /functions.php:19
+msgid "Header"
+msgstr "سربرگ"
+
+#: /functions.php:23
+msgid "Header background image?"
+msgstr "تصویر در سربرگ؟"
+
+#: /functions.php:29
+msgid "Header background image URL"
+msgstr "نشانی تصویر برای سربرگ"
+
+#: /functions.php:30
+msgid "Tip: <a target=\"_blank\" href=\"media-new.php\">Upload your image here</a> and grab the url."
+msgstr "Suggestion: <a target=\"_blank\" href=\"media-new.php\">آپلود تصویر</a> et  copiez l'url."
+
+#: /functions.php:37
+msgid "Repeat header background image?"
+msgstr "تکرار تصویر سربرگ؟"
+
+#: /functions.php:45
+msgid "Show blog title & tagline in header?"
+msgstr "عنوان و توضیح وبلاگ در سربرگ دیده شود؟"
+
+#: /functions.php:46
+msgid "You may uncheck this option if you use a background image as logo."
+msgstr "Vous pouvez décocher cette option si vous utilisez une image d'arrière plan comme logo"
+
+#: /functions.php:53
+msgid "Header height"
+msgstr "پهنای سربرگ"
+
+#: /functions.php:61
+msgid "Header background color"
+msgstr "رنگ زمینه سربرگ"
+
+#: /functions.php:69
+msgid "Blog title font color"
+msgstr "رنگ عنوان وبلاگ"
+
+#: /functions.php:77
+msgid "Blog tagline font color"
+msgstr "رنگ توضیحات وبلاگ"
+
+#: /functions.php:85
+msgid "Show horizontal menu?"
+msgstr "دیده شدن منو؟"
+
+#: /functions.php:92
+msgid "Pages to be excluded in horizontal menu"
+msgstr "برگه‌هایی که می‌خواهید در منو دیده شوند"
+
+#: /functions.php:93
+msgid "Comma separated page IDs"
+msgstr "آی دی برگه‌ها را با کاما از هم جدا کنید"
+
+#: /functions.php:100
+msgid "Show RSS feed link in horizontal menu?"
+msgstr "خبرخوان در منو دیده شود؟"
+
+#: /functions.php:111
+msgid "Sidebar"
+msgstr "سایدبار"
+
+#: /functions.php:115
+msgid "Show left sidebar?"
+msgstr "سایدبار چپ دیده شود؟"
+
+#: /functions.php:122
+msgid "Left sidebar width?"
+msgstr "عرض سایدبار چپ؟"
+
+#: /functions.php:131
+msgid "Left sidebar fontsize"
+msgstr "اندازه قلم سایدبار چپ"
+
+#: /functions.php:135
+#: /functions.php:165
+#: /functions.php:186
+msgid "small"
+msgstr "کوچک"
+
+#: /functions.php:136
+#: /functions.php:166
+#: /functions.php:187
+msgid "medium"
+msgstr "معمولی"
+
+#: /functions.php:137
+#: /functions.php:167
+#: /functions.php:188
+msgid "large"
+msgstr "بزرگ"
+
+#: /functions.php:145
+msgid "Show right sidebar?"
+msgstr "سایدبار راست دیده شود؟"
+
+#: /functions.php:152
+msgid "Right sidebar width?"
+msgstr "عرض سایدبار راست؟"
+
+#: /functions.php:161
+msgid "Right sidebar fontsize"
+msgstr "اندازه قلم سایدبار راست"
+
+#: /functions.php:178
+msgid "Blog posts"
+msgstr "پست‌های وبلاگ"
+
+#: /functions.php:182
+msgid "Blog post text size"
+msgstr "اندازه متن پست‌ها"
+
+#: /functions.php:194
+msgid "Show post author?"
+msgstr "نویسنده دیده شود؟"
+
+#: /functions.php:201
+msgid "Show post category?"
+msgstr "موضوع پست دیده شود؟"
+
+#: /functions.php:208
+msgid "Full post or excerpt in archive pages?"
+msgstr "متن کامل پست یا خلاصه در بایگانی‌ها؟"
+
+#: /functions.php:209
+msgid "Displaying only excerpt in archive pages is a better SEO practice."
+msgstr "Afficher les seuls extraits dans les pages d'archives est une bonne pratique pour les moteurs de recherche."
+
+#: /functions.php:212
+msgid "Full post"
+msgstr "متن کامل"
+
+#: /functions.php:213
+msgid "Only excerpt"
+msgstr "فقط خلاصه"
+
+#: /functions.php:223
+msgid "Footer"
+msgstr "پابرگ"
+
+#: /functions.php:227
+msgid "Footer text"
+msgstr "متن پابرگ"
+
+#: /functions.php:234
+msgid "Show link to WordPress & Fluid Blue"
+msgstr "لینک وردپرس و سازنده قالب دیده شود؟"
+
+#: /functions.php:244
+msgid "General options"
+msgstr "اختیارات عمومی"
+
+#: /functions.php:248
+msgid "Rounded corners?"
+msgstr "لبه‌های گرد؟"
+
+#: /functions.php:249
+msgid "Rounded corners add to the fluid nature of the theme. Note that this will add non-standard CSS code."
+msgstr "Les coins arrondis ajoutent de la fluidité au thème. Notez que cela ajoute du code CSS non standard."
+
+#: /functions.php:288
+#: /functions.php:301
+msgid "Settings"
+msgstr "تنظیمات"
+
+#: /functions.php:307
+#, php-format
+msgid "Visit <a href=\"%s\">theme page</a>"
+msgstr "Visiter <a href=\"%s\">la page du thème </a>"
+
+#: /functions.php:307
+#, php-format
+msgid "View <a href=\"%s\">readme</a>"
+msgstr "Afficher <a href=\"%s\">readme</a>"
+
+#: /functions.php:309
+msgid "Header Settings"
+msgstr "تنظیمات سربرگ"
+
+#: /functions.php:310
+msgid "Sidebar Settings"
+msgstr "تنظیمات سایدبار"
+
+#: /functions.php:311
+msgid "Posts Settings"
+msgstr "تنظیمات پست‌ها"
+
+#: /functions.php:312
+msgid "Footer Settings"
+msgstr "تنظیمات پابرگ"
+
+#: /functions.php:313
+msgid "General Settings"
+msgstr "تنظیمات عمومی"
+
+#: /functions.php:318
+#, php-format
+msgid "If you enjoy the theme, you can make a donation and support development. Thank you!"
+msgstr "Si vous appréciez ce thème, vous pouvez faire un don et supporter le développement. Merci !"
+
+#: /sidebar.php:6
+msgid "Pages"
+msgstr "برگه‌ها"
+
+#: /sidebar.php:8
+msgid "Categories"
+msgstr "فهرست موضوعی"
+
+#: /sidebar.php:14
+#: /archives.php:11
+msgid "Archives"
+msgstr "بایگانی‌ها"
+
+#: /sidebar.php:19
+#: /archives.php:25
+msgid "Tags"
+msgstr "کلیدواژه‌ها"
+
+#: /sidebar.php:36
+msgid "Meta"
+msgstr "متا"
+
+#: /sidebar.php:40
+msgid "This page validates as XHTML 1.0 Transitional"
+msgstr "xhtml معتبر"
+
+#: /sidebar.php:41
+msgid "XHTML Friends Network"
+msgstr "XHTML Friends Network"
+
+#: /sidebar.php:42
+msgid "Powered by WordPress, state-of-the-art semantic personal publishing platform."
+msgstr "با نیروی وردپرس"
+
+#: /index.php:10
+#: /archive.php:35
+#: /search.php:11
+#, php-format
+msgid "Permanent Link to %s"
+msgstr "پیوند همیشگی %s"
+
+#: /index.php:13
+#: /archive.php:38
+#: /single.php:16
+#: /search.php:14
+msgid "Posted by"
+msgstr "نوشته:"
+
+#: /index.php:13
+#: /archive.php:38
+#: /single.php:16
+#: /search.php:14
+msgid "on"
+msgstr "/"
+
+#: /index.php:15
+#: /archive.php:40
+#: /single.php:18
+#: /search.php:16
+msgid "j F Y, g:i a"
+msgstr "j F Y, g:i a"
+
+#: /index.php:19
+#: /archive.php:46
+#, php-format
+msgid "Continue reading ‘%s’ »"
+msgstr "ادامه »"
+
+#: /index.php:25
+#: /archive.php:56
+#: /single.php:28
+#: /search.php:26
+msgid "Filed under"
+msgstr "موضوع:"
+
+#: /index.php:28
+#: /archive.php:59
+#: /single.php:31
+#: /search.php:29
+msgid "Tagged"
+msgstr "کلیدواژه‌ها:"
+
+#: /index.php:33
+#: /archive.php:64
+#: /search.php:34
+msgid "1 Comment"
+msgstr "یک دیدگاه"
+
+#: /index.php:33
+#: /archive.php:64
+#: /comments.php:19
+#: /search.php:34
+msgid "% Comments"
+msgstr "% دیدگاه"
+
+#: /index.php:43
+#: /archive.php:28
+#: /archive.php:74
+msgid "&laquo; Older Entries"
+msgstr "&laquo; نوشته‌های پیشین"
+
+#: /index.php:44
+#: /archive.php:29
+#: /archive.php:75
+msgid "Newer Entries &raquo;"
+msgstr "نوشته‌های بعدی &raquo;"
+
+#: /header.php:32
+msgid "Home"
+msgstr "صفحه اصلی"
+
+#: /header.php:34
+msgid "Feed"
+msgstr "خبرخوان"
+
+#: /archive.php:8
+#, php-format
+msgid "Archive of posts filed under the %s category."
+msgstr "بایگانی موضوع %s ."
+
+#: /archive.php:11
+#, php-format
+msgid "Archive of posts tagged %s"
+msgstr "بایگانی کلیدواژه %s"
+
+#: /archive.php:14
+#: /archive.php:17
+#, php-format
+msgid "Archive of entries posted on %s"
+msgstr "بایگانی تاریخ %s"
+
+#: /archive.php:14
+msgid "jS F Y"
+msgstr "jS F Y"
+
+#: /archive.php:17
+msgid "F Y"
+msgstr "F Y"
+
+#: /archive.php:20
+#, php-format
+msgid "Archive of entries posted in the year %s"
+msgstr "بایگانی سال %s"
+
+#: /archive.php:23
+#, php-format
+msgid "Archive of entries posted by %s"
+msgstr "بایگانی نوشته‌های %s"
+
+#: /404.php:5
+msgid "Error"
+msgstr "خطای"
+
+#: /comments.php:4
+msgid "Please do not load this page directly. Thanks!"
+msgstr "Merci de ne pas télécharger cette page directement. Merci !"
+
+#: /comments.php:7
+msgid "This post is password protected. Enter the password to view comments."
+msgstr "لطفاً شماره رمز خود را بنویسید."
+
+#: /comments.php:19
+msgid "No Comments"
+msgstr "بدون دیدگاه"
+
+#: /comments.php:19
+msgid "One Comment"
+msgstr "یک دیدگاه"
+
+#: /comments.php:25
+msgid "Reply to this comment"
+msgstr "پاسخ به این دیدگاه"
+
+#: /comments.php:40
+msgid "Leave a Reply"
+msgstr "دیدگاه شما"
+
+#: /comments.php:40
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr "دیدگاه برای %s"
+
+#: /comments.php:59
+msgid "Name"
+msgstr "نام"
+
+#: /comments.php:59
+#: /comments.php:62
+msgid "required"
+msgstr "لازم"
+
+#: /comments.php:62
+msgid "Mail"
+msgstr "میل"
+
+#: /comments.php:62
+msgid "will not be published"
+msgstr "پنهان می‌ماند"
+
+#: /comments.php:65
+msgid "Website"
+msgstr "وب"
+
+#: /archives.php:13
+msgid "Archives by Month"
+msgstr "بایگانی ماهانه"
+
+#: /archives.php:18
+msgid "Archives by Subject"
+msgstr "بایگانی موضوعی"
+
+#: /search.php:6
+#, php-format
+msgid "Search results for %s"
+msgstr "یافته‌های جستجو برای %s"
+
+#: /search.php:44
+msgid "&laquo; Previous Entries"
+msgstr "&laquo; نوشته‌های پیشین"
+
+#: /search.php:45
+msgid "Next Entries &raquo;"
+msgstr "نوشته‌های بعدی &raquo;"
+
+#: /functions.php:258
+#: /functions.php:400
+msgid "Save changes"
+msgstr "ذخیره تغییرات"
+
+#: /functions.php:274
+#: /functions.php:401
+msgid "Reset to defaults"
+msgstr "بازگشت به تنظیمات پیش‌فرض"
+
+#: /functions.php:290
+msgid "Settings saved"
+msgstr "ذخیره تنظیمات"
+
+#: /functions.php:291
+msgid "Settings reset"
+msgstr "بازگرداندن تنظیمات پیشین"
+
+#: /functions.php:301
+msgid "version"
+msgstr "نسخه"
+
+#: /functions.php:352
+msgid "Close colorpicker"
+msgstr "Fermer colorpicker"
+
+#: /comments.php:47
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr "شما باید <a href=\"%s\"> وارد </a> شده باشید تا دیدگاهی بنویسید."
+
+#: /comments.php:54
+#, php-format
+msgid "Logged in as %s. <a href=\"%s\" title=\"Log out of this account\">Log out &raquo;</a>"
+msgstr "وارد شده با نام %s. <a href=\"%s\" title=\"Log out of this account\">خروج &raquo;</a>"
+
+#: /comments.php:73
+msgid "Submit Comment"
+msgstr "فرستادن دیدگاه"
+
