@@ -1,0 +1,547 @@
+# F2 theme for WordPress. Translation template file.
+# Copyright (C) 2009 Srini G
+# This file is distributed under the same license as the F2.
+# Srini G <srinig.com@gmail.com>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: F2 1.0.2\n"
+"Report-Msgid-Bugs-To: srinig.com@gmail.com\n"
+"POT-Creation-Date: 2009-09-01 12:22+0530\n"
+"PO-Revision-Date: 2012-03-23 11:51+0200\n"
+"Last-Translator: Vladimir Borisov <borisov1023@gmial.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: /links.php:12
+msgid "Links"
+msgstr "Връзки"
+
+#: /page.php:10
+#: /single.php:21
+msgid "Pages:"
+msgstr "Страници:"
+
+#: /page.php:14
+#: /index.php:36
+#: /image.php:35
+#: /archive.php:64
+#: /single.php:33
+#: /search.php:34
+msgid "Comment"
+msgstr "Коментар"
+
+#: /page.php:14
+#: /image.php:35
+#: /single.php:33
+msgid "Comments are closed"
+msgstr "Коментарите са затворени"
+
+#: /page.php:15
+#: /image.php:36
+#: /single.php:34
+msgid "Trackback"
+msgstr "Trackback"
+
+#: /page.php:17
+#: /index.php:38
+#: /image.php:38
+#: /archive.php:66
+#: /single.php:37
+#: /search.php:36
+msgid "Edit"
+msgstr "Редактирай"
+
+#: /page.php:27
+#: /index.php:52
+#: /image.php:44
+#: /archive.php:80
+#: /404.php:5
+#: /single.php:52
+#: /search.php:50
+msgid "Not Found"
+msgstr "Няма резултати"
+
+#: /page.php:28
+#: /index.php:53
+#: /image.php:45
+#: /archive.php:81
+#: /single.php:53
+#: /search.php:51
+msgid "Sorry, no posts matched your criteria."
+msgstr "Нито една публикация не отговаря на вашите критерии"
+
+#: /functions.php:22
+msgid "Header"
+msgstr "Хедър"
+
+#: /functions.php:26
+msgid "Header background image?"
+msgstr "Да има ли фоново изображение на хедъра?"
+
+#: /functions.php:32
+msgid "Header background image URL"
+msgstr "URL на фоновото изображение"
+
+#: /functions.php:33
+msgid "Tip: <a target=\"_blank\" href=\"media-new.php\">Upload your image here</a> and grab the url."
+msgstr "Съвет: <a target=\"_blank\" href=\"media-new.php\">Качи фона тук</a> и вземи URL-а."
+
+#: /functions.php:40
+msgid "Repeat header background image?"
+msgstr "Да се повтаря ли фоновото изображение?"
+
+#: /functions.php:48
+msgid "Show blog title & tagline in header?"
+msgstr "Да се показва ли името на сайта и краткото описание в хедъра?"
+
+#: /functions.php:49
+msgid "You may uncheck this option if you use a background image as logo."
+msgstr "Може да изключите тази настройка, ако ползвате фоново изображение с лого"
+
+#: /functions.php:56
+msgid "Header height"
+msgstr "Височина на хедъра"
+
+#: /functions.php:64
+msgid "Header background color"
+msgstr "Фонов цвят на хедъра"
+
+#: /functions.php:72
+msgid "Blog title font color"
+msgstr "Цвят на името на сайта"
+
+#: /functions.php:80
+msgid "Blog tagline font color"
+msgstr "Цвят на краткото описание на сайта"
+
+#: /functions.php:88
+msgid "Show horizontal menu?"
+msgstr "Да се вижда ли хоризонталното меню?"
+
+#: /functions.php:95
+msgid "Pages to be excluded in horizontal menu"
+msgstr "Страници, които да се филтрират от хоризонталното меню"
+
+#: /functions.php:96
+msgid "Comma separated page IDs"
+msgstr "ID-та, разделени със запетая"
+
+#: /functions.php:103
+msgid "Show RSS feed link in horizontal menu?"
+msgstr "Да се вижда ли връзка към RSS в хоризонталното меню?"
+
+#: /functions.php:114
+msgid "Sidebar"
+msgstr "Странична лента"
+
+#: /functions.php:118
+msgid "Show left sidebar?"
+msgstr "Да се вижда ли лявата странична лента?"
+
+#: /functions.php:125
+msgid "Left sidebar width?"
+msgstr "Ширина на лявата странична"
+
+#: /functions.php:134
+msgid "Left sidebar fontsize"
+msgstr "Размер на шрифта на лявата странична"
+
+#: /functions.php:138
+#: /functions.php:168
+#: /functions.php:189
+msgid "small"
+msgstr "малък"
+
+#: /functions.php:139
+#: /functions.php:169
+#: /functions.php:190
+msgid "medium"
+msgstr "среден"
+
+#: /functions.php:140
+#: /functions.php:170
+#: /functions.php:191
+msgid "large"
+msgstr "голям"
+
+#: /functions.php:148
+msgid "Show right sidebar?"
+msgstr "Да се вижда ли дясната странична лента?"
+
+#: /functions.php:155
+msgid "Right sidebar width?"
+msgstr "Ширина на дясната странична"
+
+#: /functions.php:164
+msgid "Right sidebar fontsize"
+msgstr "Размер на шрифта на дясната странична"
+
+#: /functions.php:181
+msgid "Blog posts"
+msgstr "Публикации"
+
+#: /functions.php:185
+msgid "Blog post text size"
+msgstr "Размер на шрифта в публикациите"
+
+#: /functions.php:197
+msgid "Show post author?"
+msgstr "Да се вижда ли авторът на публикация?"
+
+#: /functions.php:204
+msgid "Show post category?"
+msgstr "Да се вижда ли категорията на публикация?"
+
+#: /functions.php:211
+msgid "Full post or excerpt in archive pages?"
+msgstr "Да се вижда ли цялата публикация или само откъс в архивните страници?"
+
+#: /functions.php:212
+msgid "Displaying only excerpt in archive pages is a better SEO practice."
+msgstr "Показване само на откъс от публикацията помага на търсещите машини."
+
+#: /functions.php:215
+msgid "Full post"
+msgstr "Цялата публикация"
+
+#: /functions.php:216
+msgid "Only excerpt"
+msgstr "Само откъс"
+
+#: /functions.php:226
+msgid "Footer"
+msgstr "Футър"
+
+#: /functions.php:230
+msgid "Footer text"
+msgstr "Текст в футъра"
+
+#: /functions.php:240
+msgid "General options"
+msgstr "Основни настройки"
+
+#: /functions.php:244
+msgid "Rounded corners?"
+msgstr "Заоблени ъгли"
+
+#: /functions.php:245
+msgid "Rounded corners add to the fluid nature of the theme. Note that this will add non-standard CSS code."
+msgstr "Това ще добави нестандартен CSS код."
+
+#: /functions.php:258
+#: /functions.php:400
+msgid "Save changes"
+msgstr "Запази промените"
+
+#: /functions.php:274
+#: /functions.php:401
+msgid "Reset to defaults"
+msgstr "Стандартни настройки"
+
+#: /functions.php:282
+#: /functions.php:295
+msgid "Settings"
+msgstr "Настройки"
+
+#: /functions.php:290
+msgid "Settings saved"
+msgstr "Настройките бяха запазени"
+
+#: /functions.php:291
+msgid "Settings reset"
+msgstr "Настройките бяха възстановени"
+
+#: /functions.php:301
+msgid "version"
+msgstr "версия"
+
+#: /functions.php:301
+#, php-format
+msgid "Visit <a href=\"%s\">theme page</a>"
+msgstr "Посети <a href=\"%s\">страницата на темата</a>"
+
+#: /functions.php:301
+#, php-format
+msgid "View <a href=\"%s\">readme</a>"
+msgstr "Виж <a href=\"%s\">readme</a>"
+
+#: /functions.php:303
+msgid "Header Settings"
+msgstr "Настройки на хедъра"
+
+#: /functions.php:304
+msgid "Sidebar Settings"
+msgstr "Настройки на страничната лента"
+
+#: /functions.php:305
+msgid "Posts Settings"
+msgstr "Настройи на публикациите"
+
+#: /functions.php:306
+msgid "Footer Settings"
+msgstr "Настройки на футъра"
+
+#: /functions.php:307
+msgid "General Settings"
+msgstr "Общи настройки"
+
+#: /functions.php:312
+msgid "If you enjoy the theme, you can make a donation and support development. Thank you!"
+msgstr "Ако ви харесва темата, може да направите дарение, за да подпомонгете разработката. Благодаря Ви!"
+
+#: /functions.php:352
+msgid "Close colorpicker"
+msgstr "Затвори"
+
+#: /sidebar.php:6
+msgid "Pages"
+msgstr "Страници"
+
+#: /sidebar.php:8
+msgid "Categories"
+msgstr "Категории"
+
+#: /sidebar.php:14
+#: /archives.php:11
+msgid "Archives"
+msgstr "Архиви"
+
+#: /sidebar.php:19
+#: /archives.php:25
+msgid "Tags"
+msgstr "Ключови думи"
+
+#: /sidebar.php:36
+msgid "Meta"
+msgstr "Мета"
+
+#: /sidebar.php:40
+msgid "This page validates as XHTML 1.0 Transitional"
+msgstr "Тази страница съдържа вакиден XHTML 1.0 Transitional"
+
+#: /sidebar.php:41
+msgid "XHTML Friends Network"
+msgstr "XHTML Friends Network"
+
+#: /sidebar.php:42
+msgid "Powered by WordPress, state-of-the-art semantic personal publishing platform."
+msgstr "Powered by WordPress, state-of-the-art semantic personal publishing platform."
+
+#: /index.php:10
+#: /archive.php:35
+#: /single.php:36
+#: /search.php:11
+#, php-format
+msgid "Permanent Link to %s"
+msgstr "Постоянна връзка до %s"
+
+#: /index.php:13
+#: /image.php:13
+#: /archive.php:38
+#: /single.php:15
+#: /search.php:14
+msgid "Posted by"
+msgstr "Автор"
+
+#: /index.php:13
+#: /image.php:13
+#: /archive.php:38
+#: /single.php:15
+#: /search.php:14
+msgid "on"
+msgstr "вкл."
+
+#: /index.php:15
+#: /image.php:15
+#: /archive.php:40
+#: /single.php:17
+#: /search.php:16
+msgid "j F Y, g:i a"
+msgstr "j F Y, H:i"
+
+#: /index.php:17
+msgid "Sticky post"
+msgstr "Важен"
+
+#: /index.php:22
+#: /archive.php:46
+#, php-format
+msgid "Continue reading ‘%s’ »"
+msgstr "Цялата статия  ‘%s’ »"
+
+#: /index.php:28
+#: /image.php:29
+#: /archive.php:56
+#: /single.php:27
+#: /search.php:26
+msgid "Filed under"
+msgstr "В категория"
+
+#: /index.php:31
+#: /image.php:32
+#: /archive.php:59
+#: /single.php:30
+#: /search.php:29
+msgid "Tagged"
+msgstr "Ключови думи"
+
+#: /index.php:36
+#: /archive.php:64
+#: /search.php:34
+msgid "1 Comment"
+msgstr "1 коментар"
+
+#: /index.php:36
+#: /archive.php:64
+#: /comments.php:19
+#: /search.php:34
+msgid "% Comments"
+msgstr "% коментара"
+
+#: /index.php:46
+#: /archive.php:28
+#: /archive.php:74
+msgid "&laquo; Older Entries"
+msgstr "&laquo; По-стари статии"
+
+#: /index.php:47
+#: /archive.php:29
+#: /archive.php:75
+msgid "Newer Entries &raquo;"
+msgstr "По-нови статии  &raquo;"
+
+#: /header.php:33
+msgid "Home"
+msgstr "Начало"
+
+#: /header.php:35
+msgid "Feed"
+msgstr "RSS"
+
+#: /archive.php:8
+#, php-format
+msgid "Archive of posts filed under the %s category."
+msgstr "Публикации в категория %s."
+
+#: /archive.php:11
+#, php-format
+msgid "Archive of posts tagged %s"
+msgstr "Публикации, по ключува дума %s"
+
+#: /archive.php:14
+#: /archive.php:17
+#, php-format
+msgid "Archive of entries posted on %s"
+msgstr "Публикации, публикувани на %s"
+
+#: /archive.php:14
+msgid "jS F Y"
+msgstr "jS FY"
+
+#: /archive.php:17
+msgid "F Y"
+msgstr "F Y"
+
+#: /archive.php:20
+#, php-format
+msgid "Archive of entries posted in the year %s"
+msgstr "Публикации, публикувани през %s година"
+
+#: /archive.php:23
+#, php-format
+msgid "Archive of entries posted by %s"
+msgstr "Публикации, публикувани от %s"
+
+#: /404.php:5
+msgid "Error"
+msgstr "Грешка"
+
+#: /comments.php:4
+msgid "Please do not load this page directly. Thanks!"
+msgstr "Моля, на зареждайте тази страница директно. Благодаря!"
+
+#: /comments.php:7
+msgid "This post is password protected. Enter the password to view comments."
+msgstr "Тази публикация е защитена с парола. Въведете паролата, за да видите коментарите."
+
+#: /comments.php:19
+msgid "No Comments"
+msgstr "Няма коментари"
+
+#: /comments.php:19
+msgid "One Comment"
+msgstr "Един коментар"
+
+#: /comments.php:25
+msgid "Reply to this comment"
+msgstr "Отговори на този коментар"
+
+#: /comments.php:40
+msgid "Leave a Reply"
+msgstr "Отговор"
+
+#: /comments.php:40
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr "Отговор до %s"
+
+#: /comments.php:47
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr "Трябва да <a href=\"%s\">влезете</a>, за да коментирате."
+
+#: /comments.php:54
+#, php-format
+msgid "Logged in as %s. <a href=\"%s\" title=\"Log out of this account\">Log out &raquo;</a>"
+msgstr "Потребител %s. <a href=\"%s\" title=\"Изход от акаунта\">Изход &raquo;</a>"
+
+#: /comments.php:59
+msgid "Name"
+msgstr "Име"
+
+#: /comments.php:59
+#: /comments.php:62
+msgid "required"
+msgstr "задължително"
+
+#: /comments.php:62
+msgid "Mail"
+msgstr "Поща"
+
+#: /comments.php:62
+msgid "will not be published"
+msgstr "няма да се публикува"
+
+#: /comments.php:65
+msgid "Website"
+msgstr "Уебсайт"
+
+#: /comments.php:73
+msgid "Submit Comment"
+msgstr "Добави коментар"
+
+#: /archives.php:13
+msgid "Archives by Month"
+msgstr "Архив по месеци"
+
+#: /archives.php:18
+msgid "Archives by Subject"
+msgstr "Архив по тема"
+
+#: /search.php:6
+#, php-format
+msgid "Search results for %s"
+msgstr "Резултати за %s"
+
+#: /search.php:44
+msgid "&laquo; Previous Entries"
+msgstr "&laquo; Предишни"
+
+#: /search.php:45
+msgid "Next Entries &raquo;"
+msgstr "Следващи &raquo;"
+

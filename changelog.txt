@@ -1,0 +1,109 @@
+Version 2.0.1
+
+* Theme documentation changes. Removed readme.txt and readme.html while retaining README.md.
+* Added localization in Portugese and Bulgarian languages.
+
+2012-11-13: Version 2.0
+
+This is a major update. The theme is completely overhauled and rewritten from scratch based on the _s theme. This version requires WP 3.4 or above.
+
+Most of the things have been modified. The following is the list of main additions and removals from version 1.2.
+
+**Additions**
+
+* Responsiveness
+* Support for the 'post thumbnail' feature
+* Support for 'aside' post format
+* Customization using the interactive WP customizer interface
+* New options (and options that have undergone a complete change)
+    * Color schemes
+    * Logo image
+    * Header image
+    * Layout choices
+    * Sidebar width
+    * Sidebar font size
+    * Content font size
+    * Option to show only excerpts (instead of full posts) in home page
+    * Custom CSS
+* Google Web Fonts
+
+**Removals**
+
+* Links template
+* Options:
+    * Header bg color
+    * Header bg image and related options
+    * Header text color
+
+
+
+2011-09-17: Version 1.2
+
+* Added localization in Polish and Ukrainian languages.
+* Fixes for deprecated functions, errors, notices, fixes for the hmenu, and lots and lots of other minor fixes.
+
+2010-12-06: Version 1.1.1
+
+* Added localization in Persian language.
+* Fixes for deprecated functions and other minor errors.
+
+2010-07-12: Version 1.1
+
+* Added support for custom menus in WP 3.0 for the primary (horizontal) menu in the header.
+* Added localization in Hindi.
+
+2010-04-09: Version 1.0.10
+
+* Added localization in Belorussian language.
+
+2010-02-02: Version 1.0.9
+
+* Added localization in Japanese, Norwegian (Nynorsk) and Danish languages.
+* Updated Norwegian (Bokmål) and Traditional Chinese.
+
+2009-12-13: Version 1.0.8
+
+* Added localization in Lithuanian and Faroese languages.
+
+2009-11-03: Version 1.0.7
+
+* Added localization in Russian and Chinese languages
+* Minor improvements in styling
+
+2009-10-01: Version 1.0.6
+
+* Added localization in Italian and Norwegian (Bokmål) languages.
+
+2009-09-22: Version 1.0.5
+
+* Added localization in Dutch language.
+* Minor improvements (styling for `<pre>`)
+
+2009-09-14: Version 1.0.4
+
+* Added localization in Tamil language.
+* Support for custom.css.
+
+2009-09-10: Version 1.0.3
+
+* Added localization in Traditional Chinese.
+
+2009-09-01: Version 1.0.2
+
+* Added localization in German and Indonesian languages. Turkish updated.
+* Support for rtl languages added (rtl.css)
+* Improvements (sticky post, min-width)
+
+2009-08-27: Version 1.0.1
+
+* Bug fixes. Some of the options in the settings page didn't work. This is fixed now.
+* French localization updated.
+
+2009-08-26: Version 1.0
+
+* CSS fixes, other fixes, improvements, updated translation strings.
+* Added localization in French and Turkish.
+
+2009-08-22: Version 0.9
+
+* Public release
