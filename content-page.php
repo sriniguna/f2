@@ -13,7 +13,9 @@
 	</header><!-- .entry-header -->
 
 	<div class="entry-content">
-		<div class="featured-image"><?php the_post_thumbnail('full-post'); ?></div>
+		<?php if ( has_post_thumbnail() ): ?>
+			<div class="featured-image"><?php the_post_thumbnail('full-post'); ?></div>
+		<? endif; ?>
 		<?php the_content(); ?>
 		<?php wp_link_pages( array( 'before' => '<div class="page-links">' . __( 'Pages:', 'f2' ), 'after' => '</div>' ) ); ?>
 		<?php edit_post_link( __( 'Edit', 'f2' ), '<span class="edit-link">', '</span>' ); ?>

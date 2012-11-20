@@ -23,22 +23,26 @@
 	<?php if ( is_search() || ( is_archive() && f2_get_option('archive_posts') == 'excerpts' ) || ( is_home() && f2_get_option('home_page_posts') == 'excerpts' ) ) : // Only display Excerpts for Search or if 'show only excerpts' is selceted for home page or archives, whatever the case ?>
 
 		<div class="entry-summary">
+			<?php if ( has_post_thumbnail() ): ?>
 			<div class="featured-image">
 				<a href="<?php the_permalink(); ?>" title="<?php the_title_attribute( 'echo=0' ); ?>">
 					<?php the_post_thumbnail(); ?>
 				</a>
 			</div>
+			<?php endif; ?>
 			<?php the_excerpt(); ?>
 		</div><!-- .entry-summary -->
 
 	<?php else : ?>
 		
 		<div class="entry-content">
+			<?php if ( has_post_thumbnail() ): ?>
 			<div class="featured-image">
 				<a href="<?php the_permalink(); ?>" title="<?php the_title_attribute( 'echo=0' ); ?>">
 					<?php the_post_thumbnail('full-post'); ?>
 				</a>
 			</div>
+			<?php endif; ?>
 			<?php the_content( sprintf(__('Continue reading &lsquo;%s&rsquo; &raquo;', 'f2'), the_title('', '', false)) ); ?>
 			<?php wp_link_pages( array( 'before' => '<div class="page-links">' . __( 'Pages:', 'f2' ), 'after' => '</div>' ) ); ?>
 		</div><!-- .entry-content -->
