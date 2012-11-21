@@ -14,7 +14,7 @@
 
 	<div class="entry-content">
 		<?php if ( has_post_thumbnail() ): ?>
-			<div class="featured-image"><?php the_post_thumbnail('full-post'); ?></div>
+			<div class="featured-image"><?php the_post_thumbnail('full-width'); ?></div>
 		<?php endif; ?>
 		<?php the_content(); ?>
 		<?php wp_link_pages( array( 'before' => '<div class="page-links">' . __( 'Pages:', 'f2' ), 'after' => '</div>' ) ); ?>

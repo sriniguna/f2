@@ -54,7 +54,7 @@ function f2_setup() {
 	 */
 	add_theme_support( 'post-thumbnails', array('post', 'page') );
 	set_post_thumbnail_size( 150, 150, true ); // Post thumbnail size for excerpts and search results
-	add_image_size( 'full-post', 720, 9999 ); // Post thumbnail size for full post displays
+	add_image_size( 'full-width', 730, 9999 ); // Post thumbnail size for full post displays
 
 	/**
 	 * This theme uses wp_nav_menu() in one location.

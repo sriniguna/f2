@@ -39,7 +39,7 @@
 			<?php if ( has_post_thumbnail() ): ?>
 			<div class="featured-image">
 				<a href="<?php the_permalink(); ?>" title="<?php the_title_attribute( 'echo=0' ); ?>">
-					<?php the_post_thumbnail('full-post'); ?>
+					<?php the_post_thumbnail('full-width'); ?>
 				</a>
 			</div>
 			<?php endif; ?>
