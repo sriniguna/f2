@@ -7,6 +7,7 @@ Translation credits
 Code     Language               Translator
 -----------------------------------------------
 be_BY    Belorussian            Marcis G.
+bg_BG    Bulgarian              Vladimir Borisov
 da_DK    Danish                 Per Lundbech
 de_DE    German                 Stephan Jaschke
 fa_IR    Persian                Ghiasabadi R. M.
@@ -21,6 +22,7 @@ nb_NO    Norwegian (Bokmål)     Eilif Nordseth, Eivind Ødegård
 nl_NL    Dutch                  R. Helmes
 nn_NO    Norwegian (Nynorsk)    Eivind Ødegård
 pl_PL    Polish                 Super Grey
+pt_BR    Portugese              Pedro Padron
 ru_RU    Russian                Mihail Pomaskin
 ta       Tamil                  Ravi
 tr_TR    Turkish                Caner Güral
