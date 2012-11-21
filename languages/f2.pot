@@ -5,9 +5,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: F2 2.0\n"
+"Project-Id-Version: F2 2.0.1\n"
 "Report-Msgid-Bugs-To: srinig.com@gmail.com\n"
-"POT-Creation-Date: 2012-11-10 09:49+0530\n"
+"POT-Creation-Date: 2012-11-21 19:33+0530\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: \n"
@@ -16,61 +16,62 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 
-#: content-single.php:20
-#: content-page.php:17
+
+#: content-single.php:22
+#: content-page.php:20
 #: image.php:82
-#: content.php:43
+#: content.php:47
 msgid "Pages:"
 msgstr ""
 
-#: content-single.php:27
-#: content-single.php:37
-#: content.php:52
-#: content.php:62
+#: content-single.php:29
+#: content-single.php:39
+#: content.php:56
+#: content.php:66
 msgid ", "
 msgstr ""
 
-#: content-single.php:31
-#: content.php:56
+#: content-single.php:33
+#: content.php:60
 msgid "Filed under"
 msgstr ""
 
-#: content-single.php:42
-#: content.php:67
+#: content-single.php:44
+#: content.php:71
 msgid "Tagged"
 msgstr ""
 
-#: content-single.php:49
-#: content.php:74
+#: content-single.php:51
+#: content.php:78
 #: content-aside.php:22
 msgid "Comment"
 msgstr ""
 
-#: content-single.php:49
-#: content.php:74
+#: content-single.php:51
+#: content.php:78
 #: content-aside.php:22
 msgid "1 Comment"
 msgstr ""
 
-#: content-single.php:49
-#: content.php:74
+#: content-single.php:51
+#: content.php:78
 #: comments.php:30
 #: content-aside.php:22
 msgid "% Comments"
 msgstr ""
 
-#: content-single.php:52
+#: content-single.php:54
 #: content.php:11
 #: content-aside.php:12
 #, php-format
 msgid "Permanent Link to %s"
 msgstr ""
 
-#: content-single.php:53
-#: content-page.php:18
+#: content-single.php:55
+#: content-page.php:21
 #: image.php:34
 #: image.php:101
-#: content.php:77
+#: content.php:81
 #: content-aside.php:25
 msgid "Edit"
 msgstr ""
@@ -168,9 +169,9 @@ msgstr ""
 msgid "Sticky post"
 msgstr ""
 
-#: content.php:42
+#: content.php:46
 #: content-aside.php:14
-#: functions.php:214
+#: functions.php:216
 #, php-format
 msgid "Continue reading &lsquo;%s&rsquo; &raquo;"
 msgstr ""
@@ -197,11 +198,11 @@ msgstr ""
 msgid "Page %s"
 msgstr ""
 
-#: header.php:60
+#: header.php:57
 msgid "Menu"
 msgstr ""
 
-#: header.php:61
+#: header.php:58
 msgid "Skip to content"
 msgstr ""
 
@@ -395,7 +396,7 @@ msgid "Archive Posts"
 msgstr ""
 
 #: inc/theme-options/theme-options.php:60
-msgid "Footer text"
+msgid "Footer Text"
 msgstr ""
 
 #: inc/theme-options/theme-options.php:61
@@ -505,7 +506,8 @@ msgid "%s Theme Options"
 msgstr ""
 
 #: inc/theme-options/theme-options.php:491
-msgid "version"
+#, php-format
+msgid "You are using F2 WordPress theme, version %s."
 msgstr ""
 
 #: inc/theme-options/theme-options.php:492
