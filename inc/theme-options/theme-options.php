@@ -57,7 +57,7 @@ function f2_theme_options_init() {
 	add_settings_field( 'archive_posts', __('Archive Posts', 'f2'), 'f2_settings_field_archive_posts', 'theme_options', 'content' );
 
 
-	add_settings_field( 'footer_text', __('Footer text', 'f2'), 'f2_settings_field_footer_text', 'theme_options', 'footer' );
+	add_settings_field( 'footer_text', __('Footer Text', 'f2'), 'f2_settings_field_footer_text', 'theme_options', 'footer' );
 	add_settings_field( 'hide_footer_credits', __('Hide Footer Credits', 'f2'), 'f2_settings_field_hide_footer_credits', 'theme_options', 'footer' );
 
 	add_settings_field( 'custom_css', __('Custom CSS', 'f2'), 'f2_settings_field_custom_css', 'theme_options', 'custom_css' );

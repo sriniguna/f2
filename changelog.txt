@@ -1,23 +1,15 @@
 Change Log
 ==========
 
-2.0.1
------
+2.0.1 (2012-11-21)
+------------------
 
 * Google Web Fonts CSS enqueued instead of hardcoding in header.php
-    [modified] header.php, functions.php
 * Content width changed to 730px
-    [modified] css/screen.css, css/screen.scss, functions.php
 * Post thumbnail fixes
-    [modified] content-page.php, content-single.php, content.php, functions.php
 * Styling mods
-    [modified] scss/{print.scss, screen.scss}, css/{print.css, screen.css}
 * Theme documentation changes.
-    [modified] README.md, languages/readme.txt, inc/theme-options/theme-options.php
-    [deleted] readme.txt,readme.html
-    [added] changelog.txt
 * Added localization in Portugese and Bulgarian languages.
-    [added] languages/{pt_BR.*, bg_BG.*}
 
 
 2.0 (2012-11-13)
@@ -44,6 +36,7 @@ Most of the things have been modified. The following is the list of main additio
     * Option to show only excerpts (instead of full posts) in home page
     * Custom CSS
 * Google Web Fonts
+* HTML5 & CSS3
 
 **Removals**
 
