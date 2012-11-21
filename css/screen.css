@@ -1044,41 +1044,41 @@ body {
 
 /* Setting the maximum page width so that the content width doen't exceed 720px */
 .no-sidebar #page {
-  max-width: 760px;
-  /* 20 + 720 +20 */
-  max-width: 76rem;
+  max-width: 770px;
+  /* 20 + 730 +20 */
+  max-width: 77rem;
 }
 
 .one-sidebar-right.narrow-sidebar #page, .one-sidebar-left.narrow-sidebar #page {
-  max-width: 960px;
-  /* ( 20 + 720 + 20 ) + ( 20 + 160 + 20 ) */
-  max-width: 96rem;
+  max-width: 970px;
+  /* ( 20 + 730 + 20 ) + ( 20 + 160 + 20 ) */
+  max-width: 97rem;
 }
 .one-sidebar-right.medium-sidebar #page, .one-sidebar-left.medium-sidebar #page {
-  max-width: 1060px;
-  /* ( 20 + 720 + 20 ) + ( 20 + 260 + 20 ) */
-  max-width: 106rem;
+  max-width: 1070px;
+  /* ( 20 + 730 + 20 ) + ( 20 + 260 + 20 ) */
+  max-width: 107rem;
 }
 .one-sidebar-right.wide-sidebar #page, .one-sidebar-left.wide-sidebar #page {
-  max-width: 1100px;
-  /* ( 20 + 720 + 20 ) + ( 20 + 300 + 20 ) */
-  max-width: 110rem;
+  max-width: 1110px;
+  /* ( 20 + 730 + 20 ) + ( 20 + 300 + 20 ) */
+  max-width: 111rem;
 }
 
 .two-sidebars.narrow-sidebar #page {
-  max-width: 1160px;
-  /* ( 20 + 160 + 20 ) + ( 20 + 720 + 20 ) + ( 20 + 160 + 20 ) */
-  max-width: 116rem;
+  max-width: 1170px;
+  /* ( 20 + 160 + 20 ) + ( 20 + 730 + 20 ) + ( 20 + 160 + 20 ) */
+  max-width: 117rem;
 }
 .two-sidebars.medium-sidebar #page {
-  max-width: 1360px;
-  /* ( 20 + 260 + 20 ) + ( 20 + 720 + 20 ) + ( 20 + 260 + 20 ) */
-  max-width: 136rem;
+  max-width: 1370px;
+  /* ( 20 + 260 + 20 ) + ( 20 + 730 + 20 ) + ( 20 + 260 + 20 ) */
+  max-width: 137rem;
 }
 .two-sidebars.wide-sidebar #page {
-  max-width: 1440px;
-  /* ( 20 + 300 + 20 ) + ( 20 + 720 + 20 ) + ( 20 + 300 + 20 ) */
-  max-width: 144rem;
+  max-width: 1450px;
+  /* ( 20 + 300 + 20 ) + ( 20 + 730 + 20 ) + ( 20 + 300 + 20 ) */
+  max-width: 145rem;
 }
 
 #main {
@@ -1156,8 +1156,8 @@ body {
   }
 }
 /* Defining breakpoints. We make sure the content width doesn't get > 720px */
-@media screen and (min-width: 47.5em) {
-  /* ~760px */
+@media screen and (min-width: 48.125em) {
+  /* ~770px */
   .narrow-sidebar.one-sidebar-left #main, .narrow-sidebar.two-sidebars #main {
     padding: 0 0 0 20rem;
   }
@@ -1323,8 +1323,8 @@ body {
     border-bottom-right-radius: 0.5rem;
   }
 }
-@media screen and (min-width: 60em) {
-  /* ~960px */
+@media screen and (min-width: 60.625em) {
+  /* ~970px */
   .narrow-sidebar.two-sidebars #main {
     padding: 0 20rem;
   }
@@ -1360,8 +1360,8 @@ body {
     box-shadow: rgba(0, 0, 0, 0.1) 0 0 0 0.1rem;
   }
 }
-@media screen and (min-width: 66.25em) {
-  /* ~ 1060px */
+@media screen and (min-width: 66.875em) {
+  /* ~ 1070px */
   .medium-sidebar.two-sidebars #main {
     padding: 0 30rem;
   }
@@ -1397,8 +1397,8 @@ body {
     box-shadow: rgba(0, 0, 0, 0.1) 0 0 0 0.1rem;
   }
 }
-@media screen and (min-width: 68.75em) {
-  /* ~ 1100px */
+@media screen and (min-width: 69.375em) {
+  /* ~ 1110px */
   .wide-sidebar.two-sidebars #main {
     padding: 0 34rem;
   }

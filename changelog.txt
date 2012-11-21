@@ -1,9 +1,27 @@
-Version 2.0.1
+Change Log
+==========
 
-* Theme documentation changes. Removed readme.txt and readme.html while retaining README.md.
+2.0.1
+-----
+
+* Google Web Fonts CSS enqueued instead of hardcoding in header.php
+    [modified] header.php, functions.php
+* Content width changed to 730px
+    [modified] css/screen.css, css/screen.scss, functions.php
+* Post thumbnail fixes
+    [modified] content-page.php, content-single.php, content.php, functions.php
+* Styling mods
+    [modified] scss/{print.scss, screen.scss}, css/{print.css, screen.css}
+* Theme documentation changes.
+    [modified] README.md, languages/readme.txt, inc/theme-options/theme-options.php
+    [deleted] readme.txt,readme.html
+    [added] changelog.txt
 * Added localization in Portugese and Bulgarian languages.
+    [added] languages/{pt_BR.*, bg_BG.*}
 
-2012-11-13: Version 2.0
+
+2.0 (2012-11-13)
+----------------
 
 This is a major update. The theme is completely overhauled and rewritten from scratch based on the _s theme. This version requires WP 3.4 or above.
 
@@ -35,7 +53,10 @@ Most of the things have been modified. The following is the list of main additio
     * Header bg image and related options
     * Header text color
 
+------------------------------------------------------------
 
+Older Versions
+--------------
 
 2011-09-17: Version 1.2
 

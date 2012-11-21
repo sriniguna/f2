@@ -12,7 +12,7 @@
  * @since F2 2.0
  */
 if ( ! isset( $content_width ) )
-	$content_width = 720; /* pixels */
+	$content_width = 730; /* pixels */
 
 if ( ! function_exists( 'f2_setup' ) ):
 /**
