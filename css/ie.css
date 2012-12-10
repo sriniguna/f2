@@ -221,3 +221,10 @@ time.pubdate, .comment-meta {
   margin-right: -340px;
   padding-top: 20px;
 }
+
+.site-header img,
+.entry-content img,
+img.size-full {
+  width: auto;
+  /* Prevent stretching of full-size images with height and width attributes in IE8 */
+}

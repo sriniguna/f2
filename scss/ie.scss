@@ -140,3 +140,9 @@ time.pubdate, .comment-meta {
 .wide-sidebar {
 	@include ie-sidebars(300px);
 }
+
+.site-header img,
+.entry-content img,
+img.size-full {
+	width: auto; /* Prevent stretching of full-size images with height and width attributes in IE8 */
+}
