@@ -5,6 +5,8 @@ Change Log
 ---
 
 * Added an option to disable webfonts
+* Updated screenshot with 2x image
+
 
 
 2.0.2 (2012-12-10)
