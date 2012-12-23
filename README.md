@@ -21,7 +21,7 @@ Main Features
 	* sidebar - content - sidebar
 	* content only (no sidebar)
 * More customization possible from the 'Theme Options' admin page and also from the WP 'Theme Customizer'.
-* Compatible with WordPress version 3.4 and above. Tested upto 3.5-RC5.
+* Compatible with WordPress version 3.4 and above. Tested upto 3.5.
 * HTML5 and CSS3.
 * Tested and works well in all major browsers. IE 7 and up, and the latest versions of Chrome, Firefox, Opera and Safari.
 * Translation ready.
