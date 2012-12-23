@@ -6,6 +6,7 @@ Change Log
 
 * Added an option to disable webfonts
 * Updated screenshot with 2x image
+* Regenerated translation POT file
 
 
 
