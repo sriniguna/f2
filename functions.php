@@ -116,8 +116,9 @@ add_action( 'widgets_init', 'f2_widgets_init' );
 function f2_scripts() {
 
 	$theme  = wp_get_theme();
-	
-	wp_enqueue_style( 'google-webfonts', 'http://fonts.googleapis.com/css?family=Bitter:700|Gudea:400,700,400italic', false, $theme->Version );
+	if( f2_get_option('disable_webfonts') != 'on' ) {
+		wp_enqueue_style( 'google-webfonts', 'http://fonts.googleapis.com/css?family=Bitter:700|Gudea:400,700,400italic', false, $theme->Version );
+	}
 
 	wp_enqueue_style( 'style', get_stylesheet_uri(), false, $theme->Version );
 

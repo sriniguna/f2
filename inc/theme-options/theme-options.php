@@ -38,7 +38,7 @@ function f2_theme_options_init() {
 	add_settings_section( 'sidebar', __('Sidebar', 'f2'), '__return_false', 'theme_options');
 	add_settings_section( 'content', __('Content', 'f2'), '__return_false', 'theme_options');
 	add_settings_section( 'footer', __('Footer', 'f2'), '__return_false', 'theme_options');
-	add_settings_section( 'custom_css', __('Custom CSS', 'f2'), '__return_false', 'theme_options');
+	add_settings_section( 'other', __('Other Options', 'f2'), '__return_false', 'theme_options');
 
 
 	add_settings_field( 'color_scheme', __('Color Scheme', 'f2'), 'f2_settings_field_color_scheme', 'theme_options', 'color_scheme' );
@@ -60,7 +60,8 @@ function f2_theme_options_init() {
 	add_settings_field( 'footer_text', __('Footer Text', 'f2'), 'f2_settings_field_footer_text', 'theme_options', 'footer' );
 	add_settings_field( 'hide_footer_credits', __('Hide Footer Credits', 'f2'), 'f2_settings_field_hide_footer_credits', 'theme_options', 'footer' );
 
-	add_settings_field( 'custom_css', __('Custom CSS', 'f2'), 'f2_settings_field_custom_css', 'theme_options', 'custom_css' );
+	add_settings_field( 'disable_webfonts', __('Disable Google Webfonts', 'f2'), 'f2_settings_field_disable_webfonts', 'theme_options', 'other' );
+	add_settings_field( 'custom_css', __('Custom CSS', 'f2'), 'f2_settings_field_custom_css', 'theme_options', 'other' );
 
 }
 add_action( 'admin_init', 'f2_theme_options_init' );
@@ -199,6 +200,7 @@ function f2_default_theme_options($option = '') {
 		'archive_posts'         => 'excerpts',
 		'footer_text'           => '&copy; '. date('Y') .' '. get_bloginfo('name'),
 		'hide_footer_credits'   => 'off',
+		'disable_webfonts'      => 'off',
 		'custom_css'            => '',
 	);
 
@@ -440,6 +442,23 @@ function f2_settings_field_footer_text() {
 }
 
 
+/**
+ * Renders the 'disable-webfonts' setting field.
+ *
+ * @since F2 2.1
+ */
+
+function f2_settings_field_disable_webfonts() {
+	$options = f2_get_theme_options();
+	?>
+	<label for="disable-webfonts">
+		<input type="checkbox" name="f2_theme_options[disable_webfonts]" id="disable-webfonts" <?php checked( 'on', $options['disable_webfonts'] ); ?> />
+	</label>
+	<?php
+
+}
+
+
 
 /**
  * Renders the 'custom-css' setting field.
@@ -569,6 +588,10 @@ function f2_theme_options_validate( $input ) {
 	// Checkboxes will only be present if checked.
 	if ( isset( $input['hide_footer_credits'] ) )
 		$output['hide_footer_credits'] = 'on';
+
+	// Checkboxes will only be present if checked.
+	if ( isset( $input['disable_webfonts'] ) )
+		$output['disable_webfonts'] = 'on';
 
 
 	// The textarea must be safe text with the allowed tags for posts
