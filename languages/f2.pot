@@ -5,9 +5,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: F2 2.0.1\n"
+"Project-Id-Version: F2 2.1\n"
 "Report-Msgid-Bugs-To: srinig.com@gmail.com\n"
-"POT-Creation-Date: 2012-11-21 19:33+0530\n"
+"POT-Creation-Date: 2012-12-23 11:49+0530\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: \n"
@@ -68,7 +68,7 @@ msgid "Permanent Link to %s"
 msgstr ""
 
 #: content-single.php:55
-#: content-page.php:21
+#: content-page.php:24
 #: image.php:34
 #: image.php:101
 #: content.php:81
@@ -171,7 +171,7 @@ msgstr ""
 
 #: content.php:46
 #: content-aside.php:14
-#: functions.php:216
+#: functions.php:217
 #, php-format
 msgid "Continue reading &lsquo;%s&rsquo; &raquo;"
 msgstr ""
@@ -322,8 +322,8 @@ msgstr ""
 
 #: inc/theme-options/theme-options.php:32
 #: inc/theme-options/theme-options.php:44
-#: inc/theme-options/theme-options.php:591
-#: inc/theme-options/theme-options.php:628
+#: inc/theme-options/theme-options.php:614
+#: inc/theme-options/theme-options.php:651
 msgid "Color Scheme"
 msgstr ""
 
@@ -332,12 +332,12 @@ msgid "Header"
 msgstr ""
 
 #: inc/theme-options/theme-options.php:38
-#: inc/theme-options/theme-options.php:604
+#: inc/theme-options/theme-options.php:627
 msgid "Sidebar"
 msgstr ""
 
 #: inc/theme-options/theme-options.php:39
-#: inc/theme-options/theme-options.php:610
+#: inc/theme-options/theme-options.php:633
 msgid "Content"
 msgstr ""
 
@@ -346,8 +346,7 @@ msgid "Footer"
 msgstr ""
 
 #: inc/theme-options/theme-options.php:41
-#: inc/theme-options/theme-options.php:63
-msgid "Custom CSS"
+msgid "Other Options"
 msgstr ""
 
 #: inc/theme-options/theme-options.php:46
@@ -355,8 +354,8 @@ msgid "Site Logo"
 msgstr ""
 
 #: inc/theme-options/theme-options.php:47
-#: inc/theme-options/theme-options.php:597
-#: inc/theme-options/theme-options.php:662
+#: inc/theme-options/theme-options.php:620
+#: inc/theme-options/theme-options.php:685
 msgid "Header Image"
 msgstr ""
 
@@ -369,17 +368,17 @@ msgid "Site Layout"
 msgstr ""
 
 #: inc/theme-options/theme-options.php:51
-#: inc/theme-options/theme-options.php:695
+#: inc/theme-options/theme-options.php:718
 msgid "Sidebar Width"
 msgstr ""
 
 #: inc/theme-options/theme-options.php:52
-#: inc/theme-options/theme-options.php:714
+#: inc/theme-options/theme-options.php:737
 msgid "Sidebar Font Size"
 msgstr ""
 
 #: inc/theme-options/theme-options.php:54
-#: inc/theme-options/theme-options.php:732
+#: inc/theme-options/theme-options.php:755
 msgid "Content Font Size"
 msgstr ""
 
@@ -403,131 +402,140 @@ msgstr ""
 msgid "Hide Footer Credits"
 msgstr ""
 
-#: inc/theme-options/theme-options.php:97
+#: inc/theme-options/theme-options.php:63
+msgid "Disable Google Webfonts"
+msgstr ""
+
+#: inc/theme-options/theme-options.php:64
+msgid "Custom CSS"
+msgstr ""
+
 #: inc/theme-options/theme-options.php:98
+#: inc/theme-options/theme-options.php:99
 msgid "Theme Options"
 msgstr ""
 
-#: inc/theme-options/theme-options.php:115
+#: inc/theme-options/theme-options.php:116
 msgid "Blue"
 msgstr ""
 
-#: inc/theme-options/theme-options.php:116
+#: inc/theme-options/theme-options.php:117
 msgid "Brown"
 msgstr ""
 
-#: inc/theme-options/theme-options.php:117
+#: inc/theme-options/theme-options.php:118
 msgid "Green"
 msgstr ""
 
-#: inc/theme-options/theme-options.php:118
+#: inc/theme-options/theme-options.php:119
 msgid "Dark"
 msgstr ""
 
-#: inc/theme-options/theme-options.php:133
+#: inc/theme-options/theme-options.php:134
 msgid "One Sidebar (Right)"
 msgstr ""
 
-#: inc/theme-options/theme-options.php:134
+#: inc/theme-options/theme-options.php:135
 msgid "One Sidebar (Left)"
 msgstr ""
 
-#: inc/theme-options/theme-options.php:135
+#: inc/theme-options/theme-options.php:136
 msgid "Two Sidebars"
 msgstr ""
 
-#: inc/theme-options/theme-options.php:136
+#: inc/theme-options/theme-options.php:137
 msgid "Content Only (no sidebar)"
 msgstr ""
 
-#: inc/theme-options/theme-options.php:151
+#: inc/theme-options/theme-options.php:152
 msgid "Narrow"
 msgstr ""
 
-#: inc/theme-options/theme-options.php:152
-#: inc/theme-options/theme-options.php:170
+#: inc/theme-options/theme-options.php:153
+#: inc/theme-options/theme-options.php:171
 msgid "Medium"
 msgstr ""
 
-#: inc/theme-options/theme-options.php:153
+#: inc/theme-options/theme-options.php:154
 msgid "Wide"
 msgstr ""
 
-#: inc/theme-options/theme-options.php:168
+#: inc/theme-options/theme-options.php:169
 msgid "Smaller"
 msgstr ""
 
-#: inc/theme-options/theme-options.php:169
+#: inc/theme-options/theme-options.php:170
 msgid "Small"
 msgstr ""
 
-#: inc/theme-options/theme-options.php:171
+#: inc/theme-options/theme-options.php:172
 msgid "Large"
 msgstr ""
 
-#: inc/theme-options/theme-options.php:172
+#: inc/theme-options/theme-options.php:173
 msgid "Larger"
 msgstr ""
 
-#: inc/theme-options/theme-options.php:260
-#: inc/theme-options/theme-options.php:278
+#: inc/theme-options/theme-options.php:262
+#: inc/theme-options/theme-options.php:280
 msgid "Enter an URL or upload an image."
 msgstr ""
 
-#: inc/theme-options/theme-options.php:261
+#: inc/theme-options/theme-options.php:263
 msgid "This image will replace the site title and tagline in header."
 msgstr ""
 
-#: inc/theme-options/theme-options.php:279
+#: inc/theme-options/theme-options.php:281
 msgid "This image will stretch or shrink if necessary and fill the entire page width."
 msgstr ""
 
-#: inc/theme-options/theme-options.php:389
+#: inc/theme-options/theme-options.php:391
 msgid "Hide author information in post meta"
 msgstr ""
 
-#: inc/theme-options/theme-options.php:406
-#: inc/theme-options/theme-options.php:425
+#: inc/theme-options/theme-options.php:408
+#: inc/theme-options/theme-options.php:427
 msgid "Show full posts"
 msgstr ""
 
-#: inc/theme-options/theme-options.php:407
-#: inc/theme-options/theme-options.php:426
+#: inc/theme-options/theme-options.php:409
+#: inc/theme-options/theme-options.php:428
 msgid "Show only excerpts"
 msgstr ""
 
-#: inc/theme-options/theme-options.php:460
+#: inc/theme-options/theme-options.php:479
 msgid "Hide links to WordPress and F2 in footer"
 msgstr ""
 
-#: inc/theme-options/theme-options.php:479
+#: inc/theme-options/theme-options.php:498
 #, php-format
 msgid "%s Theme Options"
 msgstr ""
 
-#: inc/theme-options/theme-options.php:491
+#: inc/theme-options/theme-options.php:510
 #, php-format
 msgid "You are using F2 WordPress theme, version %s."
 msgstr ""
 
-#: inc/theme-options/theme-options.php:492
+#: inc/theme-options/theme-options.php:511
 #, php-format
 msgid "Visit <a href=\"%s\">theme page</a>"
 msgstr ""
 
-#: inc/theme-options/theme-options.php:492
+#: inc/theme-options/theme-options.php:511
 #, php-format
 msgid "View <a href=\"%s\">readme</a>"
 msgstr ""
 
-#: inc/theme-options/theme-options.php:493
+#: inc/theme-options/theme-options.php:512
 msgid "If you enjoy the theme, you can make a donation and support development. Thank you!"
 msgstr ""
 
-#: inc/theme-options/theme-options.php:647
+#: inc/theme-options/theme-options.php:670
 msgid "Site Logo (replaces site title and tagline)"
 msgstr ""
 
-#: inc/theme-options/theme-options.php:678
+#: inc/theme-options/theme-options.php:701
 msgid "Layout"
 msgstr ""
+
