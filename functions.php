@@ -154,7 +154,7 @@ add_action( 'wp_enqueue_scripts', 'f2_scripts' );
 */
 function f2_head() {
 
-	if( $custom_css = f2_get_option('custom_css') ) {
+	if( $custom_css = stripslashes( f2_get_option('custom_css') ) ) {
 ?><!-- Customized F2 styles -->
 <style type="text/css">
 <?php echo $custom_css; ?>

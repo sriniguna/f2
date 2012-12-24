@@ -466,7 +466,7 @@ function f2_settings_field_disable_webfonts() {
 function f2_settings_field_custom_css() {
 	$options = f2_get_theme_options();
 	?>
-	<textarea class="large-text" type="text" name="f2_theme_options[custom_css]" id="custom-css" cols="50" rows="10" /><?php echo esc_textarea( $options['custom_css'] ); ?></textarea>
+	<textarea class="large-text" type="text" name="f2_theme_options[custom_css]" id="custom-css" cols="50" rows="10" /><?php echo esc_textarea( stripslashes( $options['custom_css'] ) ); ?></textarea>
 	<?php
 }
 
@@ -596,7 +596,7 @@ function f2_theme_options_validate( $input ) {
 
 	// The textarea must be safe text with the allowed tags for posts
 	if ( isset( $input['custom_css'] ) )
-		$output['custom_css'] = wp_filter_post_kses( $input['custom_css'] );
+		$output['custom_css'] = wp_filter_post_kses( stripslashes( $input['custom_css'] ) ) ;
 
 	return apply_filters( 'f2_theme_options_validate', $output, $input );
 }

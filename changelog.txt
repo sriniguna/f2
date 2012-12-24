@@ -1,10 +1,11 @@
 Change Log
 ==========
 
-2.1.1
------
+2.1.1 (2012-12-24)
+------------------
 
 * Adjusted z-index of primary menu so that it doesn't get on top of lightboxes and such.
+* Fixed slashes problem with custom css options field
 
 
 2.1 (2012-12-23)
