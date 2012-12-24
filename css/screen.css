@@ -562,7 +562,7 @@ body {
   position: absolute;
   top: 100%;
   left: 0;
-  z-index: 9999;
+  z-index: 98;
   margin: 0;
 }
 .site-header .site-navigation.main-navigation ul ul a, .site-header .site-navigation.main-navigation ul ul .menu-toggle {
@@ -577,7 +577,7 @@ body {
   display: inline-block;
   float: left;
   position: relative;
-  z-index: 99999;
+  z-index: 99;
 }
 .site-header .site-navigation.main-navigation li:hover > ul {
   display: block;
