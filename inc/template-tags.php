@@ -217,7 +217,7 @@ function f2_logo_image() {
  * @since F2 2.0
  */
 function f2_footer_text() {
-	if( $footer_text = f2_get_option( 'footer_text' ) )
+	if( $footer_text = stripslashes( f2_get_option( 'footer_text' ) ) )
 		echo "<div>{$footer_text}</div>";
 }
 

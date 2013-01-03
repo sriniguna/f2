@@ -437,7 +437,7 @@ function f2_settings_field_archive_posts() {
 function f2_settings_field_footer_text() {
 	$options = f2_get_theme_options();
 	?>
-	<textarea class="large-text" type="text" name="f2_theme_options[footer_text]" id="footer-text" cols="50" rows="5" /><?php echo esc_textarea( $options['footer_text'] ); ?></textarea>
+	<textarea class="large-text" type="text" name="f2_theme_options[footer_text]" id="footer-text" cols="50" rows="5" /><?php echo esc_textarea( stripslashes( $options['footer_text'] ) ); ?></textarea>
 	<?php
 }
 
@@ -583,7 +583,7 @@ function f2_theme_options_validate( $input ) {
 
 	// The textarea must be safe text with the allowed tags for posts
 	if ( isset( $input['footer_text'] ) )
-		$output['footer_text'] = wp_filter_post_kses( $input['footer_text'] );
+		$output['footer_text'] = wp_filter_post_kses( stripslashes( $input['footer_text'] ) );
 
 	// Checkboxes will only be present if checked.
 	if ( isset( $input['hide_footer_credits'] ) )

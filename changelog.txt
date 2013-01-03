@@ -1,6 +1,11 @@
 Change Log
 ==========
 
+2.1.2
+-----
+
+* Fixed slashes problem with footer text options field
+
 2.1.1 (2012-12-24)
 ------------------
 
