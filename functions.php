@@ -120,9 +120,7 @@ function f2_scripts() {
 		wp_enqueue_style( 'google-webfonts', 'http://fonts.googleapis.com/css?family=Bitter:700|Gudea:400,700,400italic', false, $theme->Version );
 	}
 
-	wp_enqueue_style( 'style', get_stylesheet_uri(), false, $theme->Version );
-
-	wp_enqueue_style( 'screen', get_template_directory_uri() . '/css/screen.css', false, $theme->Version, 'screen, projection'  );
+	wp_enqueue_style( 'style', get_stylesheet_uri(), false, $theme->Version, 'screen, projection' );
 
 	wp_enqueue_style( 'print', get_template_directory_uri() . '/css/print.css', false, $theme->Version, 'print'  );
 

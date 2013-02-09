@@ -1,6 +1,16 @@
 Change Log
 ==========
 
+2.2
+---
+
+* Changed the structure of CSS files
+    * All main styles are now in style.css
+    * Removed scss/screen.scss and css/screen.css
+    * Moved theme-options.css from css folder to inc/theme-options
+    * Removed the css folder
+    
+
 2.1.2 (2013-01-03)
 ------------------
 

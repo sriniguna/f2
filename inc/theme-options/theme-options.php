@@ -778,7 +778,7 @@ function f2_admin_scripts() {
  
 function f2_admin_styles() {
 	wp_enqueue_style('thickbox');
-	wp_enqueue_style('theme-options-styles', get_template_directory_uri() . '/css/theme-options.css' );
+	wp_enqueue_style('theme-options-styles', get_template_directory_uri() . '/inc/theme-options/theme-options.css' );
 }
 
 if (isset($_GET['page']) && $_GET['page'] == 'theme_options') {
