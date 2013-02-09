@@ -1,0 +1,263 @@
+
+/* =Content
+----------------------------------------------- */
+.site-content {
+	margin: 10px;
+	margin: 1rem;
+}
+.hentry {
+	padding: 0 0 2.2em;
+	margin: 0 0 1.6em;
+	border-bottom: 1px solid #e4e4e4;
+}
+
+.entry-title {
+	font-size: 24px;
+	font-size: 2.4rem;
+	word-wrap:break-word;
+}
+.entry-meta {
+	clear: both;
+	font-size: 11px;
+	font-size: 1.1rem;
+	color: #888;
+}
+
+
+.featured-image {
+	text-align: center;
+	line-height: 0;
+}
+
+.wp-post-image {
+	margin: 0 0 1.5em;
+	max-width: 100%;
+	height: auto;
+	border-radius: 5px;
+	border-radius: 0.5rem;
+	@include box-shadow( rgba(0, 0, 0, 0.2) 0 0 0.3rem 0.1rem);
+	&.attachment-post-thumbnail {
+		float: left;
+		width: 80px;
+		width: 8rem;
+		margin: 0.4em 10px 10px 0;
+		margin: 0.4em 1rem 1rem 0;
+		border-radius: 3px;
+		border-radius: 0.3rem;
+	}
+}
+
+
+.sticky .poststicky:before {
+	content: '. ';
+}
+
+.entry-content,
+.entry-summary,
+.comment-content {
+	margin: 1.5em 0 0;
+}
+
+
+.entry-content, .comment-content {
+	h1 {
+		font-size: 20px;
+		font-size: 2rem;
+	}
+	h2 {
+		font-size: 18px;
+		font-size: 1.8rem;
+	}
+	h3 {
+		font-size: 16px;
+		font-size: 1.6rem;
+	}
+	h4 {
+		font: bold 15px $sans-font;
+		font: bold 1.5rem $sans-font;
+		text-transform: uppercase;
+	}
+	h5 {
+		font: bold 15px $sans-font;
+		font: bold 1.5rem $sans-font;
+	}
+	h6 {
+		font: bold 14px $sans-font;
+		font: bold 1.4rem $sans-font;
+		font-variant: small-caps;
+	}
+	h1, h2, h3, h4, h5, h6 {
+		margin-bottom: 10px;
+		margin-bottom: 1rem;
+	}
+}
+
+.page-links {
+	clear: both;
+	margin: 0 0 1.5em;
+}
+
+.paging-navigation, .post-navigation, #image-navigation, .page-header {
+	background: #eee;
+	margin: 0 0 1.5em;
+	padding: 10px 10px;
+	padding: 1rem 1rem;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	border-radius: 0.5rem;
+	font-size: 12px;
+	font-size: 1.2rem;
+}
+.page-header {
+	.page-title {
+		font-weight: normal;
+	}
+	span {
+		text-decoration: underline;
+	}
+}
+
+.smaller-font-content {
+	.entry-content, .entry-summary, .comment-content {
+		font-size: 10px;
+		font-size: 1rem;
+	}
+}
+.small-font-content {
+	.entry-content, .entry-summary, .comment-content {
+		font-size: 12px;
+		font-size: 1.2rem;
+	}
+}
+.medium-font-content {
+	.entry-content, .entry-summary, .comment-content {
+		font-size: 14px;
+		font-size: 1.4rem;
+	}
+}
+.large-font-content {
+	.entry-content, .entry-summary, .comment-content {
+		font-size: 16px;
+		font-size: 1.6rem;
+	}
+}
+.larger-font-content {
+	.entry-content, .entry-summary, .comment-content {
+		font-size: 18px;
+		font-size: 1.8rem;
+	}
+}
+
+
+
+/* =Asides
+----------------------------------------------- */
+.blog .format-aside,
+.archive .format-aside {
+	.entry-title {
+		display: none;
+	}
+	.entry-content {
+		margin: 0;
+	}
+}
+
+/* =Media
+----------------------------------------------- */
+.site-header img,
+.entry-content img,
+.comment-content img,
+.widget img {
+	max-width: 100%; /* Fluid images for posts, comments, and widgets */
+}
+
+.site-header img,
+.entry-content img,
+img[class*="align"],
+img[class*="wp-image-"] {
+	height: auto; /* Make sure images with WordPress-added height and width attributes are scaled correctly */
+}
+
+.site-header img,
+.entry-content img,
+img.size-full {
+	max-width: 100%;
+}
+
+.entry-content img.wp-smiley,
+.comment-content img.wp-smiley {
+	border: none;
+	margin-bottom: 0;
+	margin-top: 0;
+	padding: 0;
+}
+
+.wp-caption, .entry-attachment {
+	margin-bottom: 1.5em;
+	border: 1px solid #ccc;
+	max-width: 100%;
+	background: #eee;
+	border-radius: 0.5rem;
+	@include box-shadow( rgba(0, 0, 0, 0.2) 0 0 0.2rem 0.1rem);
+	font-size: 0.875em;
+}
+
+.wp-caption img, .entry-attachment img {
+	display: block;
+	margin: 1.2% auto;
+	max-width: 98%;
+	border: 1px solid #ccc;
+}
+
+.wp-caption-text, .entry-attachment .entry-caption {
+	text-align: center;
+}
+
+.wp-caption .wp-caption-text, .entry-attachment .entry-caption {
+	margin: 0.8075em 20px;
+	margin: 0.8075em 2rem;
+}
+
+.site-content .gallery {
+	margin-bottom: 1.5em !important;
+
+	a img {
+		border: none;
+		height: auto;
+		max-width: 90%;
+	}
+
+	dd {
+		margin: 0;
+	}
+
+	.gallery-caption {
+		font-size: 11px;
+		font-size: 1.1rem;
+	}
+}
+
+/* Make sure embeds and iframes fit their containers */
+embed,
+iframe,
+object {
+	max-width: 100%;
+}
+
+/* =Navigation
+----------------------------------------------- */
+.site-content .site-navigation {
+	margin: 0 0 1.5em;
+	overflow: hidden;
+}
+
+.site-content .nav-previous, .site-content .previous-image {
+	float: left;
+	width: 50%;
+}
+
+.site-content .nav-next, .site-content .next-image {
+	float: right;
+	text-align: right;
+	width: 50%;
+}

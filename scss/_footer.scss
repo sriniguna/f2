@@ -1,0 +1,23 @@
+
+/* =Footer
+---------------------------------------------- */
+
+.site-footer {
+	clear: both;
+	padding: 10px;
+	padding: 1rem;
+	border-bottom-left-radius: 0.5rem;
+	border-bottom-right-radius: 0.5rem;
+	background:#27567a;
+	color: #fff;
+	font-family: sans-serif;
+	font-size: 12px;
+	font-size: 1.2rem;
+	text-align: center;
+	a {
+		color: #d0e0f0;
+		&:hover {
+			color: #fff;
+		}
+	}
+}

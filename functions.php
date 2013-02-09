@@ -122,13 +122,13 @@ function f2_scripts() {
 
 	wp_enqueue_style( 'style', get_stylesheet_uri(), false, $theme->Version, 'screen, projection' );
 
-	wp_enqueue_style( 'print', get_template_directory_uri() . '/css/print.css', false, $theme->Version, 'print'  );
+	wp_enqueue_style( 'print', get_template_directory_uri() . '/print.css', false, $theme->Version, 'print'  );
 
-	wp_register_style( 'ie-style', get_template_directory_uri() . '/css/ie.css', false, $theme->Version, 'screen, projection' );
+	wp_register_style( 'ie-style', get_template_directory_uri() . '/ie.css', false, $theme->Version, 'screen, projection' );
 	$GLOBALS['wp_styles']->add_data( 'ie-style', 'conditional', 'lt IE 9' );
 	wp_enqueue_style( 'ie-style' );
 
-	wp_register_style( 'ie7-style', get_template_directory_uri() . '/css/ie7.css', false, $theme->Version, 'screen, projection' );
+	wp_register_style( 'ie7-style', get_template_directory_uri() . '/ie7.css', false, $theme->Version, 'screen, projection' );
 	$GLOBALS['wp_styles']->add_data( 'ie7-style', 'conditional', 'lt IE 8' );
 	wp_enqueue_style( 'ie7-style' );
 

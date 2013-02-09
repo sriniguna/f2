@@ -1,0 +1,65 @@
+/* =Layout
+---------------------------------------------- */
+
+body {
+	padding: 10px;
+	padding: 1rem;
+}
+
+#page {
+	margin: 0 auto;
+}
+
+/* Setting the maximum page width so that the content width doen't exceed 720px */
+
+.no-sidebar #page {
+	max-width: 770px; /* 20 + 730 +20 */
+	max-width: 77rem;
+}
+
+.one-sidebar-right, .one-sidebar-left {
+	&.narrow-sidebar {
+		#page {
+			max-width: 970px; /* ( 20 + 730 + 20 ) + ( 20 + 160 + 20 ) */
+			max-width: 97rem;
+		}
+	}
+	&.medium-sidebar {
+		#page {
+			max-width: 1070px; /* ( 20 + 730 + 20 ) + ( 20 + 260 + 20 ) */
+			max-width: 107rem;
+		}
+	}
+	&.wide-sidebar {
+		#page {
+			max-width: 1110px; /* ( 20 + 730 + 20 ) + ( 20 + 300 + 20 ) */
+			max-width: 111rem;
+		}
+	}
+}
+
+.two-sidebars {
+	&.narrow-sidebar {
+		#page {
+			max-width: 1170px; /* ( 20 + 160 + 20 ) + ( 20 + 730 + 20 ) + ( 20 + 160 + 20 ) */
+			max-width: 117rem;
+		}
+	}
+	&.medium-sidebar {
+		#page {
+			max-width: 1370px; /* ( 20 + 260 + 20 ) + ( 20 + 730 + 20 ) + ( 20 + 260 + 20 ) */
+			max-width: 137rem;
+		}
+	}
+	&.wide-sidebar {
+		#page {
+			max-width: 1450px; /* ( 20 + 300 + 20 ) + ( 20 + 730 + 20 ) + ( 20 + 300 + 20 ) */
+			max-width: 145rem;
+		}
+	}
+}
+
+
+#main {
+	clear: both;
+}

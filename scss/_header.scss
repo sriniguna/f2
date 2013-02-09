@@ -1,0 +1,162 @@
+/* =Header
+---------------------------------------------- */
+
+.site-header {
+	background: $primary-color;
+	border-top-left-radius: 0.5rem;
+	border-top-right-radius: 0.5rem;
+	@include box-shadow( rgba(0, 0, 0, 0.1) 0 0 2rem 0 inset);
+	position: relative;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	hgroup {
+		padding: 10px;
+		padding: 1rem;
+		.site-title {
+			font-size: 24px;
+			font-size: 2.4rem;
+			text-transform: uppercase;
+			a {
+				color: #d0e0f0;
+				@include text-shadow( rgba(0, 0, 0, 0.5) 0 0 0.3rem );
+				&:hover {
+					text-decoration: none;
+				}
+			}
+		}
+		.site-description {
+			font-weight: normal;
+			font-size: 14px;
+			font-size: 1.4rem;
+			font-family: $sans-font;
+			color: #fff;
+			@include text-shadow( rgba(0, 0, 0, 0.2) 0 0 0.1rem );
+		}
+	}
+}
+
+/* When a site logo is specified in the options page, we shall hide the site title and tagline */
+.has-logo-image .site-header  {
+	.site-title, .site-description {
+	height: 0;
+	width: 0;
+	overflow: hidden;
+	}
+}
+
+
+/* =Menu
+----------------------------------------------- */
+
+.site-header .site-navigation {
+	clear: both;
+
+	/* Micro clearfix hack. See http://nicolasgallagher.com/micro-clearfix-hack/ */
+	&:before,
+	&:after {
+		content: " ";
+		display: table;
+	}
+	&:after {
+		clear: both;
+	} 
+
+	ul {
+		clear: both;
+		margin: 0;
+		padding: 0 10px 10px;
+		padding: 0 1rem 1rem;
+		list-style: none;
+		text-align: center;
+		ul {
+			margin: 0 1em;
+			padding: 0;
+		}
+	}
+	a {
+		display: block;
+		padding: 3px 10px;
+		padding: 0.3rem 1rem;
+		border: 1px solid #417196;
+		border-radius: 0.3rem;
+		font-size: 13px;
+		font-size: 1.3rem;
+		font-weight: bold;
+		text-transform: uppercase;
+		background: #27567a;
+		color: #c6c8c9;
+		&:hover {
+			background-color: #417196;
+			color: #fff;
+			text-decoration: none;
+		}
+	}
+	.menu-toggle {
+		@extend a;
+		cursor: pointer;
+		display: inline-block;
+		margin: 10px;
+		margin: 1rem;
+	}
+	&.main-navigation {
+		a {
+			display: inline-block;
+		}
+		ul {
+			padding: 0;
+			text-align: left;
+			ul {
+				display: none;
+				position: absolute;
+				top: 100%;
+				left: 0;
+				z-index: 98;
+				margin: 0;
+				a {
+					width: 160px;
+					width: 16rem;
+				}
+				ul {
+					left: 100%;
+					top: 0;
+				}
+			}
+		}
+		li {
+			display: inline-block;
+			float: left;
+			position: relative;
+			z-index: 99;
+			&:hover > ul {
+				display: block;
+			}
+		}
+	}
+	&.main-small-navigation .menu {
+		display: none;
+	}
+}
+
+
+/* =Header image
+----------------------------------------------- */
+
+#header-image {
+	text-align: center;
+	position: relative;
+	margin: 0;
+	padding: 10px;
+	padding: 1rem;
+	background: #eee;
+	line-height: 0;
+	@include box-shadow( rgba(0, 0, 0, 0.4) 0 1rem 0.3rem -1rem inset );
+}
+
+#header-image img {
+	display: block;
+	width: 100%;
+	max-width: 100%;
+	border-radius: 0.3rem;
+	@include box-shadow( rgba(0, 0, 0, 0.4) 0 0 0.3rem);
+}

@@ -1,0 +1,69 @@
+/* = Sidebars & Widgets
+----------------------------------------------- */
+.sidebar {
+	padding: 10px 10px 0;
+	padding: 1rem 1rem 0;
+	background: #eee;
+	margin: 0;
+	overflow: hidden;
+}
+
+.widget-title {
+	font-size: 1.2em;
+}
+.widget {
+	margin: 0 0 10px;
+	margin: 0 0 1rem;
+	font-size: 14px;
+	font-size: 1.4rem;
+	ul {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		ul {
+			margin-left: 20px;
+			margin-left: 2rem;
+		}
+	}
+	li:before {
+		content: "\203A \0020";
+	}
+}
+
+.smaller-font-sidebar {
+	.widget {
+		font-size: 10px;
+		font-size: 1rem;
+	}
+}
+.small-font-sidebar {
+	.widget {
+		font-size: 12px;
+		font-size: 1.2rem;
+	}
+}
+.medium-font-sidebar {
+	.widget {
+		font-size: 14px;
+		font-size: 1.4rem;
+	}
+}
+.large-font-sidebar {
+	.widget {
+		font-size: 16px;
+		font-size: 1.6rem;
+	}
+}
+.larger-font-sidebar {
+	.widget {
+		font-size: 18px;
+		font-size: 1.8rem;
+	}
+}
+
+
+
+/* Search widget */
+#searchsubmit {
+	display: none;
+}
