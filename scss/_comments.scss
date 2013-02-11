@@ -34,7 +34,7 @@ ul.children {
 			margin-bottom: 0;
 		}
 	}
-	.bypostauthor article {
+	.bypostauthor > article {
 		border-color: darken(#eee, 20%);
 	}
 }
@@ -50,6 +50,11 @@ ul.children {
 cite.fn {
 	font-weight: bold;
 	font-style: normal;
+}
+.no-comment-avatars {
+	cite.fn, .comment-meta {
+		position: static;
+	}
 }
 cite.fn, .comment-meta {
 	position: absolute;

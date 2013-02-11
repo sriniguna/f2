@@ -908,7 +908,7 @@ ul.children {
 .comments-area .pingback p {
   margin-bottom: 0;
 }
-.comments-area .bypostauthor article, .comments-area .bypostauthor .pingback {
+.comments-area .bypostauthor > article, .comments-area .bypostauthor > .pingback {
   border-color: #bbbbbb;
 }
 
@@ -924,6 +924,10 @@ ul.children {
 cite.fn {
   font-weight: bold;
   font-style: normal;
+}
+
+.no-comment-avatars cite.fn, .no-comment-avatars .comment-meta {
+  position: static;
 }
 
 cite.fn, .comment-meta {

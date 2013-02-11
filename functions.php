@@ -194,6 +194,9 @@ function f2_body_class( $classes ) {
 
 	$classes[] = ( $options['content_font_size'] )? $options['content_font_size'].'-font-content' : 'large-font-content';
 
+	if( is_singular() && ! get_option('show_avatars') )
+		$classes[] = 'no-comment-avatars';
+
 	return $classes;
 }
 add_filter( 'body_class', 'f2_body_class' );
