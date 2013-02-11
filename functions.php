@@ -137,11 +137,13 @@ function f2_scripts() {
 	$GLOBALS['wp_styles']->add_data( 'ie7-style', 'conditional', 'lt IE 8' );
 	wp_enqueue_style( 'ie7-style' );
 
+	/* Responsive videos */
+	wp_enqueue_script( 'fitvids', get_template_directory_uri() . '/js/jquery.fitvids.min.js', array( 'jquery' ), $theme->Version, true );
+
 	/* Do not load small-menu script when the non_responsive option is turned on */
 	if( f2_get_option('non_responsive') != 'on' ) {
 		wp_enqueue_script( 'small-menu', get_template_directory_uri() . '/js/small-menu.js', array( 'jquery' ), $theme->Version, true );
 	}
-
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
