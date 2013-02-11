@@ -452,7 +452,6 @@ body {
 }
 
 #page {
-  background: #fff;
   border-radius: 0.5rem;
   -webkit-box-shadow: rgba(0, 0, 0, 0.4) 0 0 1rem 0;
   -moz-box-shadow: rgba(0, 0, 0, 0.4) 0 0 1rem 0;
@@ -461,6 +460,7 @@ body {
 }
 
 #main {
+  background: #fff;
   clear: both;
   overflow: hidden;
   -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0 0 0 0.1rem inset;
