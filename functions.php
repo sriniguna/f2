@@ -122,6 +122,8 @@ function f2_scripts() {
 
 	wp_enqueue_style( 'style', get_stylesheet_uri(), false, $theme->Version, 'screen, projection' );
 
+	wp_enqueue_style( 'non-responsive', get_template_directory_uri() . '/non-responsive.css', false, $theme->Version, 'screen, projection'  );
+
 	wp_enqueue_style( 'print', get_template_directory_uri() . '/print.css', false, $theme->Version, 'print'  );
 
 	wp_register_style( 'ie-style', get_template_directory_uri() . '/ie.css', false, $theme->Version, 'screen, projection' );

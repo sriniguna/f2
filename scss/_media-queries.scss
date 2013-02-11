@@ -5,64 +5,7 @@
 
 /* Things get a little spaced out at viewport widths approximately > 640px */
 @media screen and (min-width: 41em) { 
-	body {
-		padding: 20px;
-		padding: 2rem;
-	}
-
-	.site-header {
-		text-align: left;
-		hgroup {
-			padding: 20px;
-			padding: 2rem;
-		}
-	}
-
-	#header-image {
-		padding: 20px;
-		padding: 2rem;
-	}
-
-	.sidebar {
-		padding: 20px 20px 0;
-		padding: 2rem 2rem 0;
-	}
-
-	.widget {
-		margin: 0 0 20px;
-		margin: 0 0 2rem;
-	}
-
-	.site-content {
-		margin: 20px;
-		margin: 2rem;
-	}
-	.paging-navigation, .post-navigation, #image-navigation, .page-header {
-		background: #eee;
-		padding: 10px 20px;
-		padding: 1rem 2rem;
-	}
-
-	.wp-post-image.attachment-post-thumbnail {
-		width:150px;
-	}
-
-	.comments-area article, .pingback {
-		margin: 20px 0;
-		margin: 2rem 0;
-		padding: 20px;
-		padding: 2rem;
-	}
-
-	cite.fn, .comment-meta {
-		top: 20px;
-		top: 2rem;
-		left: 73px;
-	}
-	time.pubdate, .comment-meta {
-		top: 44px;
-		top: 4.4rem;
-	}
+	@include spread-out-layout;
 }
 
 /* Defining breakpoints. We make sure the content width doesn't get > 720px */

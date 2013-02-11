@@ -1,0 +1,367 @@
+@-ms-viewport {
+  width: auto;
+}
+
+body {
+  padding: 20px;
+  padding: 2rem;
+}
+
+.site-header {
+  text-align: left;
+}
+.site-header hgroup {
+  padding: 20px;
+  padding: 2rem;
+}
+
+#header-image {
+  padding: 20px;
+  padding: 2rem;
+}
+
+.sidebar {
+  padding: 20px 20px 0;
+  padding: 2rem 2rem 0;
+}
+
+.widget {
+  margin: 0 0 20px;
+  margin: 0 0 2rem;
+}
+
+.site-content {
+  margin: 20px;
+  margin: 2rem;
+}
+
+.paging-navigation, .post-navigation, #image-navigation, .page-header {
+  background: #eee;
+  padding: 10px 20px;
+  padding: 1rem 2rem;
+}
+
+.wp-post-image.attachment-post-thumbnail {
+  width: 150px;
+}
+
+.comments-area article, .pingback {
+  margin: 20px 0;
+  margin: 2rem 0;
+  padding: 20px;
+  padding: 2rem;
+}
+
+cite.fn, .comment-meta {
+  top: 20px;
+  top: 2rem;
+  left: 73px;
+}
+
+time.pubdate, .comment-meta {
+  top: 44px;
+  top: 4.4rem;
+}
+
+.no-sidebar #page {
+  min-width: 520px;
+  /* 20 + 480 +20 */
+  min-width: 52rem;
+}
+
+.narrow-sidebar.one-sidebar-left #page, .narrow-sidebar.one-sidebar-right #page {
+  min-width: 720px;
+  /* ( 20 + 480 + 20 ) + ( 20 + 160 + 20 ) */
+  min-width: 72rem;
+}
+.narrow-sidebar.two-sidebars #page {
+  min-width: 920px;
+  /* ( 20 + 160 + 20 ) + ( 20 + 480 + 20 ) + ( 20 + 160 + 20 ) */
+  min-width: 92rem;
+}
+.narrow-sidebar.one-sidebar-left #main, .narrow-sidebar.two-sidebars #main {
+  padding: 0 0 0 20rem;
+}
+.narrow-sidebar.one-sidebar-left #primary, .narrow-sidebar.two-sidebars #primary {
+  padding: 0;
+  margin: 0;
+  float: left;
+  margin-right: -100%;
+  width: 100%;
+}
+.narrow-sidebar.one-sidebar-left #secondary, .narrow-sidebar.two-sidebars #secondary {
+  float: left;
+  width: 20rem;
+  margin-left: -20rem;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0 0 0 0.1rem;
+  -moz-box-shadow: rgba(0, 0, 0, 0.1) 0 0 0 0.1rem;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 0 0 0.1rem;
+}
+.narrow-sidebar.one-sidebar-left #sidebar-1,
+.narrow-sidebar.one-sidebar-left #sidebar-2, .narrow-sidebar.two-sidebars #sidebar-1,
+.narrow-sidebar.two-sidebars #sidebar-2 {
+  float: left;
+  width: 16rem;
+}
+.narrow-sidebar.one-sidebar-left #sidebar-2, .narrow-sidebar.two-sidebars #sidebar-2 {
+  padding-top: 0;
+}
+.narrow-sidebar.one-sidebar-right #main {
+  padding: 0 20rem 0 0;
+}
+.narrow-sidebar.one-sidebar-right #primary {
+  padding: 0;
+  margin: 0;
+  float: left;
+  margin-right: -100%;
+  width: 100%;
+}
+.narrow-sidebar.one-sidebar-right #secondary {
+  float: right;
+  width: 20rem;
+  margin-right: -20rem;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0 0 0 0.1rem;
+  -moz-box-shadow: rgba(0, 0, 0, 0.1) 0 0 0 0.1rem;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 0 0 0.1rem;
+  border-bottom-left-radius: 0.5rem;
+}
+.narrow-sidebar.one-sidebar-right #sidebar-1 {
+  float: right;
+  width: 16rem;
+  border-bottom-left-radius: 0.5rem;
+}
+.narrow-sidebar.one-sidebar-left #sidebar-1, .narrow-sidebar.two-sidebars #sidebar-2 {
+  border-bottom-right-radius: 0.5rem;
+}
+.narrow-sidebar.two-sidebars #main {
+  padding: 0 20rem;
+}
+.narrow-sidebar.two-sidebars #primary {
+  float: left;
+  margin-right: -100%;
+  width: 100%;
+}
+.narrow-sidebar.two-sidebars #secondary {
+  width: auto;
+  float: none;
+  margin: 0;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+.narrow-sidebar.two-sidebars #sidebar-1 {
+  float: left;
+  margin-left: -20rem;
+  border-bottom-right-radius: 0.5rem;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0 0 0 0.1rem;
+  -moz-box-shadow: rgba(0, 0, 0, 0.1) 0 0 0 0.1rem;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 0 0 0.1rem;
+}
+.narrow-sidebar.two-sidebars #sidebar-2 {
+  float: right;
+  margin-right: -20rem;
+  padding-top: 2rem;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0.5rem;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0 0 0 0.1rem;
+  -moz-box-shadow: rgba(0, 0, 0, 0.1) 0 0 0 0.1rem;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 0 0 0.1rem;
+}
+
+.medium-sidebar.one-sidebar-left #page, .medium-sidebar.one-sidebar-right #page {
+  min-width: 820px;
+  /* ( 20 + 480 + 20 ) + ( 20 + 260 + 20 ) */
+  min-width: 82rem;
+}
+.medium-sidebar.two-sidebars #page {
+  min-width: 1120px;
+  /* ( 20 + 260 + 20 ) + ( 20 + 480 + 20 ) + ( 20 + 260 + 20 ) */
+  min-width: 112rem;
+}
+.medium-sidebar.one-sidebar-left #main, .medium-sidebar.two-sidebars #main {
+  padding: 0 0 0 30rem;
+}
+.medium-sidebar.one-sidebar-left #primary, .medium-sidebar.two-sidebars #primary {
+  padding: 0;
+  margin: 0;
+  float: left;
+  margin-right: -100%;
+  width: 100%;
+}
+.medium-sidebar.one-sidebar-left #secondary, .medium-sidebar.two-sidebars #secondary {
+  float: left;
+  width: 30rem;
+  margin-left: -30rem;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0 0 0 0.1rem;
+  -moz-box-shadow: rgba(0, 0, 0, 0.1) 0 0 0 0.1rem;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 0 0 0.1rem;
+}
+.medium-sidebar.one-sidebar-left #sidebar-1,
+.medium-sidebar.one-sidebar-left #sidebar-2, .medium-sidebar.two-sidebars #sidebar-1,
+.medium-sidebar.two-sidebars #sidebar-2 {
+  float: left;
+  width: 26rem;
+}
+.medium-sidebar.one-sidebar-left #sidebar-2, .medium-sidebar.two-sidebars #sidebar-2 {
+  padding-top: 0;
+}
+.medium-sidebar.one-sidebar-right #main {
+  padding: 0 30rem 0 0;
+}
+.medium-sidebar.one-sidebar-right #primary {
+  padding: 0;
+  margin: 0;
+  float: left;
+  margin-right: -100%;
+  width: 100%;
+}
+.medium-sidebar.one-sidebar-right #secondary {
+  float: right;
+  width: 30rem;
+  margin-right: -30rem;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0 0 0 0.1rem;
+  -moz-box-shadow: rgba(0, 0, 0, 0.1) 0 0 0 0.1rem;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 0 0 0.1rem;
+  border-bottom-left-radius: 0.5rem;
+}
+.medium-sidebar.one-sidebar-right #sidebar-1 {
+  float: right;
+  width: 26rem;
+  border-bottom-left-radius: 0.5rem;
+}
+.medium-sidebar.one-sidebar-left #sidebar-1, .medium-sidebar.two-sidebars #sidebar-2 {
+  border-bottom-right-radius: 0.5rem;
+}
+.medium-sidebar.two-sidebars #main {
+  padding: 0 30rem;
+}
+.medium-sidebar.two-sidebars #primary {
+  float: left;
+  margin-right: -100%;
+  width: 100%;
+}
+.medium-sidebar.two-sidebars #secondary {
+  width: auto;
+  float: none;
+  margin: 0;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+.medium-sidebar.two-sidebars #sidebar-1 {
+  float: left;
+  margin-left: -30rem;
+  border-bottom-right-radius: 0.5rem;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0 0 0 0.1rem;
+  -moz-box-shadow: rgba(0, 0, 0, 0.1) 0 0 0 0.1rem;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 0 0 0.1rem;
+}
+.medium-sidebar.two-sidebars #sidebar-2 {
+  float: right;
+  margin-right: -30rem;
+  padding-top: 2rem;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0.5rem;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0 0 0 0.1rem;
+  -moz-box-shadow: rgba(0, 0, 0, 0.1) 0 0 0 0.1rem;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 0 0 0.1rem;
+}
+
+.wide-sidebar.one-sidebar-left #page, .wide-sidebar.one-sidebar-right #page {
+  min-width: 860px;
+  /* ( 20 + 480 + 20 ) + ( 20 + 300 + 20 ) */
+  min-width: 86rem;
+}
+.wide-sidebar.two-sidebars #page {
+  min-width: 1200px;
+  /* ( 20 + 300 + 20 ) + ( 20 + 480 + 20 ) + ( 20 + 300 + 20 ) */
+  min-width: 120rem;
+}
+.wide-sidebar.one-sidebar-left #main, .wide-sidebar.two-sidebars #main {
+  padding: 0 0 0 34rem;
+}
+.wide-sidebar.one-sidebar-left #primary, .wide-sidebar.two-sidebars #primary {
+  padding: 0;
+  margin: 0;
+  float: left;
+  margin-right: -100%;
+  width: 100%;
+}
+.wide-sidebar.one-sidebar-left #secondary, .wide-sidebar.two-sidebars #secondary {
+  float: left;
+  width: 34rem;
+  margin-left: -34rem;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0 0 0 0.1rem;
+  -moz-box-shadow: rgba(0, 0, 0, 0.1) 0 0 0 0.1rem;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 0 0 0.1rem;
+}
+.wide-sidebar.one-sidebar-left #sidebar-1,
+.wide-sidebar.one-sidebar-left #sidebar-2, .wide-sidebar.two-sidebars #sidebar-1,
+.wide-sidebar.two-sidebars #sidebar-2 {
+  float: left;
+  width: 30rem;
+}
+.wide-sidebar.one-sidebar-left #sidebar-2, .wide-sidebar.two-sidebars #sidebar-2 {
+  padding-top: 0;
+}
+.wide-sidebar.one-sidebar-right #main {
+  padding: 0 34rem 0 0;
+}
+.wide-sidebar.one-sidebar-right #primary {
+  padding: 0;
+  margin: 0;
+  float: left;
+  margin-right: -100%;
+  width: 100%;
+}
+.wide-sidebar.one-sidebar-right #secondary {
+  float: right;
+  width: 34rem;
+  margin-right: -34rem;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0 0 0 0.1rem;
+  -moz-box-shadow: rgba(0, 0, 0, 0.1) 0 0 0 0.1rem;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 0 0 0.1rem;
+  border-bottom-left-radius: 0.5rem;
+}
+.wide-sidebar.one-sidebar-right #sidebar-1 {
+  float: right;
+  width: 30rem;
+  border-bottom-left-radius: 0.5rem;
+}
+.wide-sidebar.one-sidebar-left #sidebar-1, .wide-sidebar.two-sidebars #sidebar-2 {
+  border-bottom-right-radius: 0.5rem;
+}
+.wide-sidebar.two-sidebars #main {
+  padding: 0 34rem;
+}
+.wide-sidebar.two-sidebars #primary {
+  float: left;
+  margin-right: -100%;
+  width: 100%;
+}
+.wide-sidebar.two-sidebars #secondary {
+  width: auto;
+  float: none;
+  margin: 0;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+.wide-sidebar.two-sidebars #sidebar-1 {
+  float: left;
+  margin-left: -34rem;
+  border-bottom-right-radius: 0.5rem;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0 0 0 0.1rem;
+  -moz-box-shadow: rgba(0, 0, 0, 0.1) 0 0 0 0.1rem;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 0 0 0.1rem;
+}
+.wide-sidebar.two-sidebars #sidebar-2 {
+  float: right;
+  margin-right: -34rem;
+  padding-top: 2rem;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0.5rem;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0 0 0 0.1rem;
+  -moz-box-shadow: rgba(0, 0, 0, 0.1) 0 0 0 0.1rem;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 0 0 0.1rem;
+}

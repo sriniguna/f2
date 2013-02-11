@@ -1,0 +1,59 @@
+@import "compass";
+@import "defines";
+
+@-ms-viewport { width: auto; }
+
+@include spread-out-layout;
+
+.no-sidebar #page {
+	min-width: 520px; /* 20 + 480 +20 */
+	min-width: 52rem;
+}
+.narrow-sidebar {
+	&.one-sidebar-left, &.one-sidebar-right {
+		#page {
+			min-width: 720px; /* ( 20 + 480 + 20 ) + ( 20 + 160 + 20 ) */
+			min-width: 72rem;
+		}
+	}
+	&.two-sidebars {
+		#page {
+			min-width: 920px; /* ( 20 + 160 + 20 ) + ( 20 + 480 + 20 ) + ( 20 + 160 + 20 ) */
+			min-width: 92rem;
+		}
+	}
+	@include two-cols(16rem);
+	@include three-cols(16rem);
+}
+.medium-sidebar {
+	&.one-sidebar-left, &.one-sidebar-right {
+		#page {
+			min-width: 820px; /* ( 20 + 480 + 20 ) + ( 20 + 260 + 20 ) */
+			min-width: 82rem;
+		}
+	}
+	&.two-sidebars {
+		#page {
+			min-width: 1120px; /* ( 20 + 260 + 20 ) + ( 20 + 480 + 20 ) + ( 20 + 260 + 20 ) */
+			min-width: 112rem;
+		}
+	}
+	@include two-cols(26rem);
+	@include three-cols(26rem);
+}
+.wide-sidebar {
+	&.one-sidebar-left, &.one-sidebar-right {
+		#page {
+			min-width: 860px; /* ( 20 + 480 + 20 ) + ( 20 + 300 + 20 ) */
+			min-width: 86rem;
+		}
+	}
+	&.two-sidebars {
+		#page {
+			min-width: 1200px; /* ( 20 + 300 + 20 ) + ( 20 + 480 + 20 ) + ( 20 + 300 + 20 ) */
+			min-width: 120rem;
+		}
+	}
+	@include two-cols(30rem);
+	@include three-cols(30rem);
+}
