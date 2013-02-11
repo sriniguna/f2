@@ -61,6 +61,7 @@ function f2_theme_options_init() {
 	add_settings_field( 'hide_footer_credits', __('Hide Footer Credits', 'f2'), 'f2_settings_field_hide_footer_credits', 'theme_options', 'footer' );
 
 	add_settings_field( 'disable_webfonts', __('Disable Google Webfonts', 'f2'), 'f2_settings_field_disable_webfonts', 'theme_options', 'other' );
+	add_settings_field( 'non_responsive', __('Disable Responsiveness', 'f2'), 'f2_settings_field_non_responsive', 'theme_options', 'other' );
 	add_settings_field( 'custom_css', __('Custom CSS', 'f2'), 'f2_settings_field_custom_css', 'theme_options', 'other' );
 
 }
@@ -201,6 +202,7 @@ function f2_default_theme_options($option = '') {
 		'footer_text'           => '&copy; '. date('Y') .' '. get_bloginfo('name'),
 		'hide_footer_credits'   => 'off',
 		'disable_webfonts'      => 'off',
+		'non_responsive'        => 'off',
 		'custom_css'            => '',
 	);
 
@@ -458,6 +460,22 @@ function f2_settings_field_disable_webfonts() {
 
 }
 
+/**
+ * Renders the 'non-responsive' setting field.
+ *
+ * @since F2 2.2
+ */
+
+function f2_settings_field_non_responsive() {
+	$options = f2_get_theme_options();
+	?>
+	<label for="non-responsive">
+		<input type="checkbox" name="f2_theme_options[non_responsive]" id="non-responsive" <?php checked( 'on', $options['non_responsive'] ); ?> />
+	</label>
+	<?php
+
+}
+
 
 
 /**
@@ -592,6 +610,10 @@ function f2_theme_options_validate( $input ) {
 	// Checkboxes will only be present if checked.
 	if ( isset( $input['disable_webfonts'] ) )
 		$output['disable_webfonts'] = 'on';
+
+	// Checkboxes will only be present if checked.
+	if ( isset( $input['non_responsive'] ) )
+		$output['non_responsive'] = 'on';
 
 
 	// The textarea must be safe text with the allowed tags for posts

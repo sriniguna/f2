@@ -11,7 +11,9 @@
 <html <?php language_attributes(); ?>>
 <head>
 <meta charset="<?php bloginfo( 'charset' ); ?>" />
+<?php if( f2_get_option('non_responsive') != 'on' ) : ?>
 <meta name="viewport" content="width=device-width" />
+<?php endif; ?>
 <title><?php
 	/*
 	 * Print the <title> tag based on what is being viewed.
