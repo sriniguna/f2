@@ -514,8 +514,13 @@ function f2_theme_options_render_page() {
 		<?php screen_icon(); ?>
 		<?php $theme_name = wp_get_theme(); ?>
 		<h2><?php printf( __( '%s Theme Options', 'f2' ), $theme_name ); ?></h2>
+		<div class="theme-links">
+			<a href="http://srinig.com/wordpress/themes/f2/" class="button"><?php _e('Visit Theme Home Page', 'f2'); ?></a>
+			<a href="http://wordpress.org/support/theme/f2" class="button"><?php _e('Get Support', 'f2'); ?></a>
+			<a href="http://wordpress.org/support/view/theme-reviews/f2" class="button"><?php _e('Provide Feedback', 'f2'); ?></a>
+			<a href="http://srinig.com/wordpress/themes/f2/#donate" class="button"><?php _e('Make a Donation', 'f2'); ?></a>
+		</div>
 		<?php settings_errors(); ?>
-		<div><p><em>Note: You can also customize the theme using the <a href="<?php echo admin_url(); ?>/customize.php">Theme Customizer</a> and preview changes in real time!</em></p></div>
 
 		<form method="post" action="options.php">
 			<?php
@@ -524,17 +529,8 @@ function f2_theme_options_render_page() {
 				submit_button();
 			?>
 		</form>
-		<div class="theme-options-footer">
-			<p><?php printf( __('You are using F2 WordPress theme, version %s.', 'f2'), $theme_name->Version ); ?>
-				<?php printf(__('Visit <a href="%s">theme page</a>', 'f2'), 'http://srinig.com/wordpress/themes/f2/'); ?>. <?php printf(__('View <a href="%s">readme</a>', 'f2'), get_template_directory_uri().'/README.md'); ?>.</p>
-			<?php _e('If you enjoy the theme, you can make a donation and support development. Thank you!', 'f2'); ?></p>
-<div><form action="https://www.paypal.com/cgi-bin/webscr" method="post">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="7622318">
-<input type="image" src="https://www.paypal.com/en_US/i/btn/btn_donate_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-<img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
-</form></div>
-		</div>	</div>
+
+	</div>
 	<?php
 }
 
