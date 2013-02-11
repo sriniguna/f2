@@ -189,6 +189,7 @@ function f2_get_option($option) {
 }
 
 
+if ( ! function_exists( 'f2_header_image' ) ) :
 /**
  * Renders the header image if a header image is specified in the options
  *
@@ -199,7 +200,10 @@ function f2_header_image() {
 		echo '<div id="header-image"><a href="'. esc_url( home_url( '/' ) ) .'"><img src="' . $header_image . '" alt=""/></a></div>';
 	}
 }
+endif; // ends check for f2_header_image()
 
+
+if ( ! function_exists( 'f2_logo_image' ) ) :
 /**
  * Renders the logo image if a header image is specified in the options
  *
@@ -210,6 +214,8 @@ function f2_logo_image() {
 		?><a href="<?php echo home_url( '/' ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><img src="<?php echo $logo_image; ?>"/></a><?php
 	}
 }
+endif; // ends check for f2_logo_image()
+
 
 /**
  * Footer text

@@ -155,7 +155,6 @@ function f2_scripts() {
 }
 add_action( 'wp_enqueue_scripts', 'f2_scripts' );
 
-
 /**
 * Prints custom styles in the wp_head() area
 */
@@ -169,7 +168,6 @@ function f2_head() {
 <?php
 	}
 }
-
 add_action( 'wp_head', 'f2_head');
 
 
@@ -222,8 +220,10 @@ add_filter( 'post_class', 'f2_post_class' );
  *
  * @since F2 2.0
  */
+if ( ! function_exists( 'f2_excerpt_more' ) ):
 function f2_excerpt_more( $more ) {
 	global $post;
 	return ' ...</p><p><a href="'. get_permalink($post->ID) .'" class="more-link">'. sprintf(__('Continue reading &lsquo;%s&rsquo; &raquo;', 'f2'), the_title('', '', false)) .'</a>';
 }
 add_filter('excerpt_more', 'f2_excerpt_more');
+endif; /* function f2_excerpt_more */
