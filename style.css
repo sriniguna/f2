@@ -448,7 +448,7 @@ a:active,
 /* =Canvas
 ---------------------------------------------- */
 body {
-  background: #666666 url("../images/noise.png") fixed;
+  background: #666666 url("images/noise.png") fixed;
 }
 
 #page {
@@ -788,6 +788,7 @@ body {
 
 .site-header img,
 .entry-content img,
+.widget img,
 img[class*="align"],
 img[class*="wp-image-"] {
   height: auto;
@@ -1515,7 +1516,7 @@ body {
 .color-scheme-brown .sidebar {
   background: #f6ecdb;
 }
-.color-scheme-brown #page {
+.color-scheme-brown #main {
   background: #fff8f1;
   border: none;
 }
@@ -1593,7 +1594,7 @@ body {
 .color-scheme-green .sidebar {
   background-color: #f0f6ea;
 }
-.color-scheme-green #page {
+.color-scheme-green #main {
   background-color: #fefef6;
   border: none;
 }
@@ -1684,7 +1685,7 @@ body {
 .color-scheme-dark .sidebar {
   background: #36332e;
 }
-.color-scheme-dark #page {
+.color-scheme-dark #main {
   background: #413e37;
   border: none;
 }

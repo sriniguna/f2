@@ -1,3 +1,10 @@
+/**
+ * Theme Customizer enhancements for a better user experience.
+ *
+ * Contains handlers to make Theme Customizer preview reload changes asynchronously.
+ */
+
+
 jQuery( document ).ready( function( $ ) {
 	wp.customize( 'f2_theme_options[color_scheme]', function( setval ) {
 		setval.bind( function( opt ) {

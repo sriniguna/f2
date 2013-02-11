@@ -776,16 +776,16 @@ function f2_customize_register( $wp_customize ) {
 		'type'       => 'select',
 		'choices'    => f2_font_size_options(),
 	) );
-
-
-
-	/* Generates JavaScript in the customizer preview pane so that certain options can have a 'live preview' (instead of reload) */
-	if ( $wp_customize->is_preview() && ! is_admin() ) {
-		wp_enqueue_script( 'customizer', get_template_directory_uri() . '/js/customizer.js', array( 'jquery' ), wp_get_theme()->Version, true );
-	}
-
 }
 add_action( 'customize_register', 'f2_customize_register' );
+
+/**
+ * Binds JS handlers to make Theme Customizer preview reload changes asynchronously.
+*/
+function f2_customize_preview_js() {
+	wp_enqueue_script( 'f2_customizer', get_template_directory_uri() . '/js/customizer.js', array( 'customize-preview' ), wp_get_theme()->Version, true );
+}
+add_action( 'customize_preview_init', 'f2_customize_preview_js' );
 
 
 function f2_admin_scripts() {
@@ -803,3 +803,21 @@ if (isset($_GET['page']) && $_GET['page'] == 'theme_options') {
 	add_action('admin_print_scripts', 'f2_admin_scripts');
 	add_action('admin_print_styles', 'f2_admin_styles');
 }
+
+
+/**
+ * Add Theme Options menu item to Admin Bar.
+ * @since F2 2.2
+ */
+function f2_adminbar() {
+	
+	global $wp_admin_bar;
+	
+	$wp_admin_bar->add_menu( array(
+		'parent' => 'appearance',
+		'id' => 'theme_options',
+		'title' => __( 'Theme Options', 'f2' ),
+		'href' => admin_url( 'themes.php?page=theme_options' )
+  ));
+}
+add_action( 'wp_before_admin_bar_render', 'f2_adminbar' );
