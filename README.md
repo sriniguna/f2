@@ -1,7 +1,7 @@
 F2
 ==
 
-F2 is a light-weight, responsive theme for WordPress released for free under the [GPL][]. F2 Version 2.0 is completelely rebuilt based on the _s theme.
+F2 is a clean looking responsive theme for WordPress released for free under the [GPL][]. F2 Version 2.0 is completelely rebuilt based on the _s theme.
 
 *Please Note: Version 2.0 is a massive update. If you are using an older version of the theme, mind that you will have to redefine all your customizations when you upgrade, this is the case even if you are using a child theme. If you have too many customizations, you may want to stick with the older version. If for any reason you want to revert back to the older version of the theme, you can download v1.2 from the [F2 Home Page][]. Version 2.0 requires WordPress 3.4 or above.*
 
@@ -9,7 +9,7 @@ F2 is a light-weight, responsive theme for WordPress released for free under the
 Main Features
 -------------
 
-* Responsive. This means certain elements of the site gets rearraged and/or resized so that the layout nicely fits the screen the site is viewed in. The site looks good whether you are looking at it from a mobile phone or a tablet device or a widescreen monitor.
+* Responsive. This means certain elements of the site gets rearraged and/or resized so that the layout nicely fits the screen the site is viewed in. The site looks good whether you are looking at it from a mobile phone or a tablet device or a widescreen monitor. Optionally, the responsive feature can be turned off.
 * Four color schemes:
 	* Blue (default)
 	* Brown
@@ -21,7 +21,7 @@ Main Features
 	* sidebar - content - sidebar
 	* content only (no sidebar)
 * More customization possible from the 'Theme Options' admin page and also from the WP 'Theme Customizer'.
-* Compatible with WordPress version 3.4 and above. Tested upto 3.5.
+* Compatible with WordPress version 3.4 and above. Tested upto 3.5.1.
 * HTML5 and CSS3.
 * Tested and works well in all major browsers. IE 7 and up, and the latest versions of Chrome, Firefox, Opera and Safari.
 * Translation ready.
@@ -66,7 +66,7 @@ You can have an archives page that will list links to all your categories, tags 
 
 ### Fonts ###
 
-The theme uses Google Web Fonts [Bitter](http://www.google.com/webfonts/specimen/Bitter) and [Gudea](http://www.google.com/webfonts/specimen/Gudea).
+The theme uses Google Web Fonts [Bitter](http://www.google.com/webfonts/specimen/Bitter) and [Gudea](http://www.google.com/webfonts/specimen/Gudea). Optionally, the webfonts can be disabled.
 
 ### Internationalization ###
 

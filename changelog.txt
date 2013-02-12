@@ -1,20 +1,20 @@
 Change Log
 ==========
 
-2.2
----
+2.2 (2013-02-12)
+----------------
 
 * Changed the structure of CSS files
     * All main styles are now in style.css
     * Removed scss/screen.scss and css/screen.css
+    * Added non-responsive.scss and css
     * Moved theme-options.css from css folder to inc/theme-options
     * Removed the css folder
-    
-
-2.1.2 (2013-01-03)
-------------------
-
+* Added option to turn of responsiveness
+* Made a few template functions pluggable (child theme friendliness)
+* Responsive videos with fitvids.js
 * Fixed slashes problem with footer text options field
+* Other little improvements and fixes
 
 
 2.1.1 (2012-12-24)
