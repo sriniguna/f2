@@ -515,10 +515,10 @@ function f2_theme_options_render_page() {
 		<?php $theme_name = wp_get_theme(); ?>
 		<h2><?php printf( __( '%s Theme Options', 'f2' ), $theme_name ); ?></h2>
 		<div class="theme-links">
-			<a href="http://srinig.com/wordpress/themes/f2/" class="button"><?php _e('Visit Theme Home Page', 'f2'); ?></a>
+			<a href="<?php echo esc_url( wp_get_theme()->get('ThemeURI') ); ?>" class="button"><?php _e('Visit Theme Home Page', 'f2'); ?></a>
 			<a href="http://wordpress.org/support/theme/f2" class="button"><?php _e('Get Support', 'f2'); ?></a>
 			<a href="http://wordpress.org/support/view/theme-reviews/f2" class="button"><?php _e('Provide Feedback', 'f2'); ?></a>
-			<a href="http://srinig.com/wordpress/themes/f2/#donate" class="button"><?php _e('Make a Donation', 'f2'); ?></a>
+			<a href="<?php echo esc_url( wp_get_theme()->get('ThemeURI') ); ?>#donate" class="button"><?php _e('Make a Donation', 'f2'); ?></a>
 		</div>
 		<?php settings_errors(); ?>
 
