@@ -259,7 +259,7 @@ function f2_settings_field_color_scheme() {
 function f2_settings_field_logo_image() {
 	$options = f2_get_theme_options();
 	?>
-	<input type="url" name="f2_theme_options[logo_image]" id="logo-image" class="image-url" size="36" value="<?php echo esc_attr( $options['logo_image'] ); ?>" />
+	<input type="url" name="f2_theme_options[logo_image]" id="logo-image" class="image-url" size="36" value="<?php echo esc_url( $options['logo_image'] ); ?>" />
 	<input id="logo-image-upload-button" class="image-upload-button button-secondary" type="button" value="Upload Image" />
 	<label class="description" for="logo-image"><?php _e( 'Enter an URL or upload an image.', 'f2' ); ?></label>
 	<div class="description" style="font-style: italic;"><?php _e('This image will replace the site title and tagline in header.', 'f2'); ?></div>
@@ -277,7 +277,7 @@ function f2_settings_field_logo_image() {
 function f2_settings_field_header_image() {
 	$options = f2_get_theme_options();
 	?>
-	<input type="url" name="f2_theme_options[header_image]" id="header-image" class="image-url" size="36" value="<?php echo esc_attr( $options['header_image'] ); ?>" />
+	<input type="url" name="f2_theme_options[header_image]" id="header-image" class="image-url" size="36" value="<?php echo esc_url( $options['header_image'] ); ?>" />
 	<input id="header-image-upload-button" class="image-upload-button button-secondary" type="button" value="Upload Image" />
 	<label class="description" for="header-image"><?php _e( 'Enter an URL or upload an image.', 'f2' ); ?></label>
 	<div class="description" style="font-style: italic;"><?php _e('This image will stretch or shrink if necessary and fill the entire page width.', 'f2'); ?></div>
@@ -515,10 +515,10 @@ function f2_theme_options_render_page() {
 		<?php $theme_name = wp_get_theme(); ?>
 		<h2><?php printf( __( '%s Theme Options', 'f2' ), $theme_name ); ?></h2>
 		<div class="theme-links">
-			<a href="<?php echo esc_url( wp_get_theme()->get('ThemeURI') ); ?>" class="button"><?php _e('Visit Theme Home Page', 'f2'); ?></a>
-			<a href="http://wordpress.org/support/theme/f2" class="button"><?php _e('Get Support', 'f2'); ?></a>
-			<a href="http://wordpress.org/support/view/theme-reviews/f2" class="button"><?php _e('Provide Feedback', 'f2'); ?></a>
-			<a href="<?php echo esc_url( wp_get_theme()->get('ThemeURI') ); ?>#donate" class="button"><?php _e('Make a Donation', 'f2'); ?></a>
+			<a href="<?php echo esc_url( 'http://srinig.com/wordpress/themes/f2/' ); ?>" class="button"><?php _e('Visit Theme Home Page', 'f2'); ?></a>
+			<a href="<?php echo esc_url( 'http://wordpress.org/support/theme/f2' ); ?>" class="button"><?php _e('Get Support', 'f2'); ?></a>
+			<a href="<?php echo esc_url( 'http://wordpress.org/support/view/theme-reviews/f2' ); ?>" class="button"><?php _e('Provide Feedback', 'f2'); ?></a>
+			<a href="<?php echo esc_url( 'http://srinig.com/wordpress/themes/f2/#donate' ); ?>" class="button"><?php _e('Make a Donation', 'f2'); ?></a>
 		</div>
 		<?php settings_errors(); ?>
 
@@ -555,12 +555,12 @@ function f2_theme_options_validate( $input ) {
 
 	// The site logo url must be safe text with no HTML tags
 	if ( isset( $input['logo_image'] ) && ! empty( $input['logo_image'] ) )
-		$output['logo_image'] = wp_filter_nohtml_kses( $input['logo_image'] );
+		$output['logo_image'] = esc_url( $input['logo_image'] );
 
 
 	// The header image url must be safe text with no HTML tags
 	if ( isset( $input['header_image'] ) && ! empty( $input['header_image'] ) )
-		$output['header_image'] = wp_filter_nohtml_kses( $input['header_image'] );
+		$output['header_image'] = esc_url( $input['header_image'] );
 
 	// Checkboxes will only be present if checked.
 	if( isset( $input['hide_header_nav'] ) )
