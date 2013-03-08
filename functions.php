@@ -111,13 +111,30 @@ add_action( 'widgets_init', 'f2_widgets_init' );
 
 
 /**
+ * Enqueue webfonts
+ *
+ * @since F2 2.2.1
+ */
+function f2_enqueue_webfonts() {
+	$font_families[] = 'Bitter:700';
+	$font_families[] = 'Gudea:400,700,400italic';
+
+	$protocol = is_ssl() ? 'https' : 'http';
+	$query_args = array(
+		'family' => implode( '|', $font_families ),
+	);
+	wp_enqueue_style( 'webfonts', add_query_arg( $query_args, "$protocol://fonts.googleapis.com/css" ), array(), null );
+}
+
+
+/**
  * Enqueue scripts and styles
  */
 function f2_scripts() {
 
 	$theme  = wp_get_theme();
 	if( f2_get_option('disable_webfonts') != 'on' ) {
-		wp_enqueue_style( 'google-webfonts', 'http://fonts.googleapis.com/css?family=Bitter:700|Gudea:400,700,400italic', false, $theme->Version );
+		f2_enqueue_webfonts();
 	}
 
 	wp_enqueue_style( 'style', get_stylesheet_uri(), false, $theme->Version, 'screen, projection' );
