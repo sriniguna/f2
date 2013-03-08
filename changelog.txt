@@ -1,6 +1,14 @@
 Change Log
 ==========
 
+2.2.1 (2013-03-08)
+------------------
+
+* Spanish localization by Jesus Dieguez Fernandez
+* Enqueueing webfonts the right way
+* Sanitizing urls using esc_url
+
+
 2.2 (2013-02-12)
 ----------------
 
