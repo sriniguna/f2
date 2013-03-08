@@ -10,6 +10,7 @@ be_BY    Belorussian            Marcis G.
 bg_BG    Bulgarian              Vladimir Borisov
 da_DK    Danish                 Per Lundbech
 de_DE    German                 Stephan Jaschke
+es_ES    Spanish                Jesús Diéguez Fernández
 fa_IR    Persian                Ghiasabadi R. M.
 fo_FO    Faroese                Hjalti á Lava
 fr_FR    French                 Etienne
