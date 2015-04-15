@@ -25,6 +25,7 @@ nn_NO    Norwegian (Nynorsk)    Eivind Ødegård
 pl_PL    Polish                 Super Grey
 pt_BR    Portugese              Pedro Padron
 ru_RU    Russian                Mihail Pomaskin
+sk_SK    Slovak                 Nikola Garajov
 ta       Tamil                  Ravi
 tr_TR    Turkish                Caner Güral
 uk_UA    Ukrainian              Oleg Tsvirko
