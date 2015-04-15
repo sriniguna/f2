@@ -1,0 +1,514 @@
+# F2 WordPress Theme. Translation template file.
+# Copyright (C) 2009-2013 Srinivasan G <srinig.com@gmail.com>
+# This file is distributed under the same license as the F2.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: F2 2.2\n"
+"Report-Msgid-Bugs-To: srinig.com@gmail.com\n"
+"POT-Creation-Date: 2013-02-12 10:06+0530\n"
+"PO-Revision-Date: 2015-04-13 18:29+0200\n"
+"Language-Team: Nikola Garajov\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"Last-Translator: \n"
+"Language: sk_SK\n"
+"X-Generator: Poedit 1.7.5\n"
+
+#: content-single.php:22 content-page.php:20 image.php:82 content.php:47
+msgid "Pages:"
+msgstr "Stránky:"
+
+#: content-single.php:29 content-single.php:39 content.php:56 content.php:66
+msgid ", "
+msgstr ", "
+
+#: content-single.php:33 content.php:60
+msgid "Filed under"
+msgstr "Súbor pod"
+
+#: content-single.php:44 content.php:71
+msgid "Tagged"
+msgstr "Stítky"
+
+#: content-single.php:51 content.php:78 content-aside.php:22
+msgid "Comment"
+msgstr "Komentár"
+
+#: content-single.php:51 content.php:78 content-aside.php:22
+msgid "1 Comment"
+msgstr "1 Komentár"
+
+#: content-single.php:51 content.php:78 comments.php:30 content-aside.php:22
+msgid "% Comments"
+msgstr "% Komentáre"
+
+#: content-single.php:54 content.php:11 content-aside.php:12
+#, php-format
+msgid "Permanent Link to %s"
+msgstr "Trvalý odkaz na %s"
+
+#: content-single.php:55 content-page.php:24 image.php:34 image.php:101
+#: content.php:81 content-aside.php:25
+msgid "Edit"
+msgstr "Edit"
+
+#: search.php:17
+#, php-format
+msgid "Search results for %s"
+msgstr "Výsledky vyhľadávania pre %s"
+
+#: footer.php:21
+#, php-format
+msgid "Powered by %s"
+msgstr "Powered by %s"
+
+#: footer.php:23
+#, php-format
+msgid "Theme %1$s."
+msgstr "Téma %1$s."
+
+#: archives.php:16 sidebar.php:22
+msgid "Archives"
+msgstr "Archív"
+
+#: archives.php:20
+msgid "Archives by Month"
+msgstr "Archív podľa mesiaca"
+
+#: archives.php:26
+msgid "Archives by Subject"
+msgstr "Archív podľa mesiaca"
+
+#: archives.php:33
+msgid "Tags"
+msgstr "Stítky"
+
+#: sidebar.php:29
+msgid "Meta"
+msgstr "Meta"
+
+#: sidebar.php:46
+msgid "This is the second sidebar. You can add widgets to this sidebar from \"Appearance&nbsp;>&nbsp;Widgets\" in your wp-admin."
+msgstr "Toto je druhý bočný panel. Môžete pridať widgety do tohto bočného panela z \"Appearance&nbsp;>&nbsp;Widgets\" v wp-admin."
+
+#: no-results.php:12
+msgid "Not Found"
+msgstr "Nenájdené"
+
+#: no-results.php:18
+#, php-format
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Ste pripravení zverejniť svoj prvý príspevok? <a href=\"%1$s\"> Začnite tu </a> začalo."
+
+#: no-results.php:22 no-results.php:27
+msgid "Sorry, no posts matched your criteria."
+msgstr "Je nám ľúto, ale žiadne príspevky zodpovedali zadaným kritériám."
+
+#: image.php:24
+#, php-format
+msgid "Published <span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></span> at <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%7$s</a>"
+msgstr "Vydané <span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></span> at <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%7$s</a>"
+
+#: image.php:86
+msgid "&laquo; Previous"
+msgstr "&laquo;  Predchádzajúci"
+
+#: image.php:87
+msgid "Next &raquo;"
+msgstr "Ďalší &raquo;"
+
+#: image.php:93
+#, php-format
+msgid "<a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">Post a comment</a> or leave a trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+msgstr "<a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">Post a comment</a> or leave a trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+
+#: image.php:95
+#, php-format
+msgid "Comments are closed, but you can leave a trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+msgstr "Komentáre sú uzavreté, ale môžete zanechať Trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+
+#: image.php:97
+msgid "Trackbacks are closed, but you can <a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">post a comment</a>."
+msgstr "Spätné odkazy sú uzavreté, ale môžete <a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">post a comment</a>."
+
+#: image.php:99
+msgid "Both comments and trackbacks are currently closed."
+msgstr "Oba komentáre a Spätné odkazy sú v súčasnosti zatvorený."
+
+#: searchform.php:10
+msgid "Search"
+msgstr "Vyhľadávanie"
+
+#: content.php:17
+msgid "Sticky post"
+msgstr "Sticky príspevok"
+
+#: content.php:46 content-aside.php:14 functions.php:226
+#, php-format
+msgid "Continue reading &lsquo;%s&rsquo; &raquo;"
+msgstr "Pokračovať v čítaní &lsquo;%s&rsquo; &raquo;"
+
+#: comments.php:30
+msgid "No Comments"
+msgstr "Bez Komentáre"
+
+#: comments.php:30
+msgid "One Comment"
+msgstr "Jednom Komentár "
+
+#: comments.php:34 comments.php:54
+msgid "Comment navigation"
+msgstr "Komentár navigácia"
+
+#: comments.php:66
+msgid "Comments are closed."
+msgstr "Komentáre sú uzavreté."
+
+#: header.php:35
+#, php-format
+msgid "Page %s"
+msgstr "Strana %s"
+
+#: header.php:59
+msgid "Menu"
+msgstr "Menu"
+
+#: header.php:60
+msgid "Skip to content"
+msgstr "Preskočiť na obsah"
+
+#: functions.php:63
+msgid "Primary Menu"
+msgstr "Primárne Menu"
+
+#: functions.php:87
+msgid "Sidebar 1"
+msgstr "Sidebar 1"
+
+#: functions.php:100
+msgid "Sidebar 2"
+msgstr "Sidebar 2"
+
+#: archive.php:21
+#, php-format
+msgid "Archive of posts filed under the %s category."
+msgstr "Archív príspevky podané v rámci tejto %s  kategórie."
+
+#: archive.php:24
+#, php-format
+msgid "Archive of posts tagged %s"
+msgstr "Archív príspevkov označené %s"
+
+#: archive.php:27 archive.php:30
+#, php-format
+msgid "Archive of entries posted on %s"
+msgstr "Archív záznamov zverejnené na %s"
+
+#: archive.php:27
+msgid "jS F Y"
+msgstr "jS F Y"
+
+#: archive.php:30
+msgid "F Y"
+msgstr "F Y"
+
+#: archive.php:33
+#, php-format
+msgid "Archive of entries posted in the year %s"
+msgstr "Archív zápisov vykázala v roku %s"
+
+#: archive.php:40
+#, php-format
+msgid "Archive of entries posted by %s"
+msgstr "Archív zápisníc odoslal %s"
+
+#: 404.php:16
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Och! Táto stránka môže teplotu rsquo, ktoré sa nachádzajú."
+
+#: 404.php:20
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "Vyzerá to, že sa nič nájdené na tomto mieste. Možno, vyskúšajte niektorú z nižšie uvedené odkazy alebo vyhľadávanie?"
+
+#: 404.php:27
+msgid "Most Used Categories"
+msgstr "Most Použité Kategórie"
+
+#: 404.php:35
+#, php-format
+msgid "Try looking in the monthly archives. %1$s"
+msgstr "Skúste sa pozrieť na mesačných archívoch. %1$s"
+
+#: inc/template-tags.php:38
+msgid "Post navigation"
+msgstr "Зríspevok navigáciu"
+
+#: inc/template-tags.php:48
+msgid "&laquo; Older Entries"
+msgstr "&laquo; Príspevok navigáciám"
+
+#: inc/template-tags.php:52
+msgid "Newer Entries &raquo;"
+msgstr "Novšie Príspevky &raquo;"
+
+#: inc/template-tags.php:77
+msgid "Pingback:"
+msgstr "Pingback:"
+
+#: inc/template-tags.php:77 inc/template-tags.php:100
+msgid "(Edit)"
+msgstr "(Upraviť)"
+
+#: inc/template-tags.php:90
+msgid "Your comment is awaiting moderation."
+msgstr "Váš komentár čaká na moderovanie."
+
+#: inc/template-tags.php:98
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s na%2$s"
+
+#: inc/template-tags.php:108
+msgid "Reply to this comment"
+msgstr "Odpovedať na tento komentár"
+
+#: inc/template-tags.php:127
+msgid "Posted by"
+msgstr "Pridal"
+
+#: inc/template-tags.php:128
+#, php-format
+msgid "View all posts by %s"
+msgstr "Zobraziť všetky príspevky od užívateľa %s"
+
+#: inc/template-tags.php:129
+msgid "on"
+msgstr "na"
+
+#: inc/template-tags.php:134
+msgid "j F Y, g:i a"
+msgstr "j F Y, g:i a"
+
+#: inc/theme-options/theme-options.php:32
+#: inc/theme-options/theme-options.php:44
+#: inc/theme-options/theme-options.php:632
+#: inc/theme-options/theme-options.php:669
+msgid "Color Scheme"
+msgstr "Farebná schéma"
+
+#: inc/theme-options/theme-options.php:37
+msgid "Header"
+msgstr "Hlavička"
+
+#: inc/theme-options/theme-options.php:38
+#: inc/theme-options/theme-options.php:645
+msgid "Sidebar"
+msgstr "Sidebar"
+
+#: inc/theme-options/theme-options.php:39
+#: inc/theme-options/theme-options.php:651
+msgid "Content"
+msgstr "Obsah"
+
+#: inc/theme-options/theme-options.php:40
+msgid "Footer"
+msgstr "Zápätie"
+
+#: inc/theme-options/theme-options.php:41
+msgid "Other Options"
+msgstr "Ďalšie možnosti"
+
+#: inc/theme-options/theme-options.php:46
+msgid "Site Logo"
+msgstr "Site Logo"
+
+#: inc/theme-options/theme-options.php:47
+#: inc/theme-options/theme-options.php:638
+#: inc/theme-options/theme-options.php:703
+msgid "Header Image"
+msgstr "Header Image"
+
+#: inc/theme-options/theme-options.php:48
+msgid "Hide Header Navigation Menu"
+msgstr "Skryť záhlavie navigačné menu"
+
+#: inc/theme-options/theme-options.php:50
+msgid "Site Layout"
+msgstr "Layout stránok"
+
+#: inc/theme-options/theme-options.php:51
+#: inc/theme-options/theme-options.php:736
+msgid "Sidebar Width"
+msgstr "Sidebar Šírka"
+
+#: inc/theme-options/theme-options.php:52
+#: inc/theme-options/theme-options.php:755
+msgid "Sidebar Font Size"
+msgstr "Sidebar Veľkosť písma"
+
+#: inc/theme-options/theme-options.php:54
+#: inc/theme-options/theme-options.php:773
+msgid "Content Font Size"
+msgstr "Obsah Veľkosť písma"
+
+#: inc/theme-options/theme-options.php:55
+msgid "Hide Author Info"
+msgstr "Skryť Author Info"
+
+#: inc/theme-options/theme-options.php:56
+msgid "Home Page Posts"
+msgstr "Úvodná stránka Príspevky"
+
+#: inc/theme-options/theme-options.php:57
+msgid "Archive Posts"
+msgstr "Archív príspevkov"
+
+#: inc/theme-options/theme-options.php:60
+msgid "Footer Text"
+msgstr "Zápätie Text"
+
+#: inc/theme-options/theme-options.php:61
+msgid "Hide Footer Credits"
+msgstr "Skryť zápätie Credits"
+
+#: inc/theme-options/theme-options.php:63
+msgid "Disable Google Webfonts"
+msgstr "Zakázať Google Web Fonts"
+
+#: inc/theme-options/theme-options.php:64
+msgid "Disable Responsiveness"
+msgstr "Zakázať Ústretovosť"
+
+#: inc/theme-options/theme-options.php:65
+msgid "Custom CSS"
+msgstr "Vlastné CSS"
+
+#: inc/theme-options/theme-options.php:99
+#: inc/theme-options/theme-options.php:100
+#: inc/theme-options/theme-options.php:819
+msgid "Theme Options"
+msgstr "Možnosti téma"
+
+#: inc/theme-options/theme-options.php:117
+msgid "Blue"
+msgstr "Modrý"
+
+#: inc/theme-options/theme-options.php:118
+msgid "Brown"
+msgstr "Hnedý"
+
+#: inc/theme-options/theme-options.php:119
+msgid "Green"
+msgstr "Zelená"
+
+#: inc/theme-options/theme-options.php:120
+msgid "Dark"
+msgstr "Tmavý"
+
+#: inc/theme-options/theme-options.php:135
+msgid "One Sidebar (Right)"
+msgstr "Jednom Sidebar (vpravo)"
+
+#: inc/theme-options/theme-options.php:136
+msgid "One Sidebar (Left)"
+msgstr "Jednom Sidebar (vľavo)"
+
+#: inc/theme-options/theme-options.php:137
+msgid "Two Sidebars"
+msgstr "Dvoch sprievodných"
+
+#: inc/theme-options/theme-options.php:138
+msgid "Content Only (no sidebar)"
+msgstr "Content Only (bez sidebar)"
+
+#: inc/theme-options/theme-options.php:153
+msgid "Narrow"
+msgstr "úzky"
+
+#: inc/theme-options/theme-options.php:154
+#: inc/theme-options/theme-options.php:172
+msgid "Medium"
+msgstr "stredná"
+
+#: inc/theme-options/theme-options.php:155
+msgid "Wide"
+msgstr "široký"
+
+#: inc/theme-options/theme-options.php:170
+msgid "Smaller"
+msgstr "menšie"
+
+#: inc/theme-options/theme-options.php:171
+msgid "Small"
+msgstr "malý"
+
+#: inc/theme-options/theme-options.php:173
+msgid "Large"
+msgstr "veľký"
+
+#: inc/theme-options/theme-options.php:174
+msgid "Larger"
+msgstr "väčšia"
+
+#: inc/theme-options/theme-options.php:264
+#: inc/theme-options/theme-options.php:282
+msgid "Enter an URL or upload an image."
+msgstr "Zadajte adresu URL, alebo nahrať obrázok."
+
+#: inc/theme-options/theme-options.php:265
+msgid "This image will replace the site title and tagline in header."
+msgstr "Tento obrázok nahradí názov miesta a slogan v záhlaví."
+
+#: inc/theme-options/theme-options.php:283
+msgid "This image will stretch or shrink if necessary and fill the entire page width."
+msgstr "Tento obrázok sa roztiahnuť alebo zmenšiť v prípade potreby a naplniť celú šírku stránky."
+
+#: inc/theme-options/theme-options.php:393
+msgid "Hide author information in post meta"
+msgstr "Skryť Informácie o autorovi v post meta"
+
+#: inc/theme-options/theme-options.php:410
+#: inc/theme-options/theme-options.php:429
+msgid "Show full posts"
+msgstr "Zobraziť celý príspevky"
+
+#: inc/theme-options/theme-options.php:411
+#: inc/theme-options/theme-options.php:430
+msgid "Show only excerpts"
+msgstr "Zobraziť iba ukážky"
+
+#: inc/theme-options/theme-options.php:497
+msgid "Hide links to WordPress and F2 in footer"
+msgstr "Skryť odkazy na WordPress a F2 v zápätí"
+
+#: inc/theme-options/theme-options.php:516
+#, php-format
+msgid "%s Theme Options"
+msgstr "%s  Možnosti motívu"
+
+#: inc/theme-options/theme-options.php:518
+msgid "Visit Theme Home Page"
+msgstr "Navštívte Theme Úvodná stránka"
+
+#: inc/theme-options/theme-options.php:519
+msgid "Get Support"
+msgstr "Získajte podporu"
+
+#: inc/theme-options/theme-options.php:520
+msgid "Provide Feedback"
+msgstr "Pošlite nám svoje pripomienky"
+
+#: inc/theme-options/theme-options.php:521
+msgid "Make a Donation"
+msgstr "Prispejte"
+
+#: inc/theme-options/theme-options.php:688
+msgid "Site Logo (replaces site title and tagline)"
+msgstr "Site Logo (nahraďte názov stránky a slogan)"
+
+#: inc/theme-options/theme-options.php:719
+msgid "Layout"
+msgstr "Dispozícia"
