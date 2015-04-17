@@ -19,6 +19,7 @@ id_ID    Indonesian             Masino Sinaga
 it_IT    Italian                Gianni Diurno (aka gidibao)
 ja       Japanese               Mako
 lt_LT    Lithuanian             Tomas Šiurna
+lv       Latvian                Johannes Rau
 nb_NO    Norwegian (Bokmål)     Eilif Nordseth, Eivind Ødegård
 nl_NL    Dutch                  R. Helmes
 nn_NO    Norwegian (Nynorsk)    Eivind Ødegård
