@@ -56,7 +56,7 @@ $link_color: #366d55;
 
 	.site-header {
 		background-color: $header_bg_color;
-		hgroup {
+		.site-branding {
 			.site-title a {
 				color: $title_color;
 			}

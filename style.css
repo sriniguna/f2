@@ -61,7 +61,6 @@ figcaption,
 figure,
 footer,
 header,
-hgroup,
 nav,
 section {
   display: block;
@@ -482,23 +481,23 @@ body {
   padding: 0;
   text-align: center;
 }
-.site-header hgroup {
+.site-header .site-branding {
   padding: 10px;
   padding: 1rem;
 }
-.site-header hgroup .site-title {
+.site-header .site-branding .site-title {
   font-size: 24px;
   font-size: 2.4rem;
   text-transform: uppercase;
 }
-.site-header hgroup .site-title a, .site-header hgroup .site-title .site-navigation .menu-toggle, .site-header .site-navigation hgroup .site-title .menu-toggle {
+.site-header .site-branding .site-title a, .site-header .site-branding .site-title .site-navigation .menu-toggle, .site-header .site-navigation .site-branding .site-title .menu-toggle {
   color: #d0e0f0;
   text-shadow: rgba(0, 0, 0, 0.5) 0 0 0.3rem;
 }
-.site-header hgroup .site-title a:hover, .site-header hgroup .site-title .site-navigation .menu-toggle:hover, .site-header .site-navigation hgroup .site-title .menu-toggle:hover {
+.site-header .site-branding .site-title a:hover, .site-header .site-branding .site-title .site-navigation .menu-toggle:hover, .site-header .site-navigation .site-branding .site-title .menu-toggle:hover {
   text-decoration: none;
 }
-.site-header hgroup .site-description {
+.site-header .site-branding .site-description {
   font-weight: normal;
   font-size: 14px;
   font-size: 1.4rem;
@@ -1118,7 +1117,7 @@ body {
   .site-header {
     text-align: left;
   }
-  .site-header hgroup {
+  .site-header .site-branding {
     padding: 20px;
     padding: 2rem;
   }
@@ -1496,10 +1495,10 @@ body {
 .color-scheme-brown .site-header {
   background: #634121;
 }
-.color-scheme-brown .site-header hgroup .site-title a, .color-scheme-brown .site-header hgroup .site-title .site-navigation .menu-toggle, .color-scheme-brown .site-header .site-navigation hgroup .site-title .menu-toggle {
+.color-scheme-brown .site-header .site-branding .site-title a, .color-scheme-brown .site-header .site-branding .site-title .site-navigation .menu-toggle, .color-scheme-brown .site-header .site-navigation .site-branding .site-title .menu-toggle {
   color: #b58c5c;
 }
-.color-scheme-brown .site-header hgroup .site-description {
+.color-scheme-brown .site-header .site-branding .site-description {
   color: #d5bda2;
 }
 .color-scheme-brown .site-header .site-navigation a, .color-scheme-brown .site-header .site-navigation .menu-toggle, .color-scheme-brown .site-header .site-navigation .menu-toggle {
@@ -1577,7 +1576,7 @@ body {
 .color-scheme-green .site-header {
   background-color: #7e9a88;
 }
-.color-scheme-green .site-header hgroup .site-title a, .color-scheme-green .site-header hgroup .site-title .site-navigation .menu-toggle, .color-scheme-green .site-header .site-navigation hgroup .site-title .menu-toggle {
+.color-scheme-green .site-header .site-branding .site-title a, .color-scheme-green .site-header .site-branding .site-title .site-navigation .menu-toggle, .color-scheme-green .site-header .site-navigation .site-branding .site-title .menu-toggle {
   color: #f0ecd0;
 }
 .color-scheme-green .site-header .site-navigation a, .color-scheme-green .site-header .site-navigation .menu-toggle, .color-scheme-green .site-header .site-navigation .menu-toggle {
@@ -1665,10 +1664,10 @@ body {
 .color-scheme-dark .site-header {
   background: #2f2e2d;
 }
-.color-scheme-dark .site-header hgroup .site-title a, .color-scheme-dark .site-header hgroup .site-title .site-navigation .menu-toggle, .color-scheme-dark .site-header .site-navigation hgroup .site-title .menu-toggle {
+.color-scheme-dark .site-header .site-branding .site-title a, .color-scheme-dark .site-header .site-branding .site-title .site-navigation .menu-toggle, .color-scheme-dark .site-header .site-navigation .site-branding .site-title .menu-toggle {
   color: #9b8972;
 }
-.color-scheme-dark .site-header hgroup .site-description {
+.color-scheme-dark .site-header .site-branding .site-description {
   color: #a8a8a8;
 }
 .color-scheme-dark .site-header .site-navigation a, .color-scheme-dark .site-header .site-navigation .menu-toggle, .color-scheme-dark .site-header .site-navigation .menu-toggle {

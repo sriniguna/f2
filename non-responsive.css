@@ -10,7 +10,7 @@ body {
 .site-header {
   text-align: left;
 }
-.site-header hgroup {
+.site-header .site-branding {
   padding: 20px;
   padding: 2rem;
 }
