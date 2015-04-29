@@ -643,7 +643,7 @@ function f2_customize_register( $wp_customize ) {
 
 	$wp_customize->add_section( 'sidebar_settings', array(
 		'title' => __( 'Sidebar', 'f2'),
-		'priority' => 110
+		'priority' => 109
 		)
 	);
 
