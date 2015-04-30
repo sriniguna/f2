@@ -26,17 +26,17 @@ if ( ! function_exists( 'f2_setup' ) ):
  */
 function f2_setup() {
 
-	/**
+	/*
 	 * Custom template tags for this theme.
 	 */
 	require( get_template_directory() . '/inc/template-tags.php' );
 
-	/**
+	/*
 	 * Custom Theme Options
 	 */
 	require( get_template_directory() . '/inc/theme-options/theme-options.php' );
 
-	/**
+	/*
 	 * Make theme available for translation
 	 * Translations can be filed in the /languages/ directory
 	 * If you're building a theme based on F2, use a find and replace
@@ -44,7 +44,7 @@ function f2_setup() {
 	 */
 	load_theme_textdomain( 'f2', get_template_directory() . '/languages' );
 
-	/**
+	/*
 	 * Add default posts and comments RSS feed links to head
 	 */
 	add_theme_support( 'automatic-feed-links' );
@@ -58,21 +58,21 @@ function f2_setup() {
 	 */
 	add_theme_support( 'title-tag' );
 
-	/**
+	/*
 	 * Enable support for Post Thumbnails
 	 */
 	add_theme_support( 'post-thumbnails', array('post', 'page') );
 	set_post_thumbnail_size( 150, 150, true ); // Post thumbnail size for excerpts and search results
 	add_image_size( 'full-width', 730, 9999 ); // Post thumbnail size for full post displays
 
-	/**
+	/*
 	 * This theme uses wp_nav_menu() in one location.
 	 */
 	register_nav_menus( array(
 		'primary' => __( 'Primary Menu', 'f2' ),
 	) );
 
-	/**
+	/*
 	 * Add support for the Aside Post Formats
 	 */
 	add_theme_support( 'post-formats', array( 'aside', ) );

@@ -8,30 +8,30 @@ small, strike, strong, sub, sup, tt, var,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td {
-  border: 0;
-  font-family: inherit;
-  font-size: 100%;
-  font-style: inherit;
-  font-weight: inherit;
-  margin: 0;
-  outline: 0;
-  padding: 0;
-  vertical-align: baseline;
+	border: 0;
+	font-family: inherit;
+	font-size: 100%;
+	font-style: inherit;
+	font-weight: inherit;
+	margin: 0;
+	outline: 0;
+	padding: 0;
+	vertical-align: baseline;
 }
 
 html {
-  font-size: 62.5%;
-  /* Corrects text resizing oddly in IE6/7 when body font-size is set using em units http://clagnut.com/blog/348/#c790 */
-  overflow-y: scroll;
-  /* Keeps page centred in all browsers regardless of content height */
-  -webkit-text-size-adjust: 100%;
-  /* Prevents iOS text size adjust after orientation change, without disabling user zoom */
-  -ms-text-size-adjust: 100%;
-  /* www.456bereastreet.com/archive/201012/controlling_text_size_in_safari_for_ios_without_disabling_user_zoom/ */
+	font-size: 62.5%;
+	/* Corrects text resizing oddly in IE6/7 when body font-size is set using em units http://clagnut.com/blog/348/#c790 */
+	overflow-y: scroll;
+	/* Keeps page centred in all browsers regardless of content height */
+	-webkit-text-size-adjust: 100%;
+	/* Prevents iOS text size adjust after orientation change, without disabling user zoom */
+	-ms-text-size-adjust: 100%;
+	/* www.456bereastreet.com/archive/201012/controlling_text_size_in_safari_for_ios_without_disabling_user_zoom/ */
 }
 
 body {
-  background: #fff;
+	background: #fff;
 }
 
 article, .comments-area .pingback,
@@ -43,59 +43,59 @@ footer,
 header,
 nav,
 section {
-  display: block;
+	display: block;
 }
 
 ol, ul {
-  list-style: none;
+	list-style: none;
 }
 
 table {
-  /* tables still need 'cellspacing="0"' in the markup */
-  border-collapse: separate;
-  border-spacing: 0;
+	/* tables still need 'cellspacing="0"' in the markup */
+	border-collapse: separate;
+	border-spacing: 0;
 }
 
 caption, th, td {
-  font-weight: normal;
-  text-align: left;
+	font-weight: normal;
+	text-align: left;
 }
 
 blockquote:before, blockquote:after,
 q:before, q:after {
-  content: "";
+	content: "";
 }
 
 blockquote, q {
-  quotes: "" "";
+	quotes: "" "";
 }
 
 a:focus {
-  outline: thin dotted;
+	outline: thin dotted;
 }
 
 a:hover,
 a:active {
-  /* Improves readability when focused and also mouse hovered in all browsers people.opera.com/patrickl/experiments/keyboard/test */
-  outline: 0;
+	/* Improves readability when focused and also mouse hovered in all browsers people.opera.com/patrickl/experiments/keyboard/test */
+	outline: 0;
 }
 
 a img {
-  border: 0;
+	border: 0;
 }
 
 body {
-  background: #fff;
-  color: #000;
-  font-family: "Gudea", sans-serif;
-  font-size: 16px;
-  font-size: 1.6rem;
-  line-height: 1.5;
+	background: #fff;
+	color: #000;
+	font-family: "Gudea", sans-serif;
+	font-size: 16px;
+	font-size: 1.6rem;
+	line-height: 1.5;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Bitter", serif;
-  font-weight: bold;
+	font-family: "Bitter", serif;
+	font-weight: bold;
 }
 
 .site-header hgroup,
@@ -103,297 +103,297 @@ h1, h2, h3, h4, h5, h6 {
 .page-header,
 .featured-image,
 .site-footer {
-  text-align: center;
+	text-align: center;
 }
 
 a {
-  color: #000;
-  text-decoration: none;
+	color: #000;
+	text-decoration: none;
 }
 
 p {
-  margin-bottom: 1.5em;
+	margin-bottom: 1.5em;
 }
 
 ul, ol {
-  margin: 0 0 1.5em 40px;
-  margin: 0 0 1.5em 4rem;
+	margin: 0 0 1.5em 40px;
+	margin: 0 0 1.5em 4rem;
 }
 
 p {
-  margin-bottom: 1.5em;
+	margin-bottom: 1.5em;
 }
 
 ul, ol {
-  margin: 0 0 1.5em 40px;
-  margin: 0 0 1.5em 4rem;
+	margin: 0 0 1.5em 40px;
+	margin: 0 0 1.5em 4rem;
 }
 
 ul {
-  list-style: disc;
+	list-style: disc;
 }
 
 ol {
-  list-style: decimal;
+	list-style: decimal;
 }
 
 ul ul, ol ol, ul ol, ol ul {
-  margin-bottom: 0;
-  margin-left: 20px;
-  margin-left: 2rem;
+	margin-bottom: 0;
+	margin-left: 20px;
+	margin-left: 2rem;
 }
 
 dt {
-  font-weight: bold;
+	font-weight: bold;
 }
 
 dd {
-  margin: 0 1.5em 1.5em;
+	margin: 0 1.5em 1.5em;
 }
 
 b, strong {
-  font-weight: bold;
+	font-weight: bold;
 }
 
 dfn, cite, em, i {
-  font-style: italic;
+	font-style: italic;
 }
 
 blockquote {
-  margin-bottom: 1.5em;
-  padding: 0 0 0 1.6em;
-  padding: 0 0 0 1.6em;
-  border-left: 2px solid #aaa;
+	margin-bottom: 1.5em;
+	padding: 0 0 0 1.6em;
+	padding: 0 0 0 1.6em;
+	border-left: 2px solid #aaa;
 }
 
 address {
-  margin: 0 0 1.5em;
+	margin: 0 0 1.5em;
 }
 
 pre {
-  border: 1px solid #aaa;
-  font-family: "Courier 10 Pitch", Courier, monospace;
-  font-size: 0.875em;
-  margin-bottom: 1.6em;
-  padding: 1.6em;
-  overflow: auto;
-  max-width: 100%;
+	border: 1px solid #aaa;
+	font-family: "Courier 10 Pitch", Courier, monospace;
+	font-size: 0.875em;
+	margin-bottom: 1.6em;
+	padding: 1.6em;
+	overflow: auto;
+	max-width: 100%;
 }
 
 code, kbd, tt, var {
-  background: #eee;
-  font: 0.875em Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+	background: #eee;
+	font: 0.875em Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
 }
 
 sup,
 sub {
-  font-size: 75%;
-  height: 0;
-  line-height: 0;
-  position: relative;
-  vertical-align: baseline;
+	font-size: 75%;
+	height: 0;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
 }
 
 sup {
-  bottom: 1ex;
+	bottom: 1ex;
 }
 
 sub {
-  top: .5ex;
+	top: .5ex;
 }
 
 small {
-  font-size: 75%;
+	font-size: 75%;
 }
 
 big {
-  font-size: 125%;
+	font-size: 125%;
 }
 
 figure {
-  margin: 0;
+	margin: 0;
 }
 
 table {
-  margin: 0 0 1.5em;
-  width: 100%;
-  border-width: 0 1px 1px 0;
-  border-style: solid;
-  border-color: #aaa;
+	margin: 0 0 1.5em;
+	width: 100%;
+	border-width: 0 1px 1px 0;
+	border-style: solid;
+	border-color: #aaa;
 }
 
 th, td {
-  padding: 5px 10px;
-  border-width: 1px 0 0 1px;
-  border-style: solid;
-  border-color: #aaa;
+	padding: 5px 10px;
+	border-width: 1px 0 0 1px;
+	border-style: solid;
+	border-color: #aaa;
 }
 
 th {
-  font-weight: bold;
-  background: #f4f4f4;
+	font-weight: bold;
+	background: #f4f4f4;
 }
 
 #secondary, nav {
-  display: none;
+	display: none;
 }
 
 .site-header {
-  border-bottom: 1px solid #aaa;
-  margin-bottom: 20px;
-  margin-bottom: 2rem;
+	border-bottom: 1px solid #aaa;
+	margin-bottom: 20px;
+	margin-bottom: 2rem;
 }
 
 .site-header hgroup, #header-image {
-  margin-bottom: 20px;
-  margin-bottom: 2rem;
+	margin-bottom: 20px;
+	margin-bottom: 2rem;
 }
 
 .site-title {
-  font-size: 30px;
-  font-size: 3rem;
-  text-transform: uppercase;
+	font-size: 30px;
+	font-size: 3rem;
+	text-transform: uppercase;
 }
 
 .site-description {
-  font-size: 14px;
-  font-size: 1.4rem;
-  font-family: "Gudea", sans-serif;
-  font-weight: normal;
+	font-size: 14px;
+	font-size: 1.4rem;
+	font-family: "Gudea", sans-serif;
+	font-weight: normal;
 }
 
 .has-logo-image .site-title, .has-logo-image .site-description {
-  height: 0;
-  width: 0;
-  overflow: hidden;
+	height: 0;
+	width: 0;
+	overflow: hidden;
 }
 
 .hentry, .page-header {
-  padding: 0 0 1.6em;
-  margin: 0 0 1.6em;
-  border-bottom: 1px solid #aaa;
+	padding: 0 0 1.6em;
+	margin: 0 0 1.6em;
+	border-bottom: 1px solid #aaa;
 }
 
 .page-header span {
-  text-decoration: underline;
+	text-decoration: underline;
 }
 
 .entry-title {
-  font-size: 24px;
-  font-size: 2.4rem;
-  word-wrap: break-word;
+	font-size: 24px;
+	font-size: 2.4rem;
+	word-wrap: break-word;
 }
 
 .entry-content h1, .comment-content h1 {
-  font-size: 20px;
-  font-size: 2rem;
+	font-size: 20px;
+	font-size: 2rem;
 }
 .entry-content h2, .comment-content h2 {
-  font-size: 18px;
-  font-size: 1.8rem;
+	font-size: 18px;
+	font-size: 1.8rem;
 }
 .entry-content h3, .comment-content h3 {
-  font-size: 16px;
-  font-size: 1.6rem;
+	font-size: 16px;
+	font-size: 1.6rem;
 }
 .entry-content h4, .comment-content h4 {
-  font: bold 15px sans-serif;
-  font: bold 1.5rem sans-serif;
-  text-transform: uppercase;
+	font: bold 15px sans-serif;
+	font: bold 1.5rem sans-serif;
+	text-transform: uppercase;
 }
 .entry-content h5, .comment-content h5 {
-  font: bold 15px sans-serif;
-  font: bold 1.5rem sans-serif;
+	font: bold 15px sans-serif;
+	font: bold 1.5rem sans-serif;
 }
 .entry-content h6, .comment-content h6 {
-  font: bold 14px sans-serif;
-  font: bold 1.4rem sans-serif;
-  font-variant: small-caps;
+	font: bold 14px sans-serif;
+	font: bold 1.4rem sans-serif;
+	font-variant: small-caps;
 }
 .entry-content h1, .entry-content h2, .entry-content h3, .entry-content h4, .entry-content h5, .entry-content h6, .comment-content h1, .comment-content h2, .comment-content h3, .comment-content h4, .comment-content h5, .comment-content h6 {
-  margin-bottom: 20px;
-  margin-bottom: 2rem;
+	margin-bottom: 20px;
+	margin-bottom: 2rem;
 }
 
 .entry-meta {
-  clear: both;
-  font-size: 11px;
-  font-size: 1.1rem;
-  color: #888;
+	clear: both;
+	font-size: 11px;
+	font-size: 1.1rem;
+	color: #888;
 }
 
 .wp-post-image {
-  margin: 0 0 1.5em;
+	margin: 0 0 1.5em;
 }
 .wp-post-image.attachment-post-thumbnail {
-  float: left;
-  margin: 0.4em 20px 20px 0;
-  margin: 0.4em 2rem 2rem 0;
+	float: left;
+	margin: 0.4em 20px 20px 0;
+	margin: 0.4em 2rem 2rem 0;
 }
 
 .sticky .poststicky:before {
-  content: '. ';
+	content: '. ';
 }
 
 .entry-content,
 .entry-summary,
 .comment-content {
-  margin: 1.5em 0 0;
+	margin: 1.5em 0 0;
 }
 
 .comments-title {
-  margin-bottom: 1.6em;
+	margin-bottom: 1.6em;
 }
 
 ol.commentlist {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+	list-style: none;
+	margin: 0;
+	padding: 0;
 }
 
 ul.children {
-  list-style: none;
-  margin-left: 20px;
-  margin-left: 2rem;
+	list-style: none;
+	margin-left: 20px;
+	margin-left: 2rem;
 }
 
 .comments-area article, .comments-area .pingback {
-  margin: 20px 0;
-  margin: 2rem 0;
-  border-bottom: 1px solid #aaa;
-  position: relative;
+	margin: 20px 0;
+	margin: 2rem 0;
+	border-bottom: 1px solid #aaa;
+	position: relative;
 }
 
 .avatar {
-  border: 1px solid #ccc;
+	border: 1px solid #ccc;
 }
 
 cite.fn {
-  font-weight: bold;
-  font-style: normal;
+	font-weight: bold;
+	font-style: normal;
 }
 
 cite.fn, .comment-meta {
-  position: absolute;
-  top: 0;
-  left: 53px;
+	position: absolute;
+	top: 0;
+	left: 53px;
 }
 
 .comment-meta {
-  top: 24px;
-  top: 2.4rem;
+	top: 24px;
+	top: 2.4rem;
 }
 
 .comment-meta, .comment-notes, .form-allowed-tags {
-  font-size: 12px;
-  font-size: 1.2rem;
+	font-size: 12px;
+	font-size: 1.2rem;
 }
 
 .reply, #respond {
-  display: none;
+	display: none;
 }
 
 .site-footer {
-  font-size: 12px;
-  font-size: 1.2rem;
+	font-size: 12px;
+	font-size: 1.2rem;
 }
