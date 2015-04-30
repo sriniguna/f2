@@ -8,7 +8,7 @@ Change Log
 * Latvian localization by Johannes Rau
 * Dropped hgroup element in favour of div.site-branding
 * Removed the title tag from header.php and added theme support for 'title-tag'
-* Screenshot updated to 880x600px image
+* Screenshot updated to 880x660px image
 * Added styles for .screen-reader-text
 * Other minor changes, fixes and improvements
 
