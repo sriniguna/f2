@@ -511,7 +511,6 @@ function f2_settings_field_hide_footer_credits() {
 function f2_theme_options_render_page() {
 	?>
 	<div class="wrap">
-		<?php screen_icon(); ?>
 		<?php $theme_name = wp_get_theme(); ?>
 		<h2><?php printf( __( '%s Theme Options', 'f2' ), $theme_name ); ?></h2>
 		<div class="theme-links">
@@ -659,10 +658,11 @@ function f2_customize_register( $wp_customize ) {
 	/* Color Schemes */
 
 	$wp_customize->add_setting( 'f2_theme_options[color_scheme]', array(
-		'default'	     => f2_default_theme_options('color_scheme'),
-		'type'           => 'option',
-		'capability'     => 'edit_theme_options',
-		'transport'      => 'postMessage',
+		'default'	        => f2_default_theme_options('color_scheme'),
+		'type'              => 'option',
+		'capability'        => 'edit_theme_options',
+		'transport'         => 'postMessage',
+		'sanitize_callback' => 'esc_attr',
 	) );
 
 	$wp_customize->add_control( 'f2_color_scheme', array(
@@ -678,10 +678,11 @@ function f2_customize_register( $wp_customize ) {
 
 	/* Site Logo Image */
 
-	$wp_customize->aDd_setting( 'f2_theme_options[logo_image]', array(
+	$wp_customize->add_setting( 'f2_theme_options[logo_image]', array(
 		'default'        => f2_default_theme_options('logo_image'),
 		'type'           => 'option',
 		'capability'     => 'edit_theme_options',
+		'sanitize_callback' => 'esc_url_raw',
 	) );
 
 	$wp_customize->add_control( new WP_Customize_Image_Control( $wp_customize, 'f2_logo_image', array(
@@ -697,6 +698,7 @@ function f2_customize_register( $wp_customize ) {
 		'default'        => f2_default_theme_options('header_image'),
 		'type'           => 'option',
 		'capability'     => 'edit_theme_options',
+		'sanitize_callback' => 'esc_url_raw',
 	) );
 
 	$wp_customize->add_control( new WP_Customize_Image_Control( $wp_customize, 'f2_header_image', array(
@@ -713,6 +715,7 @@ function f2_customize_register( $wp_customize ) {
 		'default'        => f2_default_theme_options('layout'),
 		'type'           => 'option',
 		'capability'     => 'edit_theme_options',
+		'sanitize_callback' => 'esc_attr',
 	) );
 
 	$wp_customize->add_control( 'f2_layout', array(
@@ -729,7 +732,8 @@ function f2_customize_register( $wp_customize ) {
 		'default'        => f2_default_theme_options('sidebar_width'),
 		'type'           => 'option',
 		'capability'     => 'edit_theme_options',
-		'transport'      => 'postMessage'
+		'transport'      => 'postMessage',
+		'sanitize_callback' => 'esc_attr',
 	) );
 
 	$wp_customize->add_control( 'f2_sidebar_width', array(
@@ -749,6 +753,7 @@ function f2_customize_register( $wp_customize ) {
 		'type'           => 'option',
 		'capability'     => 'edit_theme_options',
 		'transport'      => 'postMessage',
+		'sanitize_callback' => 'esc_attr',
 	) );
 
 	$wp_customize->add_control( 'f2_sidebar_font_size', array(
@@ -767,6 +772,7 @@ function f2_customize_register( $wp_customize ) {
 		'type'           => 'option',
 		'capability'     => 'edit_theme_options',
 		'transport'      => 'postMessage',
+		'sanitize_callback' => 'esc_attr',
 	) );
 
 	$wp_customize->add_control( 'f2_content_font_size', array(
