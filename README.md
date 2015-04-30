@@ -21,7 +21,7 @@ Main Features
 	* sidebar - content - sidebar
 	* content only (no sidebar)
 * More customization possible from the 'Theme Options' admin page and also from the WP 'Theme Customizer'.
-* Compatible with WordPress version 3.4 and above. Tested upto 3.5.1.
+* Compatible with WordPress version 3.4 and above. Tested upto 4.2.1.
 * HTML5 and CSS3.
 * Tested and works well in all major browsers. IE 7 and up, and the latest versions of Chrome, Firefox, Opera and Safari.
 * Translation ready.
@@ -76,12 +76,13 @@ Refer languages/readme.txt for a complete list of languages the theme has been t
 Support
 -------
 
-Please use the [WordPress support forums](http://wordpress.org/support/theme/f2/) for feedback and support. Go to http://srinig.com/contact/ to contact the theme author.
+Please use the [WordPress support forums](https://wordpress.org/support/theme/f2/) for feedback and support. Go to http://srinig.com/contact/ to contact the theme author.
 
 
-------------------------------------------------------
+Links
+-----
 
 [F2 Home Page]: http://srinig.com/wordpress/themes/f2/
-[F2 on WP.org]: http://wordpress.org/extend/themes/f2/
+[F2 on WP.org]: https://wordpress.org/extend/themes/f2/
 [F2 on Github]: https://github.com/sriniguna/f2
-[GPL]:          http://wordpress.org/about/gpl/
+[GPL]:          https://wordpress.org/about/gpl/
