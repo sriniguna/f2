@@ -79,8 +79,7 @@ Support
 Please use the [WordPress support forums](https://wordpress.org/support/theme/f2/) for feedback and support. Go to http://srinig.com/contact/ to contact the theme author.
 
 
-Links
------
+-----------------------------------------------------
 
 [F2 Home Page]: http://srinig.com/wordpress/themes/f2/
 [F2 on WP.org]: https://wordpress.org/extend/themes/f2/
