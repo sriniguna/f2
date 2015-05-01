@@ -1,6 +1,12 @@
 Change Log
 ==========
 
+2.2.3 (2015-05-01)
+------------------
+
+* Proper sanitization of customizer settings
+
+
 2.2.2 (2015-04-30)
 ------------------
 
