@@ -534,6 +534,62 @@ function f2_theme_options_render_page() {
 }
 
 /**
+ * Sanitize color scheme value
+ *
+ * @since F2 2.2.3
+ */
+function f2_sanitize_color_scheme( $value ) {
+	if( array_key_exists( $value, f2_color_scheme_options() ) ) {
+		return $value;
+	} else {
+		return null;
+	}
+}
+
+
+/**
+ * Sanitize layout value
+ *
+ * @since F2 2.2.3
+ */
+function f2_sanitize_layout( $value ) {
+	if( array_key_exists( $value, f2_layout_options() ) ) {
+		return $value;
+	} else {
+		return null;
+	}
+}
+
+
+/**
+ * Sanitize sidebar width value
+ *
+ * @since F2 2.2.3
+ */
+function f2_sanitize_sidebar_width( $value ) {
+	if( array_key_exists( $value, f2_sidebar_width_options() ) ) {
+		return $value;
+	} else {
+		return null;
+	}
+}
+
+
+/**
+ * Sanitize font size value
+ *
+ * @since F2 2.2.3
+ */
+function f2_sanitize_font_size( $value ) {
+	if( array_key_exists( $value, f2_font_size_options() ) ) {
+		return $value;
+	} else {
+		return null;
+	}
+}
+
+
+/**
  * Sanitize and validate form input. Accepts an array, return a sanitized array.
  *
  * @see f2_theme_options_init()
@@ -548,39 +604,39 @@ function f2_theme_options_validate( $input ) {
 	$output = array();
 
 	// The color scheme value must be in our array of color scheme options
-	if ( isset( $input['color_scheme'] ) && array_key_exists( $input['color_scheme'], f2_color_scheme_options() ) )
-		$output['color_scheme'] = $input['color_scheme'];
-
+	if ( isset( $input['color_scheme'] ) ) {
+		$output['color_scheme'] = f2_sanitize_color_scheme( $input['color_scheme'] );
+	}
 
 	// The site logo url must be safe text with no HTML tags
 	if ( isset( $input['logo_image'] ) && ! empty( $input['logo_image'] ) )
-		$output['logo_image'] = esc_url( $input['logo_image'] );
+		$output['logo_image'] = esc_url_raw( $input['logo_image'] );
 
 
 	// The header image url must be safe text with no HTML tags
 	if ( isset( $input['header_image'] ) && ! empty( $input['header_image'] ) )
-		$output['header_image'] = esc_url( $input['header_image'] );
+		$output['header_image'] = esc_url_raw( $input['header_image'] );
 
 	// Checkboxes will only be present if checked.
 	if( isset( $input['hide_header_nav'] ) )
 		$output['hide_header_nav'] = 'on';
 
 	// The layout value must be in our array of layout option values
-	if ( isset( $input['layout'] ) && array_key_exists( $input['layout'], f2_layout_options() ) )
-		$output['layout'] = $input['layout'];
+	if ( isset( $input['layout'] ) )
+		$output['layout'] = f2_sanitize_layout( $input['layout'] );
 
 	// The sidebar width value must be in our array of sidebar width values
-	if ( isset( $input['sidebar_width'] ) && array_key_exists( $input['sidebar_width'], f2_sidebar_width_options() ) )
-		$output['sidebar_width'] = $input['sidebar_width'];
+	if ( isset( $input['sidebar_width'] ) )
+		$output['sidebar_width'] = f2_sanitize_sidebar_width( $input['sidebar_width'] );
 
 
 	// The sidebar_font_size value must be in our array of sidebar_font_size option values
-	if ( isset( $input['sidebar_font_size'] ) && array_key_exists( $input['sidebar_font_size'], f2_font_size_options() ) )
-		$output['sidebar_font_size'] = $input['sidebar_font_size'];
+	if ( isset( $input['sidebar_font_size'] ) )
+		$output['sidebar_font_size'] = f2_sanitize_font_size( $input['sidebar_font_size'] );
 
 	// The sidebar_font_size value must be in our array of content_font_size option values
-	if ( isset( $input['content_font_size'] ) && array_key_exists( $input['content_font_size'], f2_font_size_options() ) )
-		$output['content_font_size'] = $input['content_font_size'];
+	if ( isset( $input['content_font_size'] ) )
+		$output['content_font_size'] = f2_sanitize_font_size( $input['content_font_size'] );
 
 	// Checkboxes will only be present if checked.
 	if ( isset( $input['hide_author_info'] ) )
@@ -662,7 +718,7 @@ function f2_customize_register( $wp_customize ) {
 		'type'              => 'option',
 		'capability'        => 'edit_theme_options',
 		'transport'         => 'postMessage',
-		'sanitize_callback' => 'esc_attr',
+		'sanitize_callback' => 'f2_sanitize_color_scheme',
 	) );
 
 	$wp_customize->add_control( 'f2_color_scheme', array(
@@ -715,7 +771,7 @@ function f2_customize_register( $wp_customize ) {
 		'default'        => f2_default_theme_options('layout'),
 		'type'           => 'option',
 		'capability'     => 'edit_theme_options',
-		'sanitize_callback' => 'esc_attr',
+		'sanitize_callback' => 'f2_sanitize_layout',
 	) );
 
 	$wp_customize->add_control( 'f2_layout', array(
@@ -733,7 +789,7 @@ function f2_customize_register( $wp_customize ) {
 		'type'           => 'option',
 		'capability'     => 'edit_theme_options',
 		'transport'      => 'postMessage',
-		'sanitize_callback' => 'esc_attr',
+		'sanitize_callback' => 'f2_sanitize_sidebar_width',
 	) );
 
 	$wp_customize->add_control( 'f2_sidebar_width', array(
@@ -753,7 +809,7 @@ function f2_customize_register( $wp_customize ) {
 		'type'           => 'option',
 		'capability'     => 'edit_theme_options',
 		'transport'      => 'postMessage',
-		'sanitize_callback' => 'esc_attr',
+		'sanitize_callback' => 'f2_sanitize_font_size',
 	) );
 
 	$wp_customize->add_control( 'f2_sidebar_font_size', array(
@@ -772,7 +828,7 @@ function f2_customize_register( $wp_customize ) {
 		'type'           => 'option',
 		'capability'     => 'edit_theme_options',
 		'transport'      => 'postMessage',
-		'sanitize_callback' => 'esc_attr',
+		'sanitize_callback' => 'f2_sanitize_font_size',
 	) );
 
 	$wp_customize->add_control( 'f2_content_font_size', array(
